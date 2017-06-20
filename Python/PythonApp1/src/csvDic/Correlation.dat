@@ -1,0 +1,9 @@
+#Correlation
+#Distribution, Correlation, Error
+Weibull        ,0.965231,0.005725
+Normal         ,0.697457,0.003304
+Exponential(LR),0.695618,0.002827
+Exponential(Me),0.295697,0.002196
+Pareto(LR)     ,0.813657,0.007437
+Pareto(MLH)    ,0.552658,0.003832
+Cauchy         ,0.532629,0.031000

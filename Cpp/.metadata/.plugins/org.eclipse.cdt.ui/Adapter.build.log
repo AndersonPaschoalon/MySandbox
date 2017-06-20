@@ -1,0 +1,13 @@
+21:17:51 **** Incremental Build of configuration Debug for project Adapter ****
+make all 
+Building file: ../src/MuslimAdapter.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MuslimAdapter.d" -MT"src/MuslimAdapter.o" -o "src/MuslimAdapter.o" "../src/MuslimAdapter.cpp"
+../src/MuslimAdapter.cpp:10:1: error: ‘MuslimAdapter’ does not name a type
+ MuslimAdapter::MuslimAdapter() {
+ ^~~~~~~~~~~~~
+make: *** [src/MuslimAdapter.o] Error 1
+src/subdir.mk:21: recipe for target 'src/MuslimAdapter.o' failed
+
+21:17:51 Build Finished (took 227ms)
+

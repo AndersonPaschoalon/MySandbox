@@ -1,0 +1,36 @@
+
+ 2017-06-16 16:47:13,316 [139976172668736] ERROR log_sub1 - log_sub1 error
+
+
+
+ 2017-06-16 16:47:13,316 [139976172668736] WARN  log_sub1 - log_sub1 warn
+
+
+
+ 2017-06-16 16:47:13,316 [139976172668736] NOTICE log_sub1 - reopen log
+
+
+
+ 2017-06-16 16:47:13,316 [139976172668736] WARN  log_sub1 - could not reopen log
+
+
+
+ 2017-06-16 16:47:13,316 [139976172668736] ERROR log_sub1.log_sub2 - log_sub2 error
+
+
+
+ 2017-06-16 16:47:13,316 [139976172668736] WARN  log_sub1.log_sub2 - log_sub2 warn
+
+
+
+ 2017-06-16 16:47:13,316 [139976172668736] WARN  log_sub1.log_sub2 - streamed warn
+
+
+
+ 2017-06-16 16:47:13,316 [139976172668736] WARN  log_sub1.log_sub2 - warn2 warn3
+
+
+
+ 2017-06-16 16:47:13,316 [139976172668736] WARN  log_sub1.log_sub2 -  warn4
+
+

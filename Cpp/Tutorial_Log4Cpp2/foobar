@@ -1,0 +1,16 @@
+1497645470 ERROR  : root error
+1497645470 ERROR log_sub1 : log_sub1 error
+1497645470 WARN log_sub1 : log_sub1 warn
+1497645470 INFO log_sub1 : i = 1122334455
+1497645470 NOTICE log_sub1 : reopen log
+1497645470 INFO log_sub1 : log reopened
+1497645470 WARN log_sub1 : could not reopen log
+1497645470 ERROR log_sub1.log_sub2 : log_sub2 error
+1497645490 ERROR  : root error
+1497645490 ERROR log_sub1 : log_sub1 error
+1497645490 WARN log_sub1 : log_sub1 warn
+1497645490 INFO log_sub1 : i = 1122334455
+1497645490 NOTICE log_sub1 : reopen log
+1497645490 INFO log_sub1 : log reopened
+1497645490 WARN log_sub1 : could not reopen log
+1497645490 ERROR log_sub1.log_sub2 : log_sub2 error

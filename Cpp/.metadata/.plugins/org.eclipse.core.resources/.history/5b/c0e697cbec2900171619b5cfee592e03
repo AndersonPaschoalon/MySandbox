@@ -1,0 +1,32 @@
+/*
+ * cfunctions.c
+ *
+ *  Created on: 25 de abr de 2017
+ *      Author: anderson
+ */
+
+#include "cfunctions.h"
+
+void string2charvet(const string s, char* vetc) {
+	strncpy(vetc, s.c_str(), sizeof(char) * CHAR_BUFFER);
+	vetc[sizeof(char) * CHAR_BUFFER - 1] = '\0';
+}
+
+void charvet2type(const char* vetc, const int& v) {
+
+}
+
+void charvet2type(const char* vetc, const long int& v) {
+}
+
+void charvet2type(const char* vetc, const double& v) {
+}
+
+void charvet2type(const char* vetc, const int v) {
+}
+
+void charvet2type(const char* vetc, const list<double>& l_d) {
+}
+
+void charvet2type(const char* vetc, const list<int>& l_d) {
+}

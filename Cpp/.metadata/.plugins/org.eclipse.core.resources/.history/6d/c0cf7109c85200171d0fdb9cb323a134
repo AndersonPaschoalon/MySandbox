@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : Tutorial_Log4Cpp2.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "MesserLog.h"
+
+using namespace std;
+
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

@@ -1,0 +1,80 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+using namespace std;
+
+class std_tests {
+public:
+	void swap(int &x, int &y) {
+		int temp;
+		temp = x;
+		x = y;
+		y = temp;
+		cout << "reference" << endl;
+	}
+
+	void swap(int *x, int *y) {
+		int temp;
+		temp = *x;
+		*x = *y;
+		*y = temp;
+		cout << "pointer" << endl;
+	}
+
+	void test_reference_pointer1() {
+		int a = 5;
+		int b = 8;
+
+		cout << "a:" << a << " b:" << b << endl;
+		swap(a, b);
+		cout << "a:" << a << " b:" << b << endl;
+		swap(&a, &b);
+		cout << "a:" << a << " b:" << b << endl;
+	}
+
+	void test_reference_pointer2() {
+		int *a = NULL;
+		int *b = NULL;
+
+		a = new int(5);
+		b = new int(8);
+
+		cout << "a:" << *a << " b:" << *b << endl;
+		swap(*a, *b);
+		cout << "a:" << *a << " b:" << *b << endl;
+		swap(a, b);
+		cout << "a:" << *a << " b:" << *b << endl;
+
+		delete a;
+		delete b;
+	}
+
+	void int_to_ascii(int val, char* c){
+		string str = std::to_string(val);
+		c = str.c_str();
+
+	}
+
+private:
+
+};
+
+int main() {
+
+	string test_name = "int_to_ascii";
+	std_tests t;
+
+
+	if (test_name == "test_reference_pointer1") {
+		t.test_reference_pointer1();
+	} else if (test_name == "test_reference_pointer2") {
+		t.test_reference_pointer2();
+	} else if (test_name == "int_to_ascii") {
+		char c[30];
+		t.int_to_ascii(10, c);
+		cout << c << endl;
+	} else {
+	}
+
+	return 0;
+}

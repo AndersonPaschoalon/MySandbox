@@ -1,0 +1,48 @@
+//============================================================================
+// Name        : Tutorial_libtins.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <tins/tins.h>
+
+using namespace Tins;
+
+void test1_sniffer();
+bool callback(const PDU &pdu);
+void test2_sendpkt();
+
+int main() {
+
+	bool t1 = false;
+	bool t2 = true;
+
+	if (t1)
+		test1_sniffer();
+	if(t2)
+		test2_sendpkt();
+
+}
+
+void test1_sniffer() {
+	Sniffer("enp3s0").sniff_loop(callback);
+}
+
+void test2_sendpkt() {
+	PacketSender sender;
+	IP pkt = IP("192.168.0.1") / TCP(22) / RawPDU("foo");
+	for (;;) {
+		sender.send(pkt);
+	}
+}
+
+bool callback(const PDU &pdu) {
+	const IP &ip = pdu.rfind_pdu<IP>(); // Find the IP layer
+	const TCP &tcp = pdu.rfind_pdu<TCP>(); // Find the TCP layer
+	std::cout << ip.src_addr() << ':' << tcp.sport() << " -> " << ip.dst_addr()
+			<< ':' << tcp.dport() << std::endl;
+	return true;
+}

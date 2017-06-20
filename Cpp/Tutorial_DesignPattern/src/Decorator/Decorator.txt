@@ -1,0 +1,9 @@
+################################################################################
+Decorator Design Pattern
+################################################################################
+
+	The decorator pattern helps to attach additional behavior or 
+responsibilities to a object dynamically. Decorators provide a flexible 
+alternative to subclassing for extending functionality. this is also called 
+"Wrapper". If your application does some kind of filtering, then Decorator 
+might be good pattern to consider for the job.

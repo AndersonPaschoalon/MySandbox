@@ -1,0 +1,50 @@
+/*
+ * cfunctions.h
+ *
+ *  Created on: 25 de abr de 2017
+ *      Author: anderson
+ */
+
+#ifndef CFUNCTIONS_H_
+#define CFUNCTIONS_H_
+#include <string>
+#include <list>
+using std::list;
+using std::string;
+
+/**
+ *
+ */
+void string2charvet(const string s, char* vetc);
+
+/**
+ *
+ */
+void charvet2type(char* vetc, const int& v);
+
+/***
+ *
+ */
+void charvet2type(char* vetc, const long int& v);
+
+/**
+ *
+ */
+void charvet2type(char* vetc, const double& v);
+
+/**
+ *
+ */
+void charvet2type(char* vetc, const int v);
+
+/**
+ *
+ */
+void charvet2type(char* vetc, const list<double>& l_d);
+
+/**
+ *
+ */
+void charvet2type(char* vetc, const list<int>& l_d);
+
+#endif /* CFUNCTIONS_H_ */

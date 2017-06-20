@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;data_sample.txt&apos; to &apos;Algorithms_MasterDegreeProject&apos;" description="Move &apos;data_sample.txt&apos; to &apos;Algorithms_MasterDegreeProject&apos;" destination="/Algorithms_MasterDegreeProject" element1="src/data_sample.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1487903314275" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+#Mean
+#Distribution, Mean, Error
+Original       ,0.142620,0.000000
+Weibull        ,0.103740,0.002979
+Normal         ,0.278397,0.002561
+Exponential(LR),1.826106,0.011924
+Exponential(Me),4.467709,0.022710
+Pareto(LR)     ,0.089442,0.005662
+Pareto(MLH)    ,1.400894,0.019488
+Cauchy         ,0.105049,0.000098

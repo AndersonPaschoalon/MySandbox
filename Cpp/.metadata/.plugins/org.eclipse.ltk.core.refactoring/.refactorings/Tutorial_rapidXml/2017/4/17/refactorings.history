@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Tutorial_rapidXml/src/cfunctions.c&apos; to &apos;cfunctions.cpp&apos;" description="Rename resource &apos;cfunctions.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/cfunctions.c" name="cfunctions.cpp" stamp="1493125791844" updateReferences="true"/>
+</session>

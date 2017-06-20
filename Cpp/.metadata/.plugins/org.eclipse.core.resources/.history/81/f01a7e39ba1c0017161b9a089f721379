@@ -1,0 +1,238 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <vector>
+#include <array>
+#include <list>
+using namespace std;
+using std::array;
+using std::list;
+
+class abacate;
+class std_tests;
+void tests1_str();
+void test2_listAllocator();
+list<abacate>* allocate_list(int size);
+void test2_copyConstructor();
+void test4_sprintf();
+
+int main() {
+
+	bool t1 = false;
+	bool t2 = false;
+	bool t3 = false;
+	bool t4 = true;
+
+	if (t1)
+		tests1_str();
+	if (t2)
+		test2_listAllocator();
+	if (t3)
+		test2_copyConstructor();
+	if (t4)
+			test4_sprintf();
+
+	return 0;
+}
+
+class abacate {
+public:
+	abacate() {
+		m_cor = "verde";
+		m_estado = "verde";
+		m_n = 0;
+	}
+	abacate(const string& s) {
+		m_estado = s;
+		m_cor = "verde";
+		m_n = 0;
+	}
+	abacate(int kkk) {
+		m_cor = "verde";
+		m_estado = "verde";
+		m_n = kkk;
+	}
+	string cor();
+	string estado();
+	void print() {
+		cout << "abacate: " << m_cor << ", " << m_estado << ", " << m_n << endl;
+	}
+
+private:
+	string m_cor;
+	string m_estado;
+	int m_n;
+};
+
+class std_tests {
+public:
+	void swap(int &x, int &y) {
+		int temp;
+		temp = x;
+		x = y;
+		y = temp;
+		cout << "reference" << endl;
+	}
+
+	void swap(int *x, int *y) {
+		int temp;
+		temp = *x;
+		*x = *y;
+		*y = temp;
+		cout << "pointer" << endl;
+	}
+
+	void test_reference_pointer1() {
+		int a = 5;
+		int b = 8;
+
+		cout << "a:" << a << " b:" << b << endl;
+		swap(a, b);
+		cout << "a:" << a << " b:" << b << endl;
+		swap(&a, &b);
+		cout << "a:" << a << " b:" << b << endl;
+	}
+
+	void test_reference_pointer2() {
+		int *a = NULL;
+		int *b = NULL;
+
+		a = new int(5);
+		b = new int(8);
+
+		cout << "a:" << *a << " b:" << *b << endl;
+		swap(*a, *b);
+		cout << "a:" << *a << " b:" << *b << endl;
+		swap(a, b);
+		cout << "a:" << *a << " b:" << *b << endl;
+
+		delete a;
+		delete b;
+	}
+
+	void int_to_ascii(int val, char* c) {
+		string str = std::to_string(val);
+		const char* cstr = str.c_str();
+		strcpy(c, cstr);
+
+	}
+
+private:
+
+};
+
+void tests1_str() {
+	string test_name = "int_to_ascii";
+	std_tests t;
+
+	if (test_name == "test_reference_pointer1") {
+		t.test_reference_pointer1();
+	} else if (test_name == "test_reference_pointer2") {
+		t.test_reference_pointer2();
+	} else if (test_name == "int_to_ascii") {
+		char c[30];
+		t.int_to_ascii(10, c);
+		cout << c << endl;
+	} else {
+	}
+}
+
+void test2_listAllocator() {
+	list<abacate>* aa = allocate_list(7);
+
+	for (list<abacate>::iterator it = aa->begin(); it != aa->end(); it++) {
+		it->print();
+
+	}
+
+	delete aa;
+
+	aa = allocate_list(12);
+
+	for (list<abacate>::iterator it = aa->begin(); it != aa->end(); it++) {
+		it->print();
+	}
+
+}
+
+list<abacate>* allocate_list(int size) {
+	abacate a = abacate();
+
+	list<abacate>* aList = new list<abacate>();
+
+	for (int i = 0; i < size; i++) {
+		a = abacate(i);
+		aList->push_back(a);
+	}
+
+	return (aList);
+
+}
+
+class c1 {
+public:
+	c1(int k)
+	{
+		var = k;
+	}
+	int getVar() {
+		return (var);
+	}
+
+	c1( const c1& other){
+		cout << "copy-constructor-called\n";
+		var = other.var;
+	}
+
+	c1& operator=(const c1& other) noexcept
+	{
+		cout << "operator= called\n";
+		if(this != &other)
+		{
+		var = other.var;
+
+		}
+		else{
+			cerr<< "Attempted assignment of a StochasticModelFit object to itself" << endl;
+		}
+
+		return (*this);
+	}
+private:
+	int var;
+
+};
+
+void test2_copyConstructor() {
+	cout << "test2_copyConstructor\n";
+	c1 k(1);
+	c1 kk(3);
+
+	k = kk;
+	//k(kk);
+
+}
+
+void test4_sprintf(){
+
+	char str[] = "abcdefg";
+	double d = 3.14;
+	int i = 42;
+
+	char v1[20];
+	char v2[20];
+	char v3[20];
+
+	sprintf(v1,"%s", str);
+	sprintf(v1,"%f", d);
+	sprintf(v1,"%d", i);
+
+
+	cout << "v1: " << v1 << endl;
+	cout << "v2: " << v2 << endl;
+	cout << "v3: " << v3 << endl;
+
+
+}
+

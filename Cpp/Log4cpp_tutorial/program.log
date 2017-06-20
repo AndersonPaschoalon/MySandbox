@@ -1,0 +1,80 @@
+1493413843 ERROR sub1 : sub1 error
+1493413843 WARN sub1 : sub1 warn
+1493413843 ERROR sub1 : Streamed sub1 error
+1493413843 WARN sub1 : Streamed sub1 warn
+1493426732 ERROR sub1 : sub1 error
+1493426732 WARN sub1 : sub1 warn
+1493426732 ERROR sub1 : Streamed sub1 error
+1493426732 WARN sub1 : Streamed sub1 warn
+1493426815 ERROR sub1 : sub1 error
+1493426815 WARN sub1 : sub1 warn
+1493426815 ERROR sub1 : Streamed sub1 error
+1493426815 WARN sub1 : Streamed sub1 warn
+1493426998 ERROR sub1 : sub1 error
+1493426998 WARN sub1 : sub1 warn
+1493426998 ERROR sub1 : Streamed sub1 error
+1493426998 WARN sub1 : Streamed sub1 warn
+1493427140 ERROR sub1 : sub1 error
+1493427140 WARN sub1 : sub1 warn
+1493427140 ERROR sub1 : Streamed sub1 error
+1493427140 WARN sub1 : Streamed sub1 warn
+1493427173 ERROR sub1 : sub1 error
+1493427173 WARN sub1 : sub1 warn
+1493427173 ERROR sub1 : Streamed sub1 error
+1493427173 WARN sub1 : Streamed sub1 warn
+1493427256 ERROR sub1 : sub1 error
+1493427256 WARN sub1 : sub1 warn
+1493427256 ERROR sub1 : Streamed sub1 error
+1493427256 WARN sub1 : Streamed sub1 warn
+1493427338 ERROR sub1 : sub1 error
+1493427338 WARN sub1 : sub1 warn
+1493427338 ERROR sub1 : Streamed sub1 error
+1493427338 WARN sub1 : Streamed sub1 warn
+1493427820 ERROR sub1 : sub1 error
+1493427820 WARN sub1 : sub1 warn
+1493427820 ERROR sub1 : Streamed sub1 error
+1493427820 WARN sub1 : Streamed sub1 warn
+1493427828 ERROR sub1 : sub1 error
+1493427828 WARN sub1 : sub1 warn
+1493427828 ERROR sub1 : Streamed sub1 error
+1493427828 WARN sub1 : Streamed sub1 warn
+1493428325 ERROR sub1 : sub1 error
+1493428325 WARN sub1 : sub1 warn
+1493428325 ERROR sub1 : Streamed sub1 error
+1493428325 WARN sub1 : Streamed sub1 warn
+1493428565 ERROR sub1 : sub1 error
+1493428565 WARN sub1 : sub1 warn
+1493428565 ERROR sub1 : Streamed sub1 error
+1493428565 WARN sub1 : Streamed sub1 warn
+1493428565 DEBUG sub1 : Received storm warning
+1493428565 INFO sub1 : Closing all hatches
+1493428565 DEBUG sub1.sub2 : Hiding solar panels
+1493428565 ERROR sub1.sub2 : Solar panels are blocked
+1493428565 DEBUG sub1.sub2 : Applying protective shield
+1493428565 WARN sub1.sub2 : Unfolding protective shield
+1493428565 INFO sub1.sub2 : Solar panels are shielded
+1493428565 INFO sub1 : All hatches closed
+1493428587 ERROR sub1 : sub1 error
+1493428587 WARN sub1 : sub1 warn
+1493428587 ERROR sub1 : Streamed sub1 error
+1493428587 WARN sub1 : Streamed sub1 warn
+1493428587 DEBUG sub1 : Received storm warning
+1493428587 INFO sub1 : Closing all hatches
+1493428587 DEBUG sub1.sub2 : Hiding solar panels
+1493428587 ERROR sub1.sub2 : Solar panels are blocked
+1493428587 DEBUG sub1.sub2 : Applying protective shield
+1493428587 WARN sub1.sub2 : Unfolding protective shield
+1493428587 INFO sub1.sub2 : Solar panels are shielded
+1493428587 INFO sub1 : All hatches closed
+1493428875 ERROR sub1 : sub1 error
+1493428875 WARN sub1 : sub1 warn
+1493428875 ERROR sub1 : Streamed sub1 error
+1493428875 WARN sub1 : Streamed sub1 warn
+1493429258 ERROR sub1 : sub1 error
+1493429258 WARN sub1 : sub1 warn
+1493429258 ERROR sub1 : Streamed sub1 error
+1493429258 WARN sub1 : Streamed sub1 warn
+1493429293 ERROR sub1 : sub1 error
+1493429293 WARN sub1 : sub1 warn
+1493429293 ERROR sub1 : Streamed sub1 error
+1493429293 WARN sub1 : Streamed sub1 warn

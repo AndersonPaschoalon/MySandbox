@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:a.out,org.eclipse.launchbar.core.descriptorType.default\:DesignPattern_Tutorial,org.eclipse.launchbar.core.descriptorType.default\:Algorithms_MasterDegreeProject,org.eclipse.launchbar.core.descriptorType.default\:Tests_StochasticFit,org.eclipse.launchbar.core.descriptorType.default\:tutorial_rapidXml,org.eclipse.launchbar.core.descriptorType.default\:SPDLog_tutorial,org.eclipse.launchbar.core.descriptorType.default\:Tutorial_StochasticFunctions,org.eclipse.launchbar.core.descriptorType.default\:Tutorial_time,org.eclipse.launchbar.core.descriptorType.default\:Tutorial_libtins,org.eclipse.launchbar.core.descriptorType.default\:NetConfig,org.eclipse.launchbar.core.descriptorType.default\:Tutorial_iperf,org.eclipse.launchbar.core.descriptorType.default\:Tutorial_ditg,org.eclipse.launchbar.core.descriptorType.default\:Tutorial_Log4Cpp2,org.eclipse.launchbar.core.descriptorType.default\:Tests_cpp
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:NetConfig/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:NetConfig/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Tests_cpp/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:tutorial_rapidXml/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:tutorial_rapidXml/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

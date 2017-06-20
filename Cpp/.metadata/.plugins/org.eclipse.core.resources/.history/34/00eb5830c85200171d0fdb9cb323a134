@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : Tutorial_Log4Cpp2.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "MesserLog.h"
+
+using namespace std;
+
+
+int main() {
+	log4cpp::PropertyConfigurator::configure("src/log4cpp-config.properties");
+	log4cpp::Category root = log4cpp::Category::getInstance("console");
+
+
+	root.debug("Uma mensagem aqui");
+
+	log4cpp::Category::shutdown();
+	return 0;
+}

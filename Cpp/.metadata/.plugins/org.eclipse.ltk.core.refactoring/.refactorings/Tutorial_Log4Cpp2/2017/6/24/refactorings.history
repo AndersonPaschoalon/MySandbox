@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Tutorial_Log4Cpp2/src/log4cpp-config.properties&apos; to &apos;log4cpp.properties&apos;" description="Rename resource &apos;log4cpp-config.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/log4cpp-config.properties" name="log4cpp.properties" stamp="1497642119112" updateReferences="true"/>
+</session>

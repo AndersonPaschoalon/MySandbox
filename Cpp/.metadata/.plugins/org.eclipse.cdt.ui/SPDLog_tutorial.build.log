@@ -1,0 +1,15 @@
+18:05:02 **** Incremental Build of configuration Debug for project SPDLog_tutorial ****
+make all 
+Building file: ../src/SPDLog_tutorial.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SPDLog_tutorial.d" -MT"src/SPDLog_tutorial.o" -o "src/SPDLog_tutorial.o" "../src/SPDLog_tutorial.cpp"
+Finished building: ../src/SPDLog_tutorial.cpp
+ 
+Building target: SPDLog_tutorial
+Invoking: GCC C++ Linker
+g++  -o "SPDLog_tutorial"  ./src/SPDLog_tutorial.o   -lpthread -llog4cpp
+Finished building target: SPDLog_tutorial
+ 
+
+18:05:03 Build Finished (took 433ms)
+

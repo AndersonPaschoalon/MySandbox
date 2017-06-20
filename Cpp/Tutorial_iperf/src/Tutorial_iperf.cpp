@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : Tutorial_iperf.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+
+int main( void )
+{
+    int status;
+    char *args[2];
+
+    args[0] = "/bin/ls -lahn";        // first arg is the full path to the executable
+    args[1] = NULL;             // list of args must be NULL terminated
+
+    if ( fork() == 0 )
+        execv( args[0], args ); // child: call execv with the path and the args
+    else
+        wait( &status );        // parent: wait for the child (not really necessary)
+
+    return 0;
+}
