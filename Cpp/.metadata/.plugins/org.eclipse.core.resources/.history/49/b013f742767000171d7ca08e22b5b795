@@ -1,0 +1,18 @@
+/*
+ * PlogMacros.cpp
+ *
+ *  Created on: 24 de jul de 2017
+ *      Author: anderson
+ */
+
+#include "PlogMacros.h"
+
+PlogMacros::PlogMacros() {
+	// TODO Auto-generated constructor stub
+
+}
+
+PlogMacros::~PlogMacros() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,12 @@
+﻿2017-07-23 21:04:13.422 DEBUG [18234] [main@27] Hello log!
+2017-07-23 21:04:13.423 DEBUG [18234] [main@28] Hello log!
+2017-07-23 21:04:13.423 DEBUG [18234] [main@29] Hello log!
+2017-07-23 21:07:27.872 DEBUG [18347] [main@27] Hello log!
+2017-07-23 21:07:27.872 DEBUG [18347] [main@28] Hello log!
+2017-07-23 21:07:27.872 DEBUG [18347] [main@29] Hello log!
+2017-07-23 21:07:43.008 DEBUG [18365] [main@27] Hello log!
+2017-07-23 21:07:43.008 DEBUG [18365] [main@28] Hello log!
+2017-07-23 21:07:43.008 DEBUG [18365] [main@29] Hello log!
+2017-07-23 21:26:28.174 DEBUG [18976] [main@28] Hello log!
+2017-07-23 21:26:28.174 DEBUG [18976] [main@29] Hello log!
+2017-07-23 21:26:28.174 DEBUG [18976] [main@30] Hello log!
