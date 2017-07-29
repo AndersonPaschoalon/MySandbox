@@ -59,7 +59,6 @@ std::string Database::max(std::string table, std::string thecolumn,
 		std::string& value)
 {
 	//std::list<std::string> out_values;
-
 	//TODO
 	return "";
 }
