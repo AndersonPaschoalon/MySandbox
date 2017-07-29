@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;EasySqlite/src/EasySqlite.cpp&apos; to &apos;Main.cpp&apos;" description="Rename resource &apos;EasySqlite.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/EasySqlite.cpp" name="Main.cpp" stamp="1501219963575" updateReferences="true"/>
+</session>

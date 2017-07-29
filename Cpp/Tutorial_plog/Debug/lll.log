@@ -1,0 +1,11 @@
+﻿Date;Time;Severity;TID;This;Function;Message
+2017/07/28;00:39:10.314;FATAL;17703;0;test_plog_default@41;"[../src/Tutorial_plog.cpp] fatal"
+2017/07/28;00:39:10.314;ERROR;17703;0;test_plog_default@42;"[../src/Tutorial_plog.cpp] error"
+2017/07/28;00:39:10.314;INFO;17703;0;test_plog_default@43;"[../src/Tutorial_plog.cpp] info"
+2017/07/28;00:39:10.314;WARN;17703;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] warn"
+2017/07/28;00:39:10.314;DEBUG;17703;0;test_plog_default@46;"[../src/Tutorial_plog.cpp] debug"
+2017/07/28;00:47:50.316;FATAL;17929;0;test_plog_default@41;"[../src/Tutorial_plog.cpp] fatal"
+2017/07/28;00:47:50.316;ERROR;17929;0;test_plog_default@42;"[../src/Tutorial_plog.cpp] error"
+2017/07/28;00:47:50.316;INFO;17929;0;test_plog_default@43;"[../src/Tutorial_plog.cpp] info"
+2017/07/28;00:47:50.316;WARN;17929;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] warn"
+2017/07/28;00:47:50.316;DEBUG;17929;0;test_plog_default@46;"[../src/Tutorial_plog.cpp] debug"

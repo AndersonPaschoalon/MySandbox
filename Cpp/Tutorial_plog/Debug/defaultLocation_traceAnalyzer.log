@@ -1,0 +1,3 @@
+﻿Date;Time;Severity;TID;This;Function;Message
+2017/07/27;22:47:33.596;ERROR;15079;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER"
+2017/07/27;22:47:33.596;WARN;15079;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Using default logfile ./defaultLocation_traceAnalyzer.log"

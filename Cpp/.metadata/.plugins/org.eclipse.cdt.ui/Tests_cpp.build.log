@@ -1,6 +1,6 @@
-21:57:27 **** Build of configuration Release for project Tests_cpp ****
+03:13:42 **** Incremental Build of configuration Release for project Tests_cpp ****
 make all 
 make: Nothing to be done for 'all'.
 
-21:57:27 Build Finished (took 75ms)
+03:13:42 Build Finished (took 67ms)
 

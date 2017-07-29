@@ -1,0 +1,39 @@
+/*
+ * TraceDbManager.h
+ *
+ *  Created on: 28 de jul de 2017
+ *      Author: anderson
+ */
+
+#ifndef TRACEDBMANAGER_H_
+#define TRACEDBMANAGER_H_
+
+#include <string>
+#include <string.h>
+#include <list>
+
+class TraceDbManager
+{
+public:
+	TraceDbManager();
+	virtual ~TraceDbManager();
+
+	int getTraceData(std::string traceName, std::string field,
+			std::string data);
+	int getTraceData(std::string traceName, std::string field, int data);
+	int getNumberOfFlows(std::string traceName, std::string field, int data);
+
+	int getFlowData(std::string traceName, std::string flowID,
+			std::string field, std::string& data);
+	int getFlowData(std::string traceName, std::string flowID,
+			std::string field, int& data);
+	int getFlowData(std::string traceName, std::string flowID,
+			std::string field, std::list<int> dataList);
+	int getFlowData(std::string traceName, std::string flowID,
+			std::string field, std::list<double> dataList);
+	int getFlowData(std::string traceName, std::string flowID,
+			std::string field, std::list<std::string> dataList);
+
+};
+
+#endif /* TRACEDBMANAGER_H_ */

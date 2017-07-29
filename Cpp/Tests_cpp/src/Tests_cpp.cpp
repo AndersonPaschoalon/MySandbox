@@ -33,7 +33,7 @@ void test_getnext();
 void test_getHostIpMac();
 void test_testargs();
 void test_defaultArgs();
-
+void test_functionRet();
 
 // functions
 list<abacate>* allocate_list(int size);
@@ -45,6 +45,9 @@ int getHostIpMac(int& counter, const char* filename, char* ipAddr,
 void defaultArgs(int a1, int a2, int a3);
 void defaultArgs(char* s1, int a2, int a3);
 void defaultArgs2();
+int f1(int val);
+int f2(int val);
+
 
 int main() {
 
@@ -60,6 +63,7 @@ int main() {
 	bool t10 = false;
 	bool t11 = true;
 	bool t12 = true;
+	bool t13 = true;
 
 	if (t1)
 		tests_str();
@@ -85,6 +89,8 @@ int main() {
 		test_testargs();
 	if(t12)
 		test_defaultArgs();
+	if(t13)
+		test_functionRet();
 
 	return 0;
 }
@@ -618,4 +624,38 @@ void test_defaultArgs(){
 	defaultArgs2("kkk");
 }
 
+void test_functionRet(){
+	if(!f1(0))
+	{
+		cout << "sucesso! f1(0)" << endl;
+	}
+	else
+	{
+		cout << "falha!" << endl;
+		exit(0);
+	}
+	if( !f2(0))
+	{
+		cout << "sucesso! f2(0)" << endl;
+	}
+	else
+	{
+		cout << "falha!" << endl;
+		exit(0);
+	}
+
+	cout << "saindo" << endl;
+}
+
+int f1(int val)
+{
+	cout << "@ f1()" << endl;
+	return(val);
+}
+
+int f2(int val)
+{
+	cout << "@ f2()" << endl;
+	return(val);
+}
 

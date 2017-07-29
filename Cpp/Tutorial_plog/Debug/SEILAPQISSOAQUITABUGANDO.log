@@ -1,0 +1,12 @@
+﻿Date;Time;Severity;TID;This;Function;Message
+2017/07/27;22:56:33.480;ERROR;15417;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] QUE TA ACONTECENO GENTI"
+2017/07/28;00:39:41.089;FATAL;17735;0;test_plog_default@41;"[../src/Tutorial_plog.cpp] fatal"
+2017/07/28;00:39:41.089;ERROR;17735;0;test_plog_default@42;"[../src/Tutorial_plog.cpp] error"
+2017/07/28;00:39:41.089;INFO;17735;0;test_plog_default@43;"[../src/Tutorial_plog.cpp] info"
+2017/07/28;00:39:41.089;WARN;17735;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] warn"
+2017/07/28;00:39:41.089;DEBUG;17735;0;test_plog_default@46;"[../src/Tutorial_plog.cpp] debug"
+2017/07/28;00:40:40.753;FATAL;17772;0;test_plog_default@41;"[../src/Tutorial_plog.cpp] fatal"
+2017/07/28;00:40:40.753;ERROR;17772;0;test_plog_default@42;"[../src/Tutorial_plog.cpp] error"
+2017/07/28;00:40:40.753;INFO;17772;0;test_plog_default@43;"[../src/Tutorial_plog.cpp] info"
+2017/07/28;00:40:40.753;WARN;17772;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] warn"
+2017/07/28;00:40:40.753;DEBUG;17772;0;test_plog_default@46;"[../src/Tutorial_plog.cpp] debug"

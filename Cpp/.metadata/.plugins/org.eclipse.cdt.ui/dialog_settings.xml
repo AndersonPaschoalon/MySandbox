@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="/home/anderson/Workspace/Cpp/Tutorial_plog/plog/include" key="org.eclipse.cdt.utils.ui.controls.FileListControl"/>
+	<item value="sqlite3" key="org.eclipse.cdt.utils.ui.controls.FileListControl"/>
 	<item value="Default C++ header template" key="LastUsedHeaderTemplate"/>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
-		<item value="162" key="size.height"/>
+		<item value="229" key="size.height"/>
 		<item value="806" key="size.width"/>
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
@@ -22,5 +22,24 @@
 		<item value="0" key="askReindex.detail"/>
 	</section>
 	<section name="completion_proposal_size">
+		<item value="254" key="size.y"/>
+		<item value="702" key="size.x"/>
+	</section>
+	<section name="org.eclipse.cdt.internal.ui.wizards.classwizard.NewBaseClassSelectionDialogSettings">
+		<item value="false" key="show_enums"/>
+		<item value="false" key="show_unions"/>
+		<item value="false" key="show_macros"/>
+		<item value="true" key="show_classes"/>
+		<item value="false" key="show_functions"/>
+		<item value="true" key="show_lowlevel"/>
+		<item value="false" key="show_namespaces"/>
+		<item value="false" key="show_enumerators"/>
+		<item value="true" key="show_structs"/>
+		<item value="779" key="x"/>
+		<item value="414" key="width"/>
+		<item value="24" key="y"/>
+		<item value="false" key="show_typedefs"/>
+		<item value="false" key="show_variables"/>
+		<item value="752" key="height"/>
 	</section>
 </section>

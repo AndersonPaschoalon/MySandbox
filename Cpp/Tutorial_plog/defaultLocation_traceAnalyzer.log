@@ -1,0 +1,24 @@
+﻿Date;Time;Severity;TID;This;Function;Message
+2017/07/27;22:16:03.177;ERROR;13942;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER
+Using default logfile ./defaultLocation_traceAnalyzer.log
+"
+2017/07/27;22:16:17.097;ERROR;13943;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER
+Using default logfile ./defaultLocation_traceAnalyzer.log
+"
+2017/07/27;22:22:54.414;ERROR;14149;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER
+Using default logfile ./defaultLocation_traceAnalyzer.log
+"
+2017/07/27;22:28:02.781;ERROR;14250;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER
+"
+2017/07/27;22:28:02.781;INFO;14250;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Using default logfile ./defaultLocation_traceAnalyzer.log
+"
+2017/07/27;22:48:52.517;ERROR;15125;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER"
+2017/07/27;22:48:52.517;WARN;15125;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Using default logfile ./defaultLocation_traceAnalyzer.log"
+2017/07/27;22:49:43.197;ERROR;15197;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER"
+2017/07/27;22:49:43.197;WARN;15197;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Using default logfile ./defaultLocation_traceAnalyzer.log"
+2017/07/27;22:50:16.389;ERROR;15235;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER"
+2017/07/27;22:50:16.390;WARN;15235;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Using default logfile ./defaultLocation_traceAnalyzer.log"
+2017/07/27;22:51:10.901;ERROR;15273;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER"
+2017/07/27;22:51:10.901;WARN;15273;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Using default logfile ./defaultLocation_traceAnalyzer.log"
+2017/07/27;22:51:39.542;ERROR;15277;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Can't find env variable SIMITAR_LOGFILE_TRACE_ANALYZER"
+2017/07/27;22:51:39.542;WARN;15277;0;test_plog_default@44;"[../src/Tutorial_plog.cpp] Using default logfile ./defaultLocation_traceAnalyzer.log"

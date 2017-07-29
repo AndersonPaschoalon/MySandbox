@@ -1,0 +1,99 @@
+/*
+ * Database.cpp
+ *
+ *  Created on: 28 de jul de 2017
+ *      Author: anderson
+ */
+
+#include "Database.h"
+
+Database::Database(std::string databaseFile)
+{
+}
+
+Database::~Database()
+{
+	// TODO Auto-generated destructor stub
+}
+
+int Database::get(std::string table, std::string thecolumn,
+		std::list<std::string>& out_values)
+{
+}
+
+int Database::get_where(std::string table, std::string thecolumn,
+		std::string where_constraint, std::list<std::string>& out_values)
+{
+}
+
+int Database::join(std::string table1, std::string table2,
+		std::string thecolumn, std::string on_constraint,
+		std::list<std::string>& out_values)
+{
+}
+
+int Database::get(std::string table, std::string thecolumn,
+		std::list<double>& out_values)
+{
+	std::list<std::string> out_str;
+
+	if (get(table, thecolumn, out_str) == DATABASE_ERROR)
+	{
+		return (DATABASE_ERROR);
+	}
+	else
+	{
+		string_to_double(out_str, out_values);
+	}
+
+	return(DATABASE_SUCCSESS);
+}
+
+int Database::get_where(std::string table, std::string thecolumn,
+		std::string where_constraint, std::list<double>& out_values)
+{
+}
+
+int Database::join(std::string table1, std::string table2,
+		std::string thecolumn, std::string on_constraint,
+		std::list<double>& out_values)
+{
+}
+
+int Database::get(std::string table, std::string thecolumn,
+		std::list<int>& out_values)
+{
+}
+
+int Database::get_where(std::string table, std::string thecolumn,
+		std::string where_constraint, std::list<int>& out_values)
+{
+}
+
+int Database::join(std::string table1, std::string table2,
+		std::string thecolumn, std::string on_constraint,
+		std::list<int>& out_values)
+{
+}
+
+void Database::string_to_int(std::list<std::string> inlist,
+		std::list<int>& outlist)
+{
+
+	for (std::list<std::string>::iterator it = inlist.begin();
+			it != inlist.end(); it++)
+	{
+		outlist.push_back(std::stoi(*it));
+	}
+
+}
+
+void Database::string_to_double(std::list<std::string> inlist,
+		std::list<double>& outlist)
+{
+	for (std::list<std::string>::iterator it = inlist.begin();
+			it != inlist.end(); it++)
+	{
+		outlist.push_back(std::stof(*it));
+	}
+}

@@ -1,6 +1,6 @@
-21:57:27 **** Build of configuration Debug for project Tutorial_ditg ****
+03:13:43 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
 make all 
 make: Nothing to be done for 'all'.
 
-21:57:27 Build Finished (took 85ms)
+03:13:43 Build Finished (took 68ms)
 
