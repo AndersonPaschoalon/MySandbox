@@ -4,19 +4,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/Database.cpp \
+../src/DatabaseSqlite3.cpp \
 ../src/Main.cpp \
 ../src/RegressionTests.cpp \
 ../src/TraceDbManager.cpp 
 
 OBJS += \
-./src/Database.o \
+./src/DatabaseSqlite3.o \
 ./src/Main.o \
 ./src/RegressionTests.o \
 ./src/TraceDbManager.o 
 
 CPP_DEPS += \
-./src/Database.d \
+./src/DatabaseSqlite3.d \
 ./src/Main.d \
 ./src/RegressionTests.d \
 ./src/TraceDbManager.d 

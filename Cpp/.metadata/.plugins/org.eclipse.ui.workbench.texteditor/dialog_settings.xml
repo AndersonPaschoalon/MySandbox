@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Database::max" key="selection"/>
+		<item value="flowID" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="flowID"/>
+			<item value="getNumberOfFlows"/>
+			<item value="max"/>
 			<item value="Database::max"/>
 			<item value="query"/>
 			<item value="db_mutex"/>
 			<item value="DATABASE_ERROR"/>
 			<item value="printLog"/>
-			<item value="strLog"/>
-			<item value="test_functionRet()"/>
-			<item value="defaultArgs2"/>
 		</list>
 		<list key="replacehistory">
 			<item value="out_values"/>

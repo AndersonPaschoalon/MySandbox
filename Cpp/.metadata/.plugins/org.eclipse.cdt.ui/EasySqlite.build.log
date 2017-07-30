@@ -1,15 +1,5 @@
-03:13:41 **** Incremental Build of configuration Debug for project EasySqlite ****
+03:28:28 **** Incremental Build of configuration Debug for project EasySqlite ****
 make all 
-Building file: ../src/Database.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.o" -o "src/Database.o" "../src/Database.cpp"
-Finished building: ../src/Database.cpp
- 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
 Building file: ../src/TraceDbManager.cpp
 Invoking: GCC C++ Compiler
 g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TraceDbManager.d" -MT"src/TraceDbManager.o" -o "src/TraceDbManager.o" "../src/TraceDbManager.cpp"
@@ -17,9 +7,9 @@ Finished building: ../src/TraceDbManager.cpp
  
 Building target: EasySqlite
 Invoking: GCC C++ Linker
-g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+g++  -o "EasySqlite"  ./src/DatabaseSqlite3.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
 Finished building target: EasySqlite
  
 
-03:13:41 Build Finished (took 865ms)
+03:28:28 Build Finished (took 315ms)
 

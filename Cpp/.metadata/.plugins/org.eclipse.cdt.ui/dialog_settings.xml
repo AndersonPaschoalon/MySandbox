@@ -18,12 +18,23 @@
 		<item value="false" key="testFileSelected"/>
 		<item value="true" key="stubSelected0"/>
 	</section>
+	<section name="RenameInformationPopup">
+	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="0" key="askReindex.detail"/>
 	</section>
+	<section name="CRenameRefactoringInputPage">
+		<item value="3" key="scope"/>
+		<item value="true" key="preprocessor"/>
+		<item value="" key="workingset"/>
+		<item value="false" key="references_inv"/>
+		<item value="true" key="comment"/>
+		<item value="false" key="exhausiveFileSearch"/>
+		<item value="true" key="macroDefinition"/>
+	</section>
 	<section name="completion_proposal_size">
-		<item value="254" key="size.y"/>
-		<item value="702" key="size.x"/>
+		<item value="242" key="size.y"/>
+		<item value="663" key="size.x"/>
 	</section>
 	<section name="org.eclipse.cdt.internal.ui.wizards.classwizard.NewBaseClassSelectionDialogSettings">
 		<item value="false" key="show_enums"/>

@@ -595,3 +595,1389 @@ make: Nothing to be done for 'all'.
 03:13:43 **** Incremental Build of configuration Debug for project Tutorial_time ****
 make all 
 make: Nothing to be done for 'all'.
+02:21:49 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:49 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.o" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/RegressionTests.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RegressionTests.d" -MT"src/RegressionTests.o" -o "src/RegressionTests.o" "../src/RegressionTests.cpp"
+Finished building: ../src/RegressionTests.cpp
+ 
+Building file: ../src/TraceDbManager.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TraceDbManager.d" -MT"src/TraceDbManager.o" -o "src/TraceDbManager.o" "../src/TraceDbManager.cpp"
+Finished building: ../src/TraceDbManager.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:21:50 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:50 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:50 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:21:51 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:21:51 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:51 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:51 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:51 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:51 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:51 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:52 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:52 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:52 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:52 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:52 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:52 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:08 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:08 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:59:2: error: expected ‘;’ before ‘db’
+  db.join("seq", "Packets", "Flows",
+  ^~
+src/subdir.mk:27: recipe for target 'src/Main.o' failed
+make: *** [src/Main.o] Error 1
+02:40:08 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:08 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:08 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:40:09 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:40:09 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:09 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:09 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:09 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:09 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:09 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:09 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:10 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:10 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:10 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:10 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:10 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:45 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:45 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:40:45 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:45 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:45 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:40:45 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:40:46 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:46 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:46 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:46 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:46 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:46 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:46 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:46 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:46 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:47 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:47 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:47 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:59 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:51 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:51 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:6: warning: unused variable ‘ival’ [-Wunused-variable]
+  int ival = 0;
+      ^~~~
+../src/Main.cpp:21:9: warning: unused variable ‘dval’ [-Wunused-variable]
+  double dval= 0;
+         ^~~~
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:43:52 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:52 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:52 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:43:52 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:43:52 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:53 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:53 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:53 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:53 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:53 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:53 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:53 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:53 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:53 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:54 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:54 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:44:07 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:01 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:01 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:6: warning: unused variable ‘ival’ [-Wunused-variable]
+  int ival = 0;
+      ^~~~
+../src/Main.cpp:21:9: warning: unused variable ‘dval’ [-Wunused-variable]
+  double dval= 0;
+         ^~~~
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:49:01 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:01 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:01 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:49:02 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:49:02 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:02 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:02 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:02 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:02 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:02 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:02 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:03 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:03 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:03 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:03 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:03 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:11 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:04 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:05 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:6: warning: unused variable ‘ival’ [-Wunused-variable]
+  int ival = 0;
+      ^~~~
+../src/Main.cpp:21:9: warning: unused variable ‘dval’ [-Wunused-variable]
+  double dval= 0;
+         ^~~~
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:51:05 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:05 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:05 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:51:05 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:51:05 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:06 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:06 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:06 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:06 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:06 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:06 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:06 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:06 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:06 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:07 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:07 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:51:20 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:01 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:01 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:6: warning: unused variable ‘ival’ [-Wunused-variable]
+  int ival = 0;
+      ^~~~
+../src/Main.cpp:21:9: warning: unused variable ‘dval’ [-Wunused-variable]
+  double dval= 0;
+         ^~~~
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:52:02 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:02 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:02 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:52:02 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:52:02 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:02 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:03 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:03 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:03 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:03 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:03 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:03 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:03 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:03 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:03 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:04 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:12 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:49 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:49 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:6: warning: unused variable ‘ival’ [-Wunused-variable]
+  int ival = 0;
+      ^~~~
+../src/Main.cpp:21:9: warning: unused variable ‘dval’ [-Wunused-variable]
+  double dval= 0;
+         ^~~~
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:52:50 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:50 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:50 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:52:50 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:52:50 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:50 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:50 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:51 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:51 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:51 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:51 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:51 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:51 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:51 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:51 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:52:51 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:05 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:28 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:28 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:6: warning: unused variable ‘ival’ [-Wunused-variable]
+  int ival = 0;
+      ^~~~
+../src/Main.cpp:21:9: warning: unused variable ‘dval’ [-Wunused-variable]
+  double dval= 0;
+         ^~~~
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:53:29 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:29 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:29 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:53:29 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:53:29 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:29 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:30 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:30 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:30 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:30 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:30 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:30 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:30 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:30 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:30 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:31 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:53:53 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:09 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:09 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:09 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:09 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:09 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:55:09 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:55:09 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:09 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:09 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:10 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:10 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:10 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:10 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:10 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:10 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:10 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:10 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:10 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:55:26 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:21:9: warning: unused variable ‘dval’ [-Wunused-variable]
+  double dval= 0;
+         ^~~~
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:56:22 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:56:46 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:46 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+02:56:47 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:47 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:47 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+02:56:47 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+02:56:47 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:47 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:48 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:48 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:48 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:48 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:48 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:48 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:48 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:48 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:48 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+02:56:49 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+02:57:01 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+02:57:59 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:6: warning: unused variable ‘ival’ [-Wunused-variable]
+  int ival = 0;
+      ^~~~
+../src/Main.cpp:21:9: warning: unused variable ‘dval’ [-Wunused-variable]
+  double dval= 0;
+         ^~~~
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+03:00:24 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:24 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.o" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+03:00:25 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:25 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:25 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+03:00:25 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+03:00:25 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:25 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:25 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:25 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:25 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:26 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:26 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:26 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:26 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:26 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:26 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:26 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+03:00:43 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:24 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:24 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+03:01:24 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:24 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:25 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+03:01:25 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+03:01:25 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:25 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:25 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:25 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:25 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:25 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:25 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:25 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:26 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:26 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:26 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:26 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+03:01:40 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:33 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:34 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.o" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+03:04:34 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:34 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:34 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+03:04:34 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+03:04:34 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:35 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:36 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+03:04:51 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:15 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:15 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.o" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/Database.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+03:06:16 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:16 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:16 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+03:06:16 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+03:06:16 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:16 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:17 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:17 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:17 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:17 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:17 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:17 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:17 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:17 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:17 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:18 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+03:06:30 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:08 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:09 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/DatabaseSqlite3.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DatabaseSqlite3.d" -MT"src/DatabaseSqlite3.o" -o "src/DatabaseSqlite3.o" "../src/DatabaseSqlite3.cpp"
+Finished building: ../src/DatabaseSqlite3.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/TraceDbManager.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TraceDbManager.d" -MT"src/TraceDbManager.o" -o "src/TraceDbManager.o" "../src/TraceDbManager.cpp"
+../src/TraceDbManager.cpp:10:1: error: prototype for ‘TraceDbManager::TraceDbManager()’ does not match any in class ‘TraceDbManager’
+ TraceDbManager::TraceDbManager()
+ ^~~~~~~~~~~~~~
+In file included from ../src/TraceDbManager.cpp:8:0:
+../src/TraceDbManager.h:36:7: error: candidates are: constexpr TraceDbManager::TraceDbManager(const TraceDbManager&)
+ class TraceDbManager
+       ^~~~~~~~~~~~~~
+../src/TraceDbManager.h:44:2: error:                 TraceDbManager::TraceDbManager(std::__cxx11::string)
+  TraceDbManager(std::string databaseFile);
+  ^~~~~~~~~~~~~~
+src/subdir.mk:27: recipe for target 'src/TraceDbManager.o' failed
+make: *** [src/TraceDbManager.o] Error 1
+03:27:09 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:10 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:10 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+03:27:10 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+03:27:10 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:10 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:10 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:10 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:10 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:10 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:11 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:11 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:11 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:11 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:11 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+03:27:11 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:28 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:28 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/TraceDbManager.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TraceDbManager.d" -MT"src/TraceDbManager.o" -o "src/TraceDbManager.o" "../src/TraceDbManager.cpp"
+Finished building: ../src/TraceDbManager.cpp
+ 
+Building target: EasySqlite
+Invoking: GCC C++ Linker
+g++  -o "EasySqlite"  ./src/DatabaseSqlite3.o ./src/Main.o ./src/RegressionTests.o ./src/TraceDbManager.o   -lsqlite3
+Finished building target: EasySqlite
+ 
+03:28:28 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:28 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:28 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+03:28:28 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+03:28:29 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:29 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:29 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:29 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:29 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:29 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:29 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:29 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:30 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:30 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:30 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+03:28:30 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.

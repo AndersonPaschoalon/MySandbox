@@ -1,3 +1,3 @@
-src/Main.o: ../src/Main.cpp ../src/Database.h
+src/Main.o: ../src/Main.cpp ../src/DatabaseSqlite3.h
 
-../src/Database.h:
+../src/DatabaseSqlite3.h:

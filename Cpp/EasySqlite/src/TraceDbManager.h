@@ -12,6 +12,27 @@
 #include <string.h>
 #include <list>
 
+#include "DatabaseSqlite3.h"
+
+/**
+ Algumas queries que podem ser uteis
+ SELECT Packets.seq, Packets.traceID, Packets.flowID FROM Packets
+ 	 INNER JOIN Flows ON (Flows.flowID=Packets.flowID) AND (Flows.traceID=Packets.traceID)
+ 	 INNER JOIN Traces ON Traces.traceID=Flows.traceID
+ WHERE (Flows.flowID=0 AND Traces.traceName="arboc" );
+
+ -- query para pegar a lista de protocolos do trace arboc
+SELECT 	protocolNetwork FROM Flows
+	INNER JOIN Traces ON Traces.traceID=Flows.traceID
+WHERE traceName="arboc";
+
+-- query para pegar o protocolo de rede to trace "arboc" do flow 1
+SELECT 	protocolNetwork FROM Flows INNER JOIN Traces ON Traces.traceID=Flows.traceID WHERE traceName="arboc" AND flowID=1;
+
+
+ */
+
+
 class TraceDbManager
 {
 public:
@@ -20,7 +41,7 @@ public:
 	 * Constructor of the Trace database manager.
 	 * It retrieve requested data form the database.
 	 */
-	TraceDbManager();
+	TraceDbManager(std::string databaseFile);
 
 	/**
 	 * Destructor.
@@ -51,9 +72,8 @@ public:
 	 * @param traceName
 	 * @param field
 	 * @param data
-	 * @return
 	 */
-	int getNumberOfFlows(std::string traceName, std::string field, int data);
+	int getNumberOfFlows(std::string traceName);
 
 	/**
 	 *
@@ -63,7 +83,7 @@ public:
 	 * @param data
 	 * @return
 	 */
-	int getFlowData(std::string traceName, std::string flowID,
+	std::string getFlowData(std::string traceName, int flowID,
 			std::string field, std::string& data);
 
 	/**
@@ -74,7 +94,7 @@ public:
 	 * @param data
 	 * @return
 	 */
-	int getFlowData(std::string traceName, std::string flowID,
+	int getFlowData(std::string traceName, int flowID,
 			std::string field, int& data);
 
 	/**
@@ -85,7 +105,7 @@ public:
 	 * @param dataList
 	 * @return
 	 */
-	int getFlowPktData(std::string traceName, std::string flowID,
+	int getFlowPktData(std::string traceName, int flowID,
 			std::string field, std::list<int>& dataList);
 
 	/**
@@ -96,7 +116,7 @@ public:
 	 * @param dataList
 	 * @return
 	 */
-	int getFlowPktData(std::string traceName, std::string flowID,
+	int getFlowPktData(std::string traceName, int flowID,
 			std::string field, std::list<double>& dataList);
 
 	/**
@@ -107,9 +127,15 @@ public:
 	 * @param dataList
 	 * @return
 	 */
-	int getFlowPktData(std::string traceName, std::string flowID,
+	int getFlowPktData(std::string traceName, int flowID,
 			std::string field, std::list<std::string>& dataList);
-
+private:
+	DatabaseSqlite3 m_db;
+	std::string flowTable = "Flows";
+	std::string traceTable = "Traces";
+	std::string packetTable = "Packets";
 };
+
+
 
 #endif /* TRACEDBMANAGER_H_ */

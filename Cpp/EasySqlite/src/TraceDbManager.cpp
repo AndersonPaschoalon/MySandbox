@@ -7,8 +7,9 @@
 
 #include "TraceDbManager.h"
 
-TraceDbManager::TraceDbManager()
+TraceDbManager::TraceDbManager(std::string databaseFile)
 {
+	m_db = DatabaseSqlite3(databaseFile);
 }
 
 TraceDbManager::~TraceDbManager()
@@ -18,55 +19,59 @@ TraceDbManager::~TraceDbManager()
 int TraceDbManager::getTraceData(std::string traceName, std::string field,
 		std::string data)
 {
-	//TODO
-	return(0);
+	return (m_db.max(field, "Traces", "", "", "", "", "traceName=" + traceName,
+			data));
 }
 
 int TraceDbManager::getTraceData(std::string traceName, std::string field,
 		int data)
 {
-	//TODO
-	return(0);
+	return (m_db.max(field, "Traces", "", "", "", "", "traceName=" + traceName,
+			data));
 }
 
-int TraceDbManager::getNumberOfFlows(std::string traceName, std::string field,
-		int data)
+int TraceDbManager::getNumberOfFlows(std::string traceName)
 {
-	//TODO
-	return(0);
+	int nflows;
+	return (m_db.max("flowID", "Flows", "Trace", "Traces.traceID=Flows.traceID",
+			"", "", "traceName=" + traceName, nflows) + 1);
 }
 
-int TraceDbManager::getFlowData(std::string traceName, std::string flowID,
+std::string TraceDbManager::getFlowData(std::string traceName, int flowID,
 		std::string field, std::string& data)
 {
-	//TODO
-	return(0);
+	return (m_db.max(field, "Flows", "Trace", "Traces.traceID=Flows.traceID",
+			"", "", "traceName=" + traceName, data));
 }
 
-int TraceDbManager::getFlowData(std::string traceName, std::string flowID,
+int TraceDbManager::getFlowData(std::string traceName, int flowID,
 		std::string field, int& data)
 {
-	//TODO
-	return(0);
+	return (m_db.max(field, "Flows", "Trace", "Traces.traceID=Flows.traceID",
+			"", "", "traceName=" + traceName, data));
 }
 
-int TraceDbManager::getFlowPktData(std::string traceName, std::string flowID,
+int TraceDbManager::getFlowPktData(std::string traceName, int flowID,
 		std::string field, std::list<int>& dataList)
 {
 	//TODO
-	return(0);
+	return (m_db.join(field, "Packets", "Flows",
+			"(Flows.flowID=Packets.flowID) AND (Flows.traceID=Packets.traceID)",
+			"Traces", "Traces.traceID=Flows.traceID",
+			"(Flows.flowID=" + std::string(flowID) + " AND Trace.traceName=\""
+					+ traceName + "\" )", dataList));
 }
 
-int TraceDbManager::getFlowPktData(std::string traceName, std::string flowID,
+int TraceDbManager::getFlowPktData(std::string traceName, int flowID,
 		std::string field, std::list<double>& dataList)
 {
 	//TODO
-	return(0);
+	return (0);
 }
 
-int TraceDbManager::getFlowPktData(std::string traceName, std::string flowID,
+int TraceDbManager::getFlowPktData(std::string traceName, int flowID,
 		std::string field, std::list<std::string>& dataList)
 {
 	//TODO
-	return(0);
+	return (0);
 }

@@ -1,0 +1,67 @@
+//============================================================================
+// Name        : EasySqlite.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+//#include "TraceDbManager.h"
+#include "Database.h"
+
+using namespace std;
+
+int main()
+{
+	Database db = Database("trace.db");
+
+	std::string arg1 = "";
+	std::string arg2 = "";
+	std::string arg3 = "";
+	std::string arg4 = "";
+	std::list<std::string> str_list;
+	std::list<double> d_list;
+	std::list<int> i_list;
+
+	printf("\n\nstr\n");
+
+	db.get("Flows", "protocolLink", str_list);
+	printList(str_list);
+	str_list.clear();
+
+	db.get_where("Flows", "protocolLink", "traceID=12", str_list);
+	printList(str_list);
+	str_list.clear();
+
+	printf("\n\nint\n");
+
+	db.get("Flows", "protocolNetwork", i_list);
+	printList(i_list);
+	i_list.clear();
+
+	db.get_where("Flows", "protocolNetwork", "traceID=12", i_list);
+	printList(i_list);
+	i_list.clear();
+
+	printf("\n\ndouble\n");
+
+	db.get("Flows", "portSrc", d_list);
+	printList(d_list);
+	d_list.clear();
+
+	db.get_where("Flows", "portSrc", "traceID=12", d_list);
+	printList(d_list);
+	d_list.clear();
+
+	printf("\n\nTest Join")
+
+	db.join("seq", "Packets", "Flows",
+			"(Flows.flowID=Packets.flowID) AND (Flows.traceID=Packets.traceID)",
+			"Traces", "Traces.traceID=Flows.traceID",
+			"(Flows.flowID=0 AND Traces.traceName=\"arboc\" )" , str_list);
+	printList(str_list);
+	str_list.clear();
+
+	return 0;
+}
