@@ -13,6 +13,8 @@
 #include <list>
 #include <string>
 
+
+
 /**
  * Mutex used to perform operations
  */
@@ -58,7 +60,7 @@ public:
 	/**
 	 * Constructor. Open the connection
 	 */
-	DatabaseSqlite3(std::string databaseFile, bool verbose=false);
+	DatabaseSqlite3(std::string databaseFile, bool verbose);
 
 	/**
 	 * Destructor. Close the connection
@@ -262,7 +264,14 @@ private:
 	 */
 	bool m_verbose = false;
 
+	/**
+	 * flag that tells if the database is open or not
+	 */
+	//bool m_db_is_open = false;
+
 	// private methods
+
+
 
 	/**
 	 * @brief Convert a string list to a int list
@@ -287,7 +296,7 @@ private:
 	/**
 	 *
 	 */
-	void error_failed_to_fetch();
+	void error_failed_to_fetch(std::string sql_query);
 
 	/**
 	 *
@@ -302,7 +311,13 @@ private:
 	/**
 	 *
 	 */
-	void warning_data_list_empty(std::string query);
+	void error_data_list_empty(std::string query);
+
+
+	/**
+	 *
+	 */
+	void continue_if_is_instantiated();
 
 };
 

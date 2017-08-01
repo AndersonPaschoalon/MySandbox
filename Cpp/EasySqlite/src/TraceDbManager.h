@@ -55,8 +55,8 @@ public:
 	 * @param data
 	 * @return
 	 */
-	int getTraceData(std::string traceName, std::string field,
-			std::string data);
+	std::string getTraceData(std::string traceName, std::string field,
+			std::string& data);
 
 	/**
 	 *
@@ -65,7 +65,7 @@ public:
 	 * @param data
 	 * @return
 	 */
-	int getTraceData(std::string traceName, std::string field, int data);
+	int getTraceData(std::string traceName, std::string field, int& data);
 
 	/**
 	 *
@@ -73,7 +73,7 @@ public:
 	 * @param field
 	 * @param data
 	 */
-	int getNumberOfFlows(std::string traceName);
+	uint getNumberOfFlows(std::string traceName);
 
 	/**
 	 *
@@ -130,10 +130,18 @@ public:
 	int getFlowPktData(std::string traceName, int flowID,
 			std::string field, std::list<std::string>& dataList);
 private:
+
+	// members
+
 	DatabaseSqlite3 m_db;
 	std::string flowTable = "Flows";
 	std::string traceTable = "Traces";
 	std::string packetTable = "Packets";
+
+	// private methods
+	int check_if_trace_exists_or_not_empty(std::string traceName);
+
+
 };
 
 
