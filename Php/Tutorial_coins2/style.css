@@ -1,0 +1,29 @@
+.coin {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: blue;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: red;
+	margin: 10px;
+	display: inline-block;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+.msgbox {
+    height: 40px;
+    /*width: 70px;*/
+    border-radius: 20px;
+    background-color: lightblue;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: red;
+	margin: 10px;
+	display: inline-block;
+	line-height: 50px;
+	font-size: 20px;
+}

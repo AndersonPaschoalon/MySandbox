@@ -1,0 +1,11 @@
+# PHP Tutorial
+
+To run, type this command in the project directory
+```
+php -S localhost:8000
+```
+Than, type localhost:8000 and the name of your program file in the brownser. 
+Eg:
+```
+http://localhost:8000/index.php
+``` 

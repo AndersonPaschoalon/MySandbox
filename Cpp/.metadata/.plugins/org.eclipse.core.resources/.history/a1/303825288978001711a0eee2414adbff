@@ -1,0 +1,91 @@
+//============================================================================
+// Name        : CsvCpp.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+#include "CSVIterator.h"
+using namespace std;
+
+class CsvFile{
+public:
+	CsvFile(const char* filename): _filename(filename){
+		_file.open(filename);
+		_loop = CSVIterator(_file);
+	}
+
+	void reset(){
+		_file.close();
+		_file.open(_filename);
+		_loop = CSVIterator(_file);
+	}
+
+	bool next_line()
+	{
+		if(_loop != CSVIterator())
+		{
+			++_loop;
+			return(true);
+		}
+		return false;
+	}
+
+	std::string column(uint i){
+		std::string column_str = (*_loop)[i];
+		return column_str;
+	}
+
+
+private:
+	std::string _filename;
+	CSVIterator _loop;
+	std::ifstream _file;
+
+};
+
+int main()
+{
+	uint i = 0;
+	std::ifstream file("plop.csv");
+
+	for (CSVIterator loop(file); loop != CSVIterator(); ++loop)
+	{
+		std::cout << i << ": " << "4th Element(" << (*loop)[3] << ")\n";
+		i++;
+	}
+	i = 0;
+
+	file.close();
+
+	printf("------------------\n");
+	file.open("plop.csv");
+
+	for (CSVIterator loop(file); loop != CSVIterator(); ++loop)
+	{
+		std::cout << i << ": " << "4th Element(" << (*loop)[3] << ")\n";
+		i++;
+	}
+	i = 0;
+
+	file.close();
+	printf("------------------\n");
+	file.open("plop.csv");
+
+	std::string str;
+	for (CSVIterator loop(file); loop != CSVIterator(); ++loop)
+	{
+		str = (*loop)[9];
+
+		std::cout << i << ": " << "9th Element(" << str << ")\n";
+		i++;
+	}
+	i = 0;
+
+
+
+
+}

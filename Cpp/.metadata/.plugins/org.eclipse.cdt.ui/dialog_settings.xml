@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="sqlite3" key="org.eclipse.cdt.utils.ui.controls.FileListControl"/>
+	<item value="&quot;${workspace_loc:/${ProjName}/text-csv/include/text}&quot;" key="org.eclipse.cdt.utils.ui.controls.FileListControl"/>
 	<item value="Default C++ header template" key="LastUsedHeaderTemplate"/>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
 		<item value="229" key="size.height"/>
@@ -33,8 +33,8 @@
 		<item value="true" key="macroDefinition"/>
 	</section>
 	<section name="completion_proposal_size">
-		<item value="242" key="size.y"/>
-		<item value="663" key="size.x"/>
+		<item value="218" key="size.y"/>
+		<item value="1173" key="size.x"/>
 	</section>
 	<section name="org.eclipse.cdt.internal.ui.wizards.classwizard.NewBaseClassSelectionDialogSettings">
 		<item value="false" key="show_enums"/>

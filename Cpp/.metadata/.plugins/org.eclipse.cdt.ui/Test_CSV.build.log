@@ -1,0 +1,22 @@
+21:49:24 **** Incremental Build of configuration Debug for project Test_CSV ****
+make all 
+Building file: ../src/CSVread.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CSVread.d" -MT"src/CSVread.o" -o "src/CSVread.o" "../src/CSVread.cpp"
+../src/CSVread.cpp: In function ‘bool jay::util::CSVshared_ResizeBuffer(std::streamsize, char*&, std::streamsize&, bool&, std::__cxx11::string&)’:
+../src/CSVread.cpp:234:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if( bytes > (numeric_limits<size_t>::max)() )
+         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/CSVread.cpp: In member function ‘bool jay::util::CSVread::Open(std::__cxx11::string, jay::util::CSVread::Flags)’:
+../src/CSVread.cpp:537:52: error: invalid conversion from ‘int’ to ‘std::ios_base::openmode {aka std::_Ios_Openmode}’ [-fpermissive]
+     ios::openmode mode = ( ( flags & text_mode ) ) ? 0 : ios::binary;
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../src/CSVread.cpp: In member function ‘bool jay::util::CSVread::ReadRecord(uintmax_t)’:
+../src/CSVread.cpp:702:102: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if( csv_parse( parse_obj, _buffer, (size_t)len, Callback_Field, Callback_Record, &args ) != len )
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+make: *** [src/CSVread.o] Error 1
+src/subdir.mk:34: recipe for target 'src/CSVread.o' failed
+
+21:49:25 Build Finished (took 543ms)
+

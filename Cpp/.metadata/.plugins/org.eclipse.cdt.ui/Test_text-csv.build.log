@@ -1,0 +1,14 @@
+21:49:25 **** Incremental Build of configuration Debug for project Test_text-csv ****
+make all 
+Building file: ../src/Test_text-csv.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/anderson/Workspace/Cpp/Test_text-csv/text-csv/include/text" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test_text-csv.d" -MT"src/Test_text-csv.o" -o "src/Test_text-csv.o" "../src/Test_text-csv.cpp"
+../src/Test_text-csv.cpp: In function ‘void test_out_csv(uint)’:
+../src/Test_text-csv.cpp:68:13: error: invalid use of ‘text::csv::basic_csv_istream<char>::basic_csv_istream’
+   ipmacfile.basic_csv_istream(ip_mac_file); //(ip_mac_file);
+             ^~~~~~~~~~~~~~~~~
+src/subdir.mk:18: recipe for target 'src/Test_text-csv.o' failed
+make: *** [src/Test_text-csv.o] Error 1
+
+21:49:25 Build Finished (took 379ms)
+

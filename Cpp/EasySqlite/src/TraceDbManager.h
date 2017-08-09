@@ -15,6 +15,12 @@
 #include "DatabaseSqlite3.h"
 
 /**
+TODO 1: CHECHAR SE O TRACE EXISTE, SE NÃO SAIR COM MENSAGEM DE ERRO
+TODO 2: CHECAR SE FLOWS DO TRACE EXISTEM, SE NÃO SAIR COM MENSAGEM DE ERRO
+TODO 3: CHECAR SE AS LISTAS ESTÃO VAZIS ANTES DE USALAS. SE ISSO OCORRER É UM BUG, REPORTAR
+ */
+
+/**
  Algumas queries que podem ser uteis
  SELECT Packets.seq, Packets.traceID, Packets.flowID FROM Packets
  	 INNER JOIN Flows ON (Flows.flowID=Packets.flowID) AND (Flows.traceID=Packets.traceID)
