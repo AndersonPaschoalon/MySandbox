@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : Test_MultthreadPopen.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+
+#include <stdio.h>
+
+using namespace std;
+
+
+int ls(){
+	FILE *in;
+	char buff[512];
+
+	if (!(in = popen("ls -sail", "r"))) {
+		return 1;
+	}
+
+	while (fgets(buff, sizeof(buff), in) != NULL) {
+		cout << buff;
+	}
+
+	pclose(in);
+	return 0;
+}
+
+int main() {
+
+	return 0;
+
+}

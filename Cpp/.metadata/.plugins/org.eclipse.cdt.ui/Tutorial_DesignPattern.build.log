@@ -1,6 +1,6 @@
-23:49:34 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+23:00:27 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
 make all 
 make: Nothing to be done for 'all'.
 
-23:49:34 Build Finished (took 78ms)
+23:00:28 Build Finished (took 69ms)
 

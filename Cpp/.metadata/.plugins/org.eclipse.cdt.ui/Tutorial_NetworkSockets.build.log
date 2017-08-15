@@ -1,6 +1,6 @@
-23:49:34 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+23:00:28 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
 make all 
 make: Nothing to be done for 'all'.
 
-23:49:34 Build Finished (took 81ms)
+23:00:28 Build Finished (took 66ms)
 

@@ -1,0 +1,10 @@
+22:46:54 **** Incremental Build of configuration Debug for project Test_cpp_commandline ****
+make all 
+Building target: Test_cpp_commandline
+Invoking: GCC C++ Linker
+g++  -o "Test_cpp_commandline"  ./src/Test_cpp_commandline.o   
+Finished building target: Test_cpp_commandline
+ 
+
+22:46:54 Build Finished (took 266ms)
+

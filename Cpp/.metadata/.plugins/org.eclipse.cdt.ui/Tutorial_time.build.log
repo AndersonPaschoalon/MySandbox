@@ -1,6 +1,6 @@
-23:49:35 **** Incremental Build of configuration Debug for project Tutorial_time ****
+23:00:29 **** Incremental Build of configuration Debug for project Tutorial_time ****
 make all 
 make: Nothing to be done for 'all'.
 
-23:49:35 Build Finished (took 73ms)
+23:00:29 Build Finished (took 67ms)
 

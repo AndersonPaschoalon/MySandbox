@@ -1,0 +1,6 @@
+23:00:28 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:00:28 Build Finished (took 65ms)
+
