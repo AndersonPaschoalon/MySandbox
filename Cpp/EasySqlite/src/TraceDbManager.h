@@ -78,6 +78,15 @@ public:
 	 * @param traceName
 	 * @param field
 	 * @param data
+	 * @return
+	 */
+	uint getTraceData(std::string traceName, std::string field, uint& data);
+
+	/**
+	 *
+	 * @param traceName
+	 * @param field
+	 * @param data
 	 */
 	uint getNumberOfFlows(std::string traceName);
 
@@ -108,11 +117,33 @@ public:
 	 * @param traceName
 	 * @param flowID
 	 * @param field
+	 * @param data
+	 * @return
+	 */
+	uint getFlowData(std::string traceName, int flowID,
+			std::string field, uint& data);
+
+	/**
+	 *
+	 * @param traceName
+	 * @param flowID
+	 * @param field
 	 * @param dataList
 	 * @return
 	 */
 	int getFlowPktData(std::string traceName, int flowID,
 			std::string field, std::list<int>& dataList);
+
+	/**
+	 *
+	 * @param traceName
+	 * @param flowID
+	 * @param field
+	 * @param dataList
+	 * @return
+	 */
+	int getFlowPktData(std::string traceName, int flowID,
+			std::string field, std::list<uint>& dataList);
 
 	/**
 	 *

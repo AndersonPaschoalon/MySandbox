@@ -7,12 +7,7 @@
 
 #include "DatabaseSqlite3.h"
 
-//DatabaseSqlite3::DatabaseSqlite3()
-//{
-//	m_db = NULL;
-//	m_db_is_open = false;
-//	m_verbose = false;
-//}
+//costructors-destructors//////////////////////////////////////////////////////
 
 DatabaseSqlite3::DatabaseSqlite3(std::string databaseFile, bool verbose)
 {
@@ -29,6 +24,8 @@ DatabaseSqlite3::~DatabaseSqlite3()
 	sqlite3_close(m_db);
 	//m_db_is_open = false;
 }
+
+//query////////////////////////////////////////////////////////////////////////
 
 int DatabaseSqlite3::query(std::string sql_query,
 		std::list<std::string>& out_values)
@@ -63,6 +60,8 @@ int DatabaseSqlite3::query(std::string sql_query,
 	return (DATABASE_SQLITE3_SUCCSESS);
 }
 
+//std::string//////////////////////////////////////////////////////////////////
+
 int DatabaseSqlite3::get(std::string table, std::string thecolumn,
 		std::list<std::string>& out_values)
 {
@@ -78,7 +77,6 @@ std::string DatabaseSqlite3::max(std::string column, std::string table,
 		std::string joinTable2, std::string table2_constaint,
 		std::string where_constraint, std::string& value)
 {
-
 
 	std::string sql_query;
 	std::list<std::string> out_values;
@@ -163,6 +161,8 @@ int DatabaseSqlite3::join(std::string column, std::string table,
 	return (DATABASE_SQLITE3_SUCCSESS);
 }
 
+//double///////////////////////////////////////////////////////////////////////
+
 int DatabaseSqlite3::get(std::string table, std::string thecolumn,
 		std::list<double>& out_values)
 {
@@ -212,6 +212,8 @@ double DatabaseSqlite3::max(std::string column, std::string table,
 
 	return (value);
 }
+
+//int//////////////////////////////////////////////////////////////////////////
 
 int DatabaseSqlite3::get(std::string table, std::string thecolumn,
 		std::list<int>& out_values)
@@ -265,6 +267,62 @@ int DatabaseSqlite3::max(std::string column, std::string table,
 	return (value);
 }
 
+//uint/////////////////////////////////////////////////////////////////////////
+
+int DatabaseSqlite3::get(std::string table, std::string thecolumn,
+		std::list<uint>& out_values)
+{
+	std::list<std::string> out_str;
+
+	get(table, thecolumn, out_str);
+	string_to_uint(out_str, out_values);
+
+	return (DATABASE_SQLITE3_SUCCSESS);
+}
+
+int DatabaseSqlite3::get_where(std::string table, std::string thecolumn,
+		std::string where_constraint, std::list<uint>& out_values)
+{
+	std::list<std::string> out_str;
+
+	get_where(table, thecolumn, where_constraint, out_str);
+	string_to_uint(out_str, out_values);
+
+	return (DATABASE_SQLITE3_SUCCSESS);
+}
+
+int DatabaseSqlite3::join(std::string column, std::string table,
+		std::string joinTable1, std::string table1_constraint,
+		std::string joinTable2, std::string table2_constaint,
+		std::string where_constraint, std::list<uint>& out_values)
+{
+	std::list<std::string> out_str;
+
+	join(column, table, joinTable1, table1_constraint, joinTable2,
+			table2_constaint, where_constraint, out_str);
+
+	string_to_uint(out_str, out_values);
+
+	return (DATABASE_SQLITE3_SUCCSESS);
+}
+
+uint DatabaseSqlite3::max(std::string column, std::string table,
+		std::string joinTable1, std::string table1_constraint,
+		std::string joinTable2, std::string table2_constaint,
+		std::string where_constraint, uint& value)
+{
+
+	std::string out_str;
+
+	max(column, table, joinTable1, table1_constraint, joinTable2,
+			table2_constaint, where_constraint, out_str);
+	value = uint(std::stoi(out_str));
+
+	return (value);
+}
+
+//converters///////////////////////////////////////////////////////////////////
+
 void DatabaseSqlite3::string_to_int(std::list<std::string> inlist,
 		std::list<int>& outlist)
 {
@@ -290,6 +348,21 @@ void DatabaseSqlite3::string_to_double(std::list<std::string> inlist,
 		outlist.push_back(std::stof(*it));
 	}
 }
+
+void DatabaseSqlite3::string_to_uint(std::list<std::string> inlist,
+		std::list<uint>& outlist)
+{
+	if (inlist.empty() == true)
+		return;
+
+	for (std::list<std::string>::iterator it = inlist.begin();
+			it != inlist.end(); it++)
+	{
+		outlist.push_back(uint(std::stoi(*it)));
+	}
+}
+
+//errors///////////////////////////////////////////////////////////////////////
 
 void DatabaseSqlite3::error_cant_open()
 {
@@ -331,13 +404,3 @@ void DatabaseSqlite3::error_data_list_empty(std::string query)
 			<< std::endl;
 }
 
-//void DatabaseSqlite3::continue_if_is_instantiated()
-//{
-//	if (m_db_is_open == false)
-//	{
-//		fprintf(stderr,
-//				"DatabaseSqlite3 Error: Database is not instantiated.\n");
-//		sqlite3_close(m_db);
-//		exit(DATABASE_SQLITE3_CANT_OPEN);
-//	}
-//}

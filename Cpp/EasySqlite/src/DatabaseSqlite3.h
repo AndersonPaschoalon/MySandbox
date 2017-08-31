@@ -13,8 +13,6 @@
 #include <list>
 #include <string>
 
-
-
 /**
  * Mutex used to perform operations
  */
@@ -67,7 +65,7 @@ public:
 	 */
 	virtual ~DatabaseSqlite3();
 
-	// string queries
+	//string queries///////////////////////////////////////////////////////////
 
 	/**
 	 *
@@ -127,7 +125,7 @@ public:
 			std::string joinTable2, std::string table2_constaint,
 			std::string where_constraint, std::string& value);
 
-	// double queries
+	//double queries///////////////////////////////////////////////////////////
 
 	/**
 	 *
@@ -187,7 +185,7 @@ public:
 			std::string table2_constaint, std::string where_constraint,
 			double& value);
 
-	// int queries
+	//int queries//////////////////////////////////////////////////////////////
 
 	/**
 	 *
@@ -248,6 +246,74 @@ public:
 			std::string table2_constaint, std::string where_constraint,
 			int& value);
 
+	//uint/////////////////////////////////////////////////////////////////////
+
+	/**
+	 *
+	 * @param table
+	 * @param thecolumn
+	 * @param out_values
+	 * @return
+	 */
+	int get(std::string table, std::string thecolumn,
+			std::list<uint>& out_values);
+
+	/**
+	 *
+	 * @param table
+	 * @param thecolumn
+	 * @param where_constraint
+	 * @param out_values
+	 * @return
+	 */
+	int get_where(std::string table, std::string thecolumn,
+			std::string where_constraint, std::list<uint>& out_values);
+
+	/**
+	 * Put "" on joinTable fields that are not going to be used.
+	 * If no joinTable is filed, it workas as the get_where() method.
+	 *
+	 * @param column
+	 * @param table
+	 * @param joinTable1
+	 * @param table1_constraint
+	 * @param joinTable2
+	 * @param table2_constaint
+	 * @param where_constraint
+	 * @param out_values
+	 * @return
+	 */
+	int join(std::string column, std::string table, std::string joinTable1,
+			std::string table1_constraint, std::string joinTable2,
+			std::string table2_constaint, std::string where_constraint,
+			std::list<uint>& out_values);
+
+	/**
+	 * Put "" on joinTable fields that are not going to be used.
+	 * If no joinTable is filed, it workas as the get_where() method.
+	 *
+	 * @param column
+	 * @param table
+	 * @param joinTable1
+	 * @param table1_constraint
+	 * @param joinTable2
+	 * @param table2_constaint
+	 * @param where_constraint
+	 * @param value
+	 * @return
+	 */
+	uint max(std::string column, std::string table, std::string joinTable1,
+			std::string table1_constraint, std::string joinTable2,
+			std::string table2_constaint, std::string where_constraint,
+			uint& value);
+
+	//query////////////////////////////////////////////////////////////////////
+	/**
+	 *
+	 * @param sql_query
+	 * @param out_values
+	 * @return
+	 */
 	int query(std::string sql_query, std::list<std::string>& out_values);
 
 private:
@@ -268,10 +334,7 @@ private:
 	 * flag that tells if the database is open or not
 	 */
 	//bool m_db_is_open = false;
-
 	// private methods
-
-
 
 	/**
 	 * @brief Convert a string list to a int list
@@ -279,6 +342,14 @@ private:
 	 * @param outlist
 	 */
 	void string_to_int(std::list<std::string> inlist, std::list<int>& outlist);
+
+	/**
+	 * @brief Convert a string list to a int list
+	 * @param inlist
+	 * @param outlist
+	 */
+	void string_to_uint(std::list<std::string> inlist,
+			std::list<uint>& outlist);
 
 	/**
 	 * @brief Convert a string list to a double list
@@ -312,12 +383,6 @@ private:
 	 *
 	 */
 	void error_data_list_empty(std::string query);
-
-
-	/**
-	 *
-	 */
-	void continue_if_is_instantiated();
 
 };
 
