@@ -1,6 +1,182 @@
+<<<<<<< HEAD
 14:05:24 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+=======
+17:04:02 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+>>>>>>> refs/remotes/origin/master
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/tutorial_rapidXml.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tutorial_rapidXml.d" -MT"src/tutorial_rapidXml.o" -o "src/tutorial_rapidXml.o" "../src/tutorial_rapidXml.cpp"
+In file included from ../src/tutorial_rapidXml.cpp:8:0:
+/usr/include/rapidxml/rapidxml_iterators.hpp:21:26: error: expected nested-name-specifier
+         typedef typename xml_node<Ch> value_type;
+                          ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:21:39: error: invalid declarator before ‘value_type’
+         typedef typename xml_node<Ch> value_type;
+                                       ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:22:26: error: expected nested-name-specifier
+         typedef typename xml_node<Ch> &reference;
+                          ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:22:39: error: invalid declarator before ‘&’ token
+         typedef typename xml_node<Ch> &reference;
+                                       ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:23:26: error: expected nested-name-specifier
+         typedef typename xml_node<Ch> *pointer;
+                          ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:23:39: error: invalid declarator before ‘*’ token
+         typedef typename xml_node<Ch> *pointer;
+                                       ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:37:9: error: ‘reference’ does not name a type
+         reference operator *() const
+         ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:43:9: error: ‘pointer’ does not name a type
+         pointer operator->() const
+         ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:100:26: error: expected nested-name-specifier
+         typedef typename xml_attribute<Ch> value_type;
+                          ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:100:44: error: invalid declarator before ‘value_type’
+         typedef typename xml_attribute<Ch> value_type;
+                                            ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:101:26: error: expected nested-name-specifier
+         typedef typename xml_attribute<Ch> &reference;
+                          ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:101:44: error: invalid declarator before ‘&’ token
+         typedef typename xml_attribute<Ch> &reference;
+                                            ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:102:26: error: expected nested-name-specifier
+         typedef typename xml_attribute<Ch> *pointer;
+                          ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:102:44: error: invalid declarator before ‘*’ token
+         typedef typename xml_attribute<Ch> *pointer;
+                                            ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:116:9: error: ‘reference’ does not name a type
+         reference operator *() const
+         ^
+/usr/include/rapidxml/rapidxml_iterators.hpp:122:9: error: ‘pointer’ does not name a type
+         pointer operator->() const
+         ^
+../src/tutorial_rapidXml.cpp: In function ‘void tutorial_real_trace()’:
+../src/tutorial_rapidXml.cpp:67:15: warning: unused variable ‘intBuffer’ [-Wunused-variable]
+  unsigned int intBuffer;
+               ^
+../src/tutorial_rapidXml.cpp:68:20: warning: unused variable ‘lintBuffer’ [-Wunused-variable]
+  unsigned long int lintBuffer;
+                    ^
+../src/tutorial_rapidXml.cpp:69:9: warning: unused variable ‘doubleBuffer’ [-Wunused-variable]
+  double doubleBuffer;
+         ^
+In file included from ../src/tutorial_rapidXml.cpp:7:0:
+/usr/include/rapidxml/rapidxml_print.hpp: In instantiation of ‘OutIt rapidxml::internal::print_node(OutIt, const rapidxml::xml_node<Ch>*, int, int) [with OutIt = std::back_insert_iterator<std::__cxx11::basic_string<char> >; Ch = char]’:
+/usr/include/rapidxml/rapidxml_print.hpp:390:36:   required from ‘OutIt rapidxml::print(OutIt, const rapidxml::xml_node<Ch>&, int) [with OutIt = std::back_insert_iterator<std::__cxx11::basic_string<char> >; Ch = char]’
+../src/tutorial_rapidXml.cpp:259:56:   required from here
+/usr/include/rapidxml/rapidxml_print.hpp:115:37: error: ‘print_children’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_children(out, node, flags, indent);
+                                     ^
+/usr/include/rapidxml/rapidxml_print.hpp:169:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_children(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_children(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:120:41: error: ‘print_element_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_element_node(out, node, flags, indent);
+                                         ^
+/usr/include/rapidxml/rapidxml_print.hpp:242:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_element_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_element_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:125:38: error: ‘print_data_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_data_node(out, node, flags, indent);
+                                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:208:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_data_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_data_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:130:39: error: ‘print_cdata_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_cdata_node(out, node, flags, indent);
+                                       ^
+/usr/include/rapidxml/rapidxml_print.hpp:219:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_cdata_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_cdata_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:135:45: error: ‘print_declaration_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_declaration_node(out, node, flags, indent);
+                                             ^
+/usr/include/rapidxml/rapidxml_print.hpp:298:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_declaration_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_declaration_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:140:41: error: ‘print_comment_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_comment_node(out, node, flags, indent);
+                                         ^
+/usr/include/rapidxml/rapidxml_print.hpp:321:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_comment_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_comment_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:145:41: error: ‘print_doctype_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_doctype_node(out, node, flags, indent);
+                                         ^
+/usr/include/rapidxml/rapidxml_print.hpp:339:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_doctype_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_doctype_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:150:36: error: ‘print_pi_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_pi_node(out, node, flags, indent);
+                                    ^
+/usr/include/rapidxml/rapidxml_print.hpp:361:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_pi_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_pi_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp: In instantiation of ‘OutIt rapidxml::internal::print_node(OutIt, const rapidxml::xml_node<Ch>*, int, int) [with OutIt = std::ostream_iterator<char, char, std::char_traits<char> >; Ch = char]’:
+/usr/include/rapidxml/rapidxml_print.hpp:390:36:   required from ‘OutIt rapidxml::print(OutIt, const rapidxml::xml_node<Ch>&, int) [with OutIt = std::ostream_iterator<char, char, std::char_traits<char> >; Ch = char]’
+/usr/include/rapidxml/rapidxml_print.hpp:403:14:   required from ‘std::basic_ostream<Ch>& rapidxml::print(std::basic_ostream<Ch>&, const rapidxml::xml_node<Ch>&, int) [with Ch = char]’
+/usr/include/rapidxml/rapidxml_print.hpp:414:21:   required from ‘std::basic_ostream<Ch>& rapidxml::operator<<(std::basic_ostream<Ch>&, const rapidxml::xml_node<Ch>&) [with Ch = char]’
+../src/tutorial_rapidXml.cpp:263:17:   required from here
+/usr/include/rapidxml/rapidxml_print.hpp:115:37: error: ‘print_children’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_children(out, node, flags, indent);
+                                     ^
+/usr/include/rapidxml/rapidxml_print.hpp:169:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_children(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_children(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:120:41: error: ‘print_element_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_element_node(out, node, flags, indent);
+                                         ^
+/usr/include/rapidxml/rapidxml_print.hpp:242:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_element_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_element_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:125:38: error: ‘print_data_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_data_node(out, node, flags, indent);
+                                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:208:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_data_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_data_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:130:39: error: ‘print_cdata_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_cdata_node(out, node, flags, indent);
+                                       ^
+/usr/include/rapidxml/rapidxml_print.hpp:219:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_cdata_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_cdata_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:135:45: error: ‘print_declaration_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_declaration_node(out, node, flags, indent);
+                                             ^
+/usr/include/rapidxml/rapidxml_print.hpp:298:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_declaration_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_declaration_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:140:41: error: ‘print_comment_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_comment_node(out, node, flags, indent);
+                                         ^
+/usr/include/rapidxml/rapidxml_print.hpp:321:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_comment_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_comment_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:145:41: error: ‘print_doctype_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_doctype_node(out, node, flags, indent);
+                                         ^
+/usr/include/rapidxml/rapidxml_print.hpp:339:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_doctype_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+         inline OutIt print_doctype_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+/usr/include/rapidxml/rapidxml_print.hpp:150:36: error: ‘print_pi_node’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+                 out = print_pi_node(out, node, flags, indent);
+                                    ^
+/usr/include/rapidxml/rapidxml_print.hpp:361:22: note: ‘template<class OutIt, class Ch> OutIt rapidxml::internal::print_pi_node(OutIt, const rapidxml::xml_node<Ch>*, int, int)’ declared here, later in the translation unit
+src/subdir.mk:24: recipe for target 'src/tutorial_rapidXml.o' failed
+         inline OutIt print_pi_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+                      ^
+make: *** [src/tutorial_rapidXml.o] Error 1
 
+<<<<<<< HEAD
 14:05:24 Build Finished (took 66ms)
+=======
+17:04:03 Build Finished (took 822ms)
+>>>>>>> refs/remotes/origin/master
 

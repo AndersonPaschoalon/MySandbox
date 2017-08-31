@@ -1,6 +1,20 @@
+<<<<<<< HEAD
 14:05:24 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+=======
+17:04:02 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+>>>>>>> refs/remotes/origin/master
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Tutorial_libtins.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_libtins.d" -MT"src/Tutorial_libtins.o" -o "src/Tutorial_libtins.o" "../src/Tutorial_libtins.cpp"
+../src/Tutorial_libtins.cpp:10:23: fatal error: tins/tins.h: Arquivo ou diretório não encontrado
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/Tutorial_libtins.o' failed
+make: *** [src/Tutorial_libtins.o] Error 1
 
+<<<<<<< HEAD
 14:05:24 Build Finished (took 68ms)
+=======
+17:04:02 Build Finished (took 119ms)
+>>>>>>> refs/remotes/origin/master
 

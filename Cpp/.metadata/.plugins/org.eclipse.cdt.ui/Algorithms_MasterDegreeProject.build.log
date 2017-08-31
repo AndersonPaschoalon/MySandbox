@@ -1,6 +1,64 @@
+<<<<<<< HEAD
 14:05:21 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+=======
+17:03:41 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+>>>>>>> refs/remotes/origin/master
 make all 
-make: Nothing to be done for 'all'.
+Building target: Algorithms_MasterDegreeProject
+Invoking: GCC C++ Linker
+g++  -o "Algorithms_MasterDegreeProject"  ./src/Algorithms.o   -larmadillo -lsqlite3
+makefile:45: recipe for target 'Algorithms_MasterDegreeProject' failed
+/usr/bin/ld: a arquitetura i386:x86-64 do arquivo de entrada `./src/Algorithms.o' é incompatível com a saída i386
+./src/Algorithms.o: na função `DataProcessor::fitModels(std::__cxx11::list<double, std::allocator<double> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:79: referência indefinida para `operator new[](unsigned long)'
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:184: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::weibullFitting(arma::Col<double> const&, arma::Col<double> const&, arma::Col<double>&, arma::Col<double>&)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:212: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::exponentialLrFitting(arma::Col<double> const&, arma::Col<double> const&, arma::Col<double>&, arma::Col<double>&)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:260: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::paretoLrFitting(arma::Col<double> const&, arma::Col<double> const&, arma::Col<double>&, arma::Col<double>&)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:310: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::cauchyFitting(arma::Col<double> const&, arma::Col<double> const&, arma::Col<double>&, arma::Col<double>&)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:368: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::empiricalCdf(std::__cxx11::list<double, std::allocator<double> >&)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:531: referência indefinida para `operator new(unsigned long)'
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:531: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::featureMatrix(std::__cxx11::list<double, std::allocator<double> >&)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:557: referência indefinida para `operator new(unsigned long)'
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:557: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::featureMatrix(arma::Col<double> const&)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:574: referência indefinida para `operator new(unsigned long)'
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:574: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::test_empiricalCdf()':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:1069: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::test_computeCost()':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:1119: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::test_gradientDescendent()':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:1264: referência indefinida para `operator delete(void*, unsigned long)'
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:1265: referência indefinida para `operator delete(void*, unsigned long)'
+./src/Algorithms.o:/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:1595: mais referências indefinidas para seguir `operator delete(void*, unsigned long)'
+./src/Algorithms.o: na função `DataProcessor::test_modelSelection()':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:1630: referência indefinida para `operator delete[](void*, unsigned long)'
+./src/Algorithms.o: na função `double* DataProcessor::list_to_cvector<double>(std::__cxx11::list<double, std::allocator<double> >*)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:500: referência indefinida para `operator new[](unsigned long)'
+./src/Algorithms.o: na função `int DataProcessor::mode<int>(std::__cxx11::list<int, std::allocator<int> >*)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:450: referência indefinida para `operator new[](unsigned long)'
+./src/Algorithms.o: na função `int* DataProcessor::list_to_cvector<int>(std::__cxx11::list<int, std::allocator<int> >*)':
+/home/anderson/Workspace/Cpp/Algorithms_MasterDegreeProject/Debug/../src/Algorithms.cpp:500: referência indefinida para `operator new[](unsigned long)'
+./src/Algorithms.o: na função `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > arma::arma_str::str<unsigned long long, unsigned long long, unsigned long long, unsigned long long>(arma::arma_str::basic_format<arma::arma_str::basic_format<arma::arma_str::basic_format<arma::arma_str::basic_format<arma::arma_str::format, unsigned long long>, unsigned long long>, unsigned long long>, unsigned long long> const&)':
+/usr/include/armadillo_bits/arma_str.hpp:287: referência indefinida para `operator new[](unsigned long)'
+./src/Algorithms.o: na função `__gnu_cxx::new_allocator<std::_List_node<double> >::allocate(unsigned long, void const*)':
+/usr/include/c++/6/ext/new_allocator.h:104: referência indefinida para `operator new(unsigned long)'
+./src/Algorithms.o: na função `__gnu_cxx::new_allocator<std::_List_node<int> >::allocate(unsigned long, void const*)':
+/usr/include/c++/6/ext/new_allocator.h:104: referência indefinida para `operator new(unsigned long)'
+/usr/bin/ld: ./src/Algorithms.o: classe do arquivo ELFCLASS64 é incompatível com ELFCLASS32
+/usr/bin/ld: falha no link final: Arquivo no formato errado
+collect2: error: ld returned 1 exit status
+make: *** [Algorithms_MasterDegreeProject] Error 1
 
+<<<<<<< HEAD
 14:05:21 Build Finished (took 70ms)
+=======
+17:03:42 Build Finished (took 548ms)
+>>>>>>> refs/remotes/origin/master
 
