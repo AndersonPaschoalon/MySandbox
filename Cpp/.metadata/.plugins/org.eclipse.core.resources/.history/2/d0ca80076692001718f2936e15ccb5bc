@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : FastTest.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+		bool tcp = true;
+
+		std::string valval = (tcp == true)? "" : "udp";
+		std::cout << "Hello: " << valval << std::endl;
+
+		return 0;
+}

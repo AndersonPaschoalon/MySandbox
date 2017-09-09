@@ -8,12 +8,11 @@ import numpy as np
 
 
 class EasyPlot:
-    def __init__(self, plot_dir='', data_dir='', font='Helvetica,10', xlabel='', ylabel='', title='',
+    def __init__(self, plot_dir='', data_dir='', xlabel='', ylabel='', title='',
                  sizeratio='0', linestyle1='r-', linestyle2='b-', linestyle3='g-', linestyle4='v-',
-                 legend1='', legend2='', legend3='', legend4='', line_width='2'):
+                 legend1='', legend2='', legend3='', legend4='', line_width='2', font_size=15, font_name='Helvetica'):
         self.__plot_dir = plot_dir
         self.__data_dir = data_dir
-        self.__font = font
         self.__xlabel = xlabel
         self.__ylabel = ylabel
         self.__title = title
@@ -28,6 +27,8 @@ class EasyPlot:
         self.__legend4 = legend4
         self.__lw = line_width
         self.__data = []
+        self.__font = {'fontname': + font_name, 'size': str(font_size), 'color':'black', 'weight':'normal',
+              'verticalalignment':'bottom'}
 
     @staticmethod
     def __column(data, i):
@@ -99,6 +100,23 @@ class EasyPlot:
         if line_width != '':
             self.__lw = line_width
 
+    def plot_function(self, filename='', datafile=""):
+        fig = plt.figure()
+        if self.__title != '':
+            plt.title(self.__title)
+        if self.__xlabel != '':
+            plt.xlabel(self.__xlabel)
+        if self.__ylabel != '':
+            plt.ylabel(self.__ylabel)
+        if
+
+        filename = self.__plot_dir + '/' + filename
+        datafile = self.__data_dir + '/' + datafile
+
+
+        fig.savefig( self.__plot_dir + '/' + filename, bbox_inches='tight')
+
+
     def plot_2f1error(self, filename="", datafile=""):
         print('todo')
 
@@ -126,16 +144,7 @@ class EasyPlot:
     def plot_3function(self, filename="", datafile=""):
         print('todo')
 
-    def plot_function(self, filename='', datafile=""):
-        fig = plt.figure()
-        if self.__title != '':
-            plt.title(self.__title)
-        if self.__xlabel != '':
-            plt.xlabel(self.__xlabel)
-        if self.__ylabel != '':
-            plt.ylabel(self.__ylabel)
 
-        fig.savefig( self.__plot_dir + '/' + filename, bbox_inches='tight')
 
     def plot_2f2data_log(self, filename="", datafile1="", datafile2=""):
         print('todo')

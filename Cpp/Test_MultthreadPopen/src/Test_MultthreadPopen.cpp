@@ -44,7 +44,7 @@ int make1()
 	FILE *in;
 	char buff[512];
 
-	if (!(in = popen("make -C ../../../SIMITAR/libsimitar/", "r"))) {
+	if (!(in = popen("ls -lahn", "r"))) {
 	//if (!(in = popen("pwd", "r"))) {
 		return 1;
 	}
@@ -66,7 +66,7 @@ int make2()
 	FILE *in;
 	char buff[512];
 
-	if (!(in = popen(" make -C ../../../SIMITAR/trace-analyzer/", "r"))) {
+	if (!(in = popen("ls -lahn", "r"))) {
 		return 1;
 	}
 
