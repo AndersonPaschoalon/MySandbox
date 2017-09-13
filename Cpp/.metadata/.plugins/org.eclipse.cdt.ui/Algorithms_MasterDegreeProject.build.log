@@ -1,6 +1,6 @@
-22:52:46 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+17:18:29 **** Build of configuration Debug for project Algorithms_MasterDegreeProject ****
 make all 
 make: Nothing to be done for 'all'.
 
-22:52:46 Build Finished (took 69ms)
+17:18:29 Build Finished (took 65ms)
 

@@ -1,10 +1,6 @@
-22:52:48 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+17:18:32 **** Build of configuration Debug for project Tutorial_iperf ****
 make all 
-Building target: Tutorial_iperf
-Invoking: GCC C++ Linker
-g++  -o "Tutorial_iperf"  ./src/Tutorial_iperf.o   -lpthread
-Finished building target: Tutorial_iperf
- 
+make: Nothing to be done for 'all'.
 
-22:52:48 Build Finished (took 118ms)
+17:18:33 Build Finished (took 64ms)
 

@@ -1,0 +1,15 @@
+17:18:31 **** Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+Building file: ../src/Tutorial_Factory2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_Factory2.d" -MT"src/Tutorial_Factory2.o" -o "src/Tutorial_Factory2.o" "../src/Tutorial_Factory2.cpp"
+Finished building: ../src/Tutorial_Factory2.cpp
+ 
+Building target: Tutorial_Factory2
+Invoking: GCC C++ Linker
+g++  -o "Tutorial_Factory2"  ./src/Tutorial_Factory2.o   
+Finished building target: Tutorial_Factory2
+ 
+
+17:18:32 Build Finished (took 271ms)
+

@@ -14433,3 +14433,140 @@ make: Nothing to be done for 'all'.
 22:52:49 **** Incremental Build of configuration Debug for project Tutorial_time ****
 make all 
 make: Nothing to be done for 'all'.
+17:18:29 **** Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:29 **** Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:29 **** Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:29 **** Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:29 **** Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:30 **** Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:30 **** Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+17:18:30 **** Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:30 **** Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:30 **** Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:30 **** Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:30 **** Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:30 **** Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+17:18:30 **** Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:31 **** Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:31 **** Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:31 **** Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+Building file: ../src/DitgFlow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DitgFlow.d" -MT"src/DitgFlow.o" -o "src/DitgFlow.o" "../src/DitgFlow.cpp"
+Finished building: ../src/DitgFlow.cpp
+ 
+Building file: ../src/DummyFlow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DummyFlow.d" -MT"src/DummyFlow.o" -o "src/DummyFlow.o" "../src/DummyFlow.cpp"
+Finished building: ../src/DummyFlow.cpp
+ 
+Building file: ../src/IperfFlow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IperfFlow.d" -MT"src/IperfFlow.o" -o "src/IperfFlow.o" "../src/IperfFlow.cpp"
+Finished building: ../src/IperfFlow.cpp
+ 
+Building file: ../src/NetworkFlow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkFlow.d" -MT"src/NetworkFlow.o" -o "src/NetworkFlow.o" "../src/NetworkFlow.cpp"
+Finished building: ../src/NetworkFlow.cpp
+ 
+Building file: ../src/NetworkTrace.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkTrace.d" -MT"src/NetworkTrace.o" -o "src/NetworkTrace.o" "../src/NetworkTrace.cpp"
+Finished building: ../src/NetworkTrace.cpp
+ 
+Building file: ../src/Tutorial_Factory.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_Factory.d" -MT"src/Tutorial_Factory.o" -o "src/Tutorial_Factory.o" "../src/Tutorial_Factory.cpp"
+Finished building: ../src/Tutorial_Factory.cpp
+ 
+Building target: Tutorial_Factory1
+Invoking: GCC C++ Linker
+g++  -o "Tutorial_Factory1"  ./src/DitgFlow.o ./src/DummyFlow.o ./src/IperfFlow.o ./src/NetworkFlow.o ./src/NetworkTrace.o ./src/Tutorial_Factory.o   
+Finished building target: Tutorial_Factory1
+ 
+17:18:31 **** Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+Building file: ../src/Tutorial_Factory2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_Factory2.d" -MT"src/Tutorial_Factory2.o" -o "src/Tutorial_Factory2.o" "../src/Tutorial_Factory2.cpp"
+Finished building: ../src/Tutorial_Factory2.cpp
+ 
+Building target: Tutorial_Factory2
+Invoking: GCC C++ Linker
+g++  -o "Tutorial_Factory2"  ./src/Tutorial_Factory2.o   
+Finished building target: Tutorial_Factory2
+ 
+17:18:32 **** Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:32 **** Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:32 **** Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:32 **** Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:32 **** Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:32 **** Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:33 **** Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:33 **** Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:33 **** Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:33 **** Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.

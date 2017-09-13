@@ -1,6 +1,6 @@
-22:52:47 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+17:18:30 **** Build of configuration Debug for project Tests_StochasticFit ****
 make all 
 make: Nothing to be done for 'all'.
 
-22:52:47 Build Finished (took 70ms)
+17:18:31 Build Finished (took 78ms)
 

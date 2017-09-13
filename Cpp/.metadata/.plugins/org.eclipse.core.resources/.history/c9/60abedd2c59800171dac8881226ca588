@@ -1,0 +1,17 @@
+/*
+ * Ellipse.h
+ *
+ *  Created on: 13 de set de 2017
+ *      Author: anderson
+ */
+
+#ifndef ELLIPSE_H_
+#define ELLIPSE_H_
+
+class Ellipse {
+public:
+	Ellipse();
+	virtual ~Ellipse();
+};
+
+#endif /* ELLIPSE_H_ */
