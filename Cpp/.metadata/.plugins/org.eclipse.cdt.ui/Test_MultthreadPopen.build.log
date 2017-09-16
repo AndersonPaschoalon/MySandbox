@@ -1,6 +1,6 @@
-17:18:30 **** Build of configuration Debug for project Test_MultthreadPopen ****
+18:57:16 **** Build of configuration Debug for project Test_MultthreadPopen ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:18:30 Build Finished (took 88ms)
+18:57:16 Build Finished (took 67ms)
 

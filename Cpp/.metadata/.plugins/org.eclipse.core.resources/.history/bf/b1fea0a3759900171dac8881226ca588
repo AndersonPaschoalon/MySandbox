@@ -1,0 +1,18 @@
+/*
+ * Factory.cpp
+ *
+ *  Created on: 14 de set de 2017
+ *      Author: anderson
+ */
+
+#include "Factory.h"
+
+Factory::Factory() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Factory::~Factory() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,6 +1,6 @@
-17:18:29 **** Build of configuration Debug for project Libpcap_tutorial ****
+18:57:15 **** Build of configuration Debug for project Libpcap_tutorial ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:18:30 Build Finished (took 73ms)
+18:57:15 Build Finished (took 59ms)
 

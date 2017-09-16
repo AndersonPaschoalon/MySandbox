@@ -1,0 +1,18 @@
+/*
+ * RobustShapeFactory.cpp
+ *
+ *  Created on: 14 de set de 2017
+ *      Author: anderson
+ */
+
+#include "RobustShapeFactory.h"
+
+RobustShapeFactory::RobustShapeFactory() {
+	// TODO Auto-generated constructor stub
+
+}
+
+RobustShapeFactory::~RobustShapeFactory() {
+	// TODO Auto-generated destructor stub
+}
+

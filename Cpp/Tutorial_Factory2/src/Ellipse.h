@@ -4,6 +4,8 @@
  *  Created on: 13 de set de 2017
  *      Author: anderson
  */
+#include <iostream>
+using namespace std;
 
 #ifndef ELLIPSE_H_
 #define ELLIPSE_H_

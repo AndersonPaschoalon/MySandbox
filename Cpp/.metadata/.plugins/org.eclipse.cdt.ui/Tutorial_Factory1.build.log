@@ -1,40 +1,6 @@
-17:18:31 **** Build of configuration Debug for project Tutorial_Factory1 ****
+18:57:17 **** Build of configuration Debug for project Tutorial_Factory1 ****
 make all 
-Building file: ../src/DitgFlow.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DitgFlow.d" -MT"src/DitgFlow.o" -o "src/DitgFlow.o" "../src/DitgFlow.cpp"
-Finished building: ../src/DitgFlow.cpp
- 
-Building file: ../src/DummyFlow.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DummyFlow.d" -MT"src/DummyFlow.o" -o "src/DummyFlow.o" "../src/DummyFlow.cpp"
-Finished building: ../src/DummyFlow.cpp
- 
-Building file: ../src/IperfFlow.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IperfFlow.d" -MT"src/IperfFlow.o" -o "src/IperfFlow.o" "../src/IperfFlow.cpp"
-Finished building: ../src/IperfFlow.cpp
- 
-Building file: ../src/NetworkFlow.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkFlow.d" -MT"src/NetworkFlow.o" -o "src/NetworkFlow.o" "../src/NetworkFlow.cpp"
-Finished building: ../src/NetworkFlow.cpp
- 
-Building file: ../src/NetworkTrace.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkTrace.d" -MT"src/NetworkTrace.o" -o "src/NetworkTrace.o" "../src/NetworkTrace.cpp"
-Finished building: ../src/NetworkTrace.cpp
- 
-Building file: ../src/Tutorial_Factory.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_Factory.d" -MT"src/Tutorial_Factory.o" -o "src/Tutorial_Factory.o" "../src/Tutorial_Factory.cpp"
-Finished building: ../src/Tutorial_Factory.cpp
- 
-Building target: Tutorial_Factory1
-Invoking: GCC C++ Linker
-g++  -o "Tutorial_Factory1"  ./src/DitgFlow.o ./src/DummyFlow.o ./src/IperfFlow.o ./src/NetworkFlow.o ./src/NetworkTrace.o ./src/Tutorial_Factory.o   
-Finished building target: Tutorial_Factory1
- 
+make: Nothing to be done for 'all'.
 
-17:18:31 Build Finished (took 415ms)
+18:57:17 Build Finished (took 61ms)
 

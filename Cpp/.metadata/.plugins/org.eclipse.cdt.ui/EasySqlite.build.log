@@ -1,6 +1,6 @@
-17:18:29 **** Build of configuration Debug for project EasySqlite ****
+18:57:14 **** Build of configuration Debug for project EasySqlite ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:18:29 Build Finished (took 71ms)
+18:57:15 Build Finished (took 60ms)
 

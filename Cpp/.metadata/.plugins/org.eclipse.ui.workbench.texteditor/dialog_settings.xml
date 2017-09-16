@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="nodelay" key="selection"/>
+		<item value="delta_us" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="delta_us"/>
+			<item value="timeval"/>
+			<item value="print_current_time_with_ms"/>
+			<item value="select"/>
+			<item value="_plog_logfile_env"/>
 			<item value="nodelay"/>
 			<item value="transmission_type"/>
 			<item value="bytes"/>
-			<item value="--num"/>
-			<item value="getTraceData(std::string traceName"/>
-			<item value="max"/>
-			<item value="int DatabaseSqlite3::max"/>
-			<item value="getFlowData"/>
 		</list>
 		<list key="replacehistory">
 			<item value="out_values"/>

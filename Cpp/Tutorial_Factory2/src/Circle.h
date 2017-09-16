@@ -15,6 +15,7 @@ using namespace std;
 
 class Circle : public Shape {
   public:
+	~Circle(){}
     void draw() {
       cout << "circle " << id_ << ": draw" << endl;
     }

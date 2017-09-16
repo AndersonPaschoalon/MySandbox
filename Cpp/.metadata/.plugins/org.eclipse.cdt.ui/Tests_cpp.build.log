@@ -1,6 +1,6 @@
-17:18:31 **** Build of configuration Release for project Tests_cpp ****
+18:57:17 **** Build of configuration Release for project Tests_cpp ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:18:31 Build Finished (took 82ms)
+18:57:17 Build Finished (took 63ms)
 

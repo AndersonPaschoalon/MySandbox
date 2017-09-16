@@ -1,0 +1,9 @@
+﻿Date;Time;Severity;TID;This;Function;Message
+2017/09/14;17:14:40.194;DEBUG;19275;0;main@16;"[../src/Test_PlogMacros.cpp] Debug"
+2017/09/14;17:14:40.194;ERROR;19275;0;main@17;"[../src/Test_PlogMacros.cpp] Error"
+2017/09/14;17:16:32.223;DEBUG;19362;0;main@16;"[../src/Test_PlogMacros.cpp] Debug"
+2017/09/14;17:16:32.223;ERROR;19362;0;main@17;"[../src/Test_PlogMacros.cpp] Error"
+2017/09/14;17:23:23.285;DEBUG;20161;0;main@16;"[../src/Test_PlogMacros.cpp] Debug"
+2017/09/14;17:23:23.285;ERROR;20161;0;main@17;"[../src/Test_PlogMacros.cpp] Error"
+2017/09/14;17:38:29.036;DEBUG;21000;0;main@17;"[../src/Test_PlogMacros.cpp] Debug"
+2017/09/14;17:38:29.036;ERROR;21000;0;main@18;"[../src/Test_PlogMacros.cpp] Error"

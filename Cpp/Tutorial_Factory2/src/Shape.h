@@ -11,14 +11,16 @@
 #include <iostream>
 
 class Shape {
-  public:
-    Shape() {
-      id_ = total_++;
-    }
-    virtual void draw() = 0;
-  protected:
-    int id_;
-    static int total_;
+public:
+	Shape() {
+		id_ = total_++;
+	}
+	virtual ~Shape() {
+	}
+	virtual void draw() = 0;
+protected:
+	int id_;
+	static int total_;
 };
 
 int Shape::total_ = 0;

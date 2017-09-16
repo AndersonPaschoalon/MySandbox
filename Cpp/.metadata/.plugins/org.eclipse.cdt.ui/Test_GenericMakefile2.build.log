@@ -1,6 +1,6 @@
-17:18:30 **** Build of configuration Default for project Test_GenericMakefile2 ****
+18:57:16 **** Build of configuration Default for project Test_GenericMakefile2 ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:18:30 Build Finished (took 69ms)
+18:57:16 Build Finished (took 64ms)
 

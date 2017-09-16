@@ -1,6 +1,29 @@
-17:18:29 **** Build of configuration Debug for project FastTest ****
+18:57:15 **** Build of configuration Debug for project FastTest ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/FastTest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FastTest.d" -MT"src/FastTest.o" -o "src/FastTest.o" "../src/FastTest.cpp"
+../src/FastTest.cpp: In function ‘int main()’:
+../src/FastTest.cpp:30:47: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  char *cmd[] = { "ls -l -a -h", "", (char *)0 };
+                                               ^
+../src/FastTest.cpp:30:47: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+../src/FastTest.cpp:25:7: warning: unused variable ‘binfile’ [-Wunused-variable]
+  char binfile[] = "/bin/ls";
+       ^~~~~~~
+../src/FastTest.cpp:27:7: warning: unused variable ‘command’ [-Wunused-variable]
+  char command[] = "ls -lahn";
+       ^~~~~~~
+../src/FastTest.cpp:28:7: warning: unused variable ‘opts’ [-Wunused-variable]
+  char opts[] = " -lahn ";
+       ^~~~
+Finished building: ../src/FastTest.cpp
+ 
+Building target: FastTest
+Invoking: GCC C++ Linker
+g++  -o "FastTest"  ./src/FastTest.o   
+Finished building target: FastTest
+ 
 
-17:18:29 Build Finished (took 72ms)
+18:57:15 Build Finished (took 509ms)
 

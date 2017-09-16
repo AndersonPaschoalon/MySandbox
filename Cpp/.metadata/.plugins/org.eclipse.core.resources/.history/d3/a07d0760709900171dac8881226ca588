@@ -1,0 +1,17 @@
+/*
+ * SimpleShapeFactory.h
+ *
+ *  Created on: 14 de set de 2017
+ *      Author: anderson
+ */
+
+#ifndef SIMPLESHAPEFACTORY_H_
+#define SIMPLESHAPEFACTORY_H_
+
+class SimpleShapeFactory {
+public:
+	SimpleShapeFactory();
+	virtual ~SimpleShapeFactory();
+};
+
+#endif /* SIMPLESHAPEFACTORY_H_ */
