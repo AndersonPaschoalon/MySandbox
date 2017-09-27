@@ -1,6 +1,6 @@
-18:57:17 **** Build of configuration Debug for project Test_nemaspace ****
+23:24:02 **** Build of configuration Debug for project Test_nemaspace ****
 make all 
 make: Nothing to be done for 'all'.
 
-18:57:17 Build Finished (took 64ms)
+23:24:02 Build Finished (took 108ms)
 

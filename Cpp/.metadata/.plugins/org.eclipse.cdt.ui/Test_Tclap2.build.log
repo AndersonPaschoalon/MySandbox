@@ -1,6 +1,6 @@
-18:57:16 **** Build of configuration Debug for project Test_Tclap2 ****
+23:24:02 **** Build of configuration Debug for project Test_Tclap2 ****
 make all 
 make: Nothing to be done for 'all'.
 
-18:57:16 Build Finished (took 62ms)
+23:24:02 Build Finished (took 77ms)
 

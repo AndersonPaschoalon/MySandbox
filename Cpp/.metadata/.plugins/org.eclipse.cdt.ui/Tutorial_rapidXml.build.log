@@ -1,6 +1,6 @@
-18:57:18 **** Build of configuration Debug for project Tutorial_rapidXml ****
+23:24:07 **** Build of configuration Debug for project Tutorial_rapidXml ****
 make all 
 make: Nothing to be done for 'all'.
 
-18:57:18 Build Finished (took 62ms)
+23:24:07 Build Finished (took 92ms)
 

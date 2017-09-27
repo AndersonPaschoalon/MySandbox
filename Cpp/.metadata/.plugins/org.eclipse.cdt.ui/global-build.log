@@ -21039,3 +21039,142 @@ make: Nothing to be done for 'all'.
 19:00:55 **** Incremental Build of configuration Debug for project Popen2 ****
 make all 
 make: Nothing to be done for 'all'.
+23:23:59 **** Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+23:23:59 **** Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+23:23:59 **** Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:00 **** Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:00 **** Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:00 **** Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:00 **** Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:01 **** Build of configuration Debug for project Popen2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+23:24:01 **** Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:02 **** Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:02 **** Build of configuration Debug for project Test_PlogMacros ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:02 **** Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:02 **** Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:02 **** Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:02 **** Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+23:24:03 **** Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:03 **** Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:03 **** Build of configuration Debug for project TimeScale ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/TimeScale.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TimeScale.d" -MT"src/TimeScale.o" -o "src/TimeScale.o" "../src/TimeScale.cpp"
+In file included from ../src/TimeScale.cpp:8:0:
+../src/TimeScale.h:22:33: error: ‘std::string’ has not been declared
+  static double scaleFactor(std::string ts_str);
+                                 ^~~~~~
+../src/TimeScale.h:24:35: error: ‘std::string’ has not been declared
+  static time_scale timeScale(std::string ts_str);
+                                   ^~~~~~
+../src/TimeScale.cpp: In static member function ‘static double TimeScale::scaleFactor(time_scale)’:
+../src/TimeScale.cpp:23:2: error: ‘cerr’ is not a member of ‘std’
+  std::cerr << "Error TimeScale::scaleFactor(): Invalid time_scale: " << ts
+  ^~~
+../src/TimeScale.cpp:24:7: error: ‘endl’ is not a member of ‘std’
+    << std::endl;
+       ^~~
+../src/TimeScale.cpp: At global scope:
+../src/TimeScale.cpp:28:36: error: ‘double TimeScale::scaleFactor’ is not a static data member of ‘class TimeScale’
+ double TimeScale::scaleFactor(std::string ts_str) {
+                                    ^~~~~~
+../src/TimeScale.cpp:28:31: error: ‘string’ is not a member of ‘std’
+ double TimeScale::scaleFactor(std::string ts_str) {
+                               ^~~
+../src/TimeScale.cpp:37:38: error: ‘time_scale TimeScale::timeScale’ is not a static data member of ‘class TimeScale’
+ time_scale TimeScale::timeScale(std::string ts_str) {
+                                      ^~~~~~
+../src/TimeScale.cpp:37:33: error: ‘string’ is not a member of ‘std’
+ time_scale TimeScale::timeScale(std::string ts_str) {
+                                 ^~~
+make: *** [src/TimeScale.o] Error 1
+src/subdir.mk:21: recipe for target 'src/TimeScale.o' failed
+23:24:04 **** Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:05 **** Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:05 **** Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:05 **** Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:05 **** Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:06 **** Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:06 **** Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:06 **** Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:06 **** Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:07 **** Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:07 **** Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:07 **** Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:07 **** Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.

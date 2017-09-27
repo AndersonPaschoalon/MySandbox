@@ -1,6 +1,6 @@
-18:57:17 **** Build of configuration Debug for project Tutorial_Factory1 ****
+23:24:05 **** Build of configuration Debug for project Tutorial_Factory1 ****
 make all 
 make: Nothing to be done for 'all'.
 
-18:57:17 Build Finished (took 61ms)
+23:24:05 Build Finished (took 115ms)
 

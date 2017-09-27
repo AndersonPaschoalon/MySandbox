@@ -1,4 +1,4 @@
-18:57:17 **** Build of configuration Build (GNU) for project Tests_Autotools ****
+23:24:02 **** Build of configuration Build (GNU) for project Tests_Autotools ****
 make all 
 Making all in src
 make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
@@ -8,5 +8,5 @@ make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
 make[1]: Nothing to be done for 'all-am'.
 make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
 
-18:57:17 Build Finished (took 63ms)
+23:24:03 Build Finished (took 130ms)
 

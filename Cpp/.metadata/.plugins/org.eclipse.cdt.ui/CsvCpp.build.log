@@ -1,6 +1,6 @@
-18:57:14 **** Build of configuration Debug for project CsvCpp ****
+23:23:59 **** Build of configuration Debug for project CsvCpp ****
 make all 
 make: Nothing to be done for 'all'.
 
-18:57:14 Build Finished (took 75ms)
+23:23:59 Build Finished (took 103ms)
 

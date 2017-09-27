@@ -1,0 +1,17 @@
+/*
+ * TimeScale.h
+ *
+ *  Created on: 26 de set de 2017
+ *      Author: anderson
+ */
+
+#ifndef TIMESCALE_H_
+#define TIMESCALE_H_
+
+class TimeScale {
+public:
+	TimeScale();
+	virtual ~TimeScale();
+};
+
+#endif /* TIMESCALE_H_ */
