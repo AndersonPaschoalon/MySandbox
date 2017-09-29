@@ -1,6 +1,6 @@
-23:24:00 **** Build of configuration Debug for project NetConfig ****
+19:07:58 **** Incremental Build of configuration Debug for project NetConfig ****
 make all 
 make: Nothing to be done for 'all'.
 
-23:24:01 Build Finished (took 199ms)
+19:07:58 Build Finished (took 95ms)
 

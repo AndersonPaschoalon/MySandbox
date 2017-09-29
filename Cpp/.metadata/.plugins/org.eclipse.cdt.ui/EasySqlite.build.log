@@ -1,6 +1,6 @@
-23:23:59 **** Build of configuration Debug for project EasySqlite ****
+19:07:57 **** Incremental Build of configuration Debug for project EasySqlite ****
 make all 
 make: Nothing to be done for 'all'.
 
-23:24:00 Build Finished (took 116ms)
+19:07:57 Build Finished (took 91ms)
 

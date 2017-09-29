@@ -1,6 +1,6 @@
-23:24:02 **** Build of configuration Debug for project Test_Tclap ****
+19:07:59 **** Incremental Build of configuration Debug for project Test_Tclap ****
 make all 
 make: Nothing to be done for 'all'.
 
-23:24:02 Build Finished (took 103ms)
+19:07:59 Build Finished (took 86ms)
 

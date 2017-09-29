@@ -1,0 +1,18 @@
+/*
+ * AbsClass.h
+ *
+ *  Created on: 28 de set de 2017
+ *      Author: anderson
+ */
+
+#ifndef ABSCLASS_H_
+#define ABSCLASS_H_
+
+class AbsClass {
+public:
+	AbsClass();
+	virtual ~AbsClass();
+	void print(){}
+};
+
+#endif /* ABSCLASS_H_ */

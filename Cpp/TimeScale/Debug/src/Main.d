@@ -1,3 +1,10 @@
-src/Main.o: ../src/Main.cpp ../src/TimeScale.h
+src/Main.o: ../src/Main.cpp ../src/AbsClass.h ../src/BaseClass.h \
+ ../src/D1Class.h ../src/D2Class.h
 
-../src/TimeScale.h:
+../src/AbsClass.h:
+
+../src/BaseClass.h:
+
+../src/D1Class.h:
+
+../src/D2Class.h:

@@ -1,42 +1,6 @@
-23:24:03 **** Build of configuration Debug for project TimeScale ****
+19:08:09 **** Incremental Build of configuration Debug for project TimeScale ****
 make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building file: ../src/TimeScale.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TimeScale.d" -MT"src/TimeScale.o" -o "src/TimeScale.o" "../src/TimeScale.cpp"
-In file included from ../src/TimeScale.cpp:8:0:
-../src/TimeScale.h:22:33: error: ‘std::string’ has not been declared
-  static double scaleFactor(std::string ts_str);
-                                 ^~~~~~
-../src/TimeScale.h:24:35: error: ‘std::string’ has not been declared
-  static time_scale timeScale(std::string ts_str);
-                                   ^~~~~~
-../src/TimeScale.cpp: In static member function ‘static double TimeScale::scaleFactor(time_scale)’:
-../src/TimeScale.cpp:23:2: error: ‘cerr’ is not a member of ‘std’
-  std::cerr << "Error TimeScale::scaleFactor(): Invalid time_scale: " << ts
-  ^~~
-../src/TimeScale.cpp:24:7: error: ‘endl’ is not a member of ‘std’
-    << std::endl;
-       ^~~
-../src/TimeScale.cpp: At global scope:
-../src/TimeScale.cpp:28:36: error: ‘double TimeScale::scaleFactor’ is not a static data member of ‘class TimeScale’
- double TimeScale::scaleFactor(std::string ts_str) {
-                                    ^~~~~~
-../src/TimeScale.cpp:28:31: error: ‘string’ is not a member of ‘std’
- double TimeScale::scaleFactor(std::string ts_str) {
-                               ^~~
-../src/TimeScale.cpp:37:38: error: ‘time_scale TimeScale::timeScale’ is not a static data member of ‘class TimeScale’
- time_scale TimeScale::timeScale(std::string ts_str) {
-                                      ^~~~~~
-../src/TimeScale.cpp:37:33: error: ‘string’ is not a member of ‘std’
- time_scale TimeScale::timeScale(std::string ts_str) {
-                                 ^~~
-make: *** [src/TimeScale.o] Error 1
-src/subdir.mk:21: recipe for target 'src/TimeScale.o' failed
+make: Nothing to be done for 'all'.
 
-23:24:04 Build Finished (took 924ms)
+19:08:09 Build Finished (took 75ms)
 
