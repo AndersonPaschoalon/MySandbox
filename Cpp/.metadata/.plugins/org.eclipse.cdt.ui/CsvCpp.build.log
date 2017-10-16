@@ -1,6 +1,6 @@
-19:07:57 **** Incremental Build of configuration Debug for project CsvCpp ****
+19:25:44 **** Incremental Build of configuration Debug for project CsvCpp ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:07:57 Build Finished (took 101ms)
+19:25:44 Build Finished (took 92ms)
 

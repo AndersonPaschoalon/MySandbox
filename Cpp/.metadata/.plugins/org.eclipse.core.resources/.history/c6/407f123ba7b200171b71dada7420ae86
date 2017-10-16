@@ -1,0 +1,17 @@
+/*
+ * RegressionTests.h
+ *
+ *  Created on: 16 de out de 2017
+ *      Author: anderson
+ */
+
+#ifndef REGRESSIONTESTS_H_
+#define REGRESSIONTESTS_H_
+
+class RegressionTests {
+public:
+	RegressionTests();
+	virtual ~RegressionTests();
+};
+
+#endif /* REGRESSIONTESTS_H_ */

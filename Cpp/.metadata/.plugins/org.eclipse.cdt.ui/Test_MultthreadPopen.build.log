@@ -1,6 +1,6 @@
-19:07:58 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+19:25:46 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:07:58 Build Finished (took 98ms)
+19:25:46 Build Finished (took 83ms)
 

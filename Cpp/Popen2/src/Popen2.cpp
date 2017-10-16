@@ -22,6 +22,13 @@ using namespace std;
 
 using namespace std;
 
+#include <time.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <inttypes.h>
+
+#define _POSIX_C_SOURCE 200809L
+
 #define READ   0
 #define WRITE  1
 
@@ -79,18 +86,18 @@ int pclose2(FILE * fp, pid_t pid) {
 	return stat;
 }
 
-int main() {
+void popen2_test1() {
 	int pid;
-	string command = "ping 8.8.8.8";
-	FILE * fp = popen2(command, "r", pid);
-	char command_out[100] = { 0 };
+	string command1 = "ping 8.8.8.8";
+	FILE * fp = popen2(command1, "r", pid);
+	char command1_out[100] = { 0 };
 	stringstream output;
 
 	//Using read() so that I have the option of using select() if I want non-blocking flow
-	while (read(fileno(fp), command_out, sizeof(command_out) - 1) != 0) {
-		output << string(command_out);
+	while (read(fileno(fp), command1_out, sizeof(command1_out) - 1) != 0) {
+		output << string(command1_out);
 		kill(-pid, 9);
-		memset(&command_out, 0, sizeof(command_out));
+		memset(&command1_out, 0, sizeof(command1_out));
 	}
 
 	string token;
@@ -98,6 +105,44 @@ int main() {
 		printf("OUT: %s\n", token.c_str());
 
 	pclose2(fp, pid);
+}
+
+void popen2_test2() {
+	int pid1;
+	string command1 = "ping 8.8.8.8 -c 15";
+	FILE * fp1 = popen2(command1, "r", pid1);
+	char command1_out[100] = { 0 };
+
+	int pid2;
+	string command2 = "ping www.google.com -c 5";
+	FILE * fp2 = popen2(command2, "r", pid2);
+	char command2_out[100] = { 0 };
+
+	//Using read() so that I have the option of using select() if I want non-blocking flow
+	while ((read(fileno(fp1), command1_out, sizeof(command1_out) - 1) != 0)
+			|| ((read(fileno(fp2), command2_out, sizeof(command2_out) - 1) != 0))) {
+		std::cout << string(command1_out);
+		std::cout << string(command2_out);
+
+	}
+
+	pclose2(fp1, pid1);
+	pclose2(fp2, pid2);
+
+}
+
+int main() {
+	bool test1 = false;
+	bool test2 = true;
+
+	if (test1 == true) {
+		std::cout << "popen2_test1()\n";
+		popen2_test1();
+	}
+	if (test2 == true) {
+		std::cout << "popen2_test2()\n";
+		popen2_test2();
+	}
 
 	return 0;
 }

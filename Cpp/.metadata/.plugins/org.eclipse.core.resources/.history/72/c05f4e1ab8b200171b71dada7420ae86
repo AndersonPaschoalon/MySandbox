@@ -1,0 +1,64 @@
+//============================================================================
+// Name        : test_iptimes_gen_alg.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+
+#include "StochasticModelFit.h"
+#include "RegressionTests.h"
+using namespace std;
+
+double summ_vector(vector<double>  &vec)
+{
+	uint size = vec.size();
+	double summ = 0;
+
+	for(uint i = 0; i < size; i++)
+	{
+		summ += summ + vec[i];
+	}
+	return(summ);
+}
+
+
+int main() {
+
+	//StochasticModelFit model = StochasticModelFit();
+	//model.unity_tests();
+	double alpha = 1.2;
+	double beta = 0.314;
+	double aa = -15;
+	double bb = -7;
+	uint npackets = 20;
+	vector<double> iptimes(npackets, 0);
+	double ipt_summ = 0;
+	double max_gen_time = 0;
+	double sub_summ = 0;
+	double on_time = 50.0;
+
+
+	StochasticModelFit ipt = StochasticModelFit(WEIBULL, alpha, beta, aa, bb);
+
+	for(uint i = 0; i < npackets; i++)
+	{
+		iptimes[i] = ipt.getRandom();
+		ipt_summ += iptimes[i];
+		max_gen_time = (iptimes[i] > max_gen_time)? iptimes[i] : max_gen_time;
+	}
+
+	for(uint i = 0; i < npackets; i++)
+	{
+		cout << iptimes[i] << ", ";
+	}
+	cout << endl;
+
+
+
+	//cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

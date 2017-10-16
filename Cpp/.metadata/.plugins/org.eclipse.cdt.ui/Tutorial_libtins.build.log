@@ -1,6 +1,6 @@
-19:08:02 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+19:25:50 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:08:02 Build Finished (took 89ms)
+19:25:50 Build Finished (took 75ms)
 

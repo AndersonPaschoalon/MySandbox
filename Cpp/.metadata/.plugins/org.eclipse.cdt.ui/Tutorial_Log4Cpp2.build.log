@@ -1,6 +1,6 @@
-19:08:01 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+19:25:48 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:08:01 Build Finished (took 83ms)
+19:25:49 Build Finished (took 120ms)
 
