@@ -1,6 +1,6 @@
-19:25:50 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+11:58:07 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:25:50 Build Finished (took 89ms)
+11:58:08 Build Finished (took 109ms)
 

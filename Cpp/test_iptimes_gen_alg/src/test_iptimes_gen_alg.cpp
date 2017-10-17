@@ -15,7 +15,7 @@ using namespace std;
 
 double summ_vector(vector<double>  &vec)
 {
-	cout << "size = " << vec.size();
+	//cout << "size = " << vec.size();
 	uint size = vec.size();
 	double summ = 0;
 
@@ -26,8 +26,47 @@ double summ_vector(vector<double>  &vec)
 	return(summ);
 }
 
+bool regularize_iptimes(vector<double>& iptimes, double on_time, double reg_time){
+	double time_i = 0;
+	double ipt_summ = summ_vector(iptimes);
+
+	if(ipt_summ < on_time){
+		return(true);
+	}
+	else
+	{
+		for (uint i = 0; i < iptimes.size(); i++)
+		{
+			if(iptimes[i] > reg_time)
+			{
+				ipt_summ = ipt_summ - iptimes[i];
+				iptimes[i] = 0;
+				if(ipt_summ < on_time){
+					return(true);
+				}
+			}
+		}
+	}
+	return (false);
+}
+void print_vector(vector<double>& iptimes)
+{
+	for(uint i = 0; i < iptimes.size(); i++)
+	{
+		cout << iptimes[i] << ", ";
+	}
+	cout << endl;
+}
+
+/**
+ * Esse algoritimo gera um vetor de tempos regularizados a partir de uma função estocastica.
+ * Regularizados pois a soma dos valores nunca ultrapassa um limite
+ * @return
+ */
 
 int main() {
+
+
 
 	//StochasticModelFit model = StochasticModelFit();
 	//model.unity_tests();
@@ -40,7 +79,7 @@ int main() {
 	double ipt_summ = 0;
 	double max_gen_time = 0;
 	double sub_summ = 0;
-	double on_time = 50.0;
+	double on_time = 0.1;
 
 
 	StochasticModelFit ipt = StochasticModelFit(WEIBULL, alpha, beta, aa, bb);
@@ -51,17 +90,21 @@ int main() {
 		ipt_summ += iptimes[i];
 		max_gen_time = (iptimes[i] > max_gen_time)? iptimes[i] : max_gen_time;
 	}
+	sub_summ = ipt_summ;
 
-	for(uint i = 0; i < npackets; i++)
+	cout << "max_gen_time:" << max_gen_time << endl;
+	cout << "summ before : " << summ_vector(iptimes) << endl;
+	print_vector(iptimes);
+
+	uint cc = 0;
+	while(regularize_iptimes(iptimes, on_time, max_gen_time/2) == false)
 	{
-		cout << iptimes[i] << "\t";
+		cout << cc << endl;
+		cc++;
+		max_gen_time = max_gen_time/2;
 	}
-	cout << endl;
+	print_vector(iptimes);
+	cout << "summ after : " << summ_vector(iptimes) << endl;
 
-	cout << "summ: " << summ_vector(iptimes);
-
-
-
-	//cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	return 0;
 }

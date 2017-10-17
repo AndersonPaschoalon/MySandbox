@@ -1,6 +1,6 @@
-19:25:46 **** Incremental Build of configuration Debug for project Test_nemaspace ****
+11:58:04 **** Incremental Build of configuration Debug for project Test_nemaspace ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:25:46 Build Finished (took 125ms)
+11:58:04 Build Finished (took 97ms)
 

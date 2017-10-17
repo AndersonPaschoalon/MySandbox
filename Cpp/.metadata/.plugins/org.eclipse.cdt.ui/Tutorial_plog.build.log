@@ -1,6 +1,6 @@
-19:25:50 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+11:58:07 **** Incremental Build of configuration Debug for project Tutorial_plog ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:25:50 Build Finished (took 106ms)
+11:58:07 Build Finished (took 99ms)
 

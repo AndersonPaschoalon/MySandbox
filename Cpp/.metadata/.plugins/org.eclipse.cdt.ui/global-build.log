@@ -26967,3 +26967,1053 @@ Finished building target: test_iptimes_gen_alg
 19:25:56 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
 make all 
 make: Nothing to be done for 'all'.
+11:47:08 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:08 **** Incremental Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:08 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:09 **** Incremental Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:09 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:09 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:09 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:09 **** Incremental Build of configuration Debug for project Popen2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+11:47:10 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:10 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:10 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:11 **** Incremental Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:11 **** Incremental Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:11 **** Incremental Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:11 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+11:47:12 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:12 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:12 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:12 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:12 **** Incremental Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:13 **** Incremental Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:13 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:13 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:13 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:14 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:14 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:14 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:15 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:15 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:15 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:15 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:16 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:81:2: error: expected ‘;’ before ‘cout’
+  cout << "summ after : " << summ_vector(iptimes) << endl;
+  ^~~~
+make: *** [src/test_iptimes_gen_alg.o] Error 1
+src/subdir.mk:24: recipe for target 'src/test_iptimes_gen_alg.o' failed
+11:47:21 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:81:2: error: expected ‘;’ before ‘cout’
+  cout << "summ after : " << summ_vector(iptimes) << endl;
+  ^~~~
+make: *** [src/test_iptimes_gen_alg.o] Error 1
+src/subdir.mk:24: recipe for target 'src/test_iptimes_gen_alg.o' failed
+11:47:31 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:31 **** Incremental Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:31 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:32 **** Incremental Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:32 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:32 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:32 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:32 **** Incremental Build of configuration Debug for project Popen2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+11:47:32 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:33 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:33 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:33 **** Incremental Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:33 **** Incremental Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:33 **** Incremental Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:34 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+11:47:34 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:34 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:34 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:35 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:35 **** Incremental Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:35 **** Incremental Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:35 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:35 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:36 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:36 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:36 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:36 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:36 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:37 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:37 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:37 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:37 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:65:9: warning: variable ‘sub_summ’ set but not used [-Wunused-but-set-variable]
+  double sub_summ = 0;
+         ^~~~~~~~
+Finished building: ../src/test_iptimes_gen_alg.cpp
+ 
+Building target: test_iptimes_gen_alg
+Invoking: GCC C++ Linker
+g++  -o "test_iptimes_gen_alg"  ./src/RegressionTests.o ./src/StochasticModelFit.o ./src/test_iptimes_gen_alg.o   -larmadillo
+Finished building target: test_iptimes_gen_alg
+ 
+11:47:43 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:07 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:07 **** Incremental Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:07 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:07 **** Incremental Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:08 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:08 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:08 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:08 **** Incremental Build of configuration Debug for project Popen2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+11:48:08 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:08 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:09 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:09 **** Incremental Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:09 **** Incremental Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:09 **** Incremental Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:09 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+11:48:10 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:10 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:10 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:10 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:10 **** Incremental Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:11 **** Incremental Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:11 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:11 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:11 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:12 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:12 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:12 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:12 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:12 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:13 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:13 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:13 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:65:9: warning: variable ‘sub_summ’ set but not used [-Wunused-but-set-variable]
+  double sub_summ = 0;
+         ^~~~~~~~
+Finished building: ../src/test_iptimes_gen_alg.cpp
+ 
+Building target: test_iptimes_gen_alg
+Invoking: GCC C++ Linker
+g++  -o "test_iptimes_gen_alg"  ./src/RegressionTests.o ./src/StochasticModelFit.o ./src/test_iptimes_gen_alg.o   -larmadillo
+Finished building target: test_iptimes_gen_alg
+ 
+11:48:19 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:25 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:31 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:36 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:18 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:18 **** Incremental Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:18 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:18 **** Incremental Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:19 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:19 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:19 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:19 **** Incremental Build of configuration Debug for project Popen2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+11:49:19 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:19 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:20 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:20 **** Incremental Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:20 **** Incremental Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:20 **** Incremental Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:20 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+11:49:21 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:21 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:21 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:21 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:22 **** Incremental Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:22 **** Incremental Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:22 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:22 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:22 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:23 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:23 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:23 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:23 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:23 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:24 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:24 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:24 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:65:9: warning: variable ‘sub_summ’ set but not used [-Wunused-but-set-variable]
+  double sub_summ = 0;
+         ^~~~~~~~
+Finished building: ../src/test_iptimes_gen_alg.cpp
+ 
+Building target: test_iptimes_gen_alg
+Invoking: GCC C++ Linker
+g++  -o "test_iptimes_gen_alg"  ./src/RegressionTests.o ./src/StochasticModelFit.o ./src/test_iptimes_gen_alg.o   -larmadillo
+Finished building target: test_iptimes_gen_alg
+ 
+11:49:30 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:17 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:18 **** Incremental Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:18 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:18 **** Incremental Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:18 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:19 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:19 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:19 **** Incremental Build of configuration Debug for project Popen2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+11:51:19 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:19 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:19 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:20 **** Incremental Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:20 **** Incremental Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:20 **** Incremental Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:20 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+11:51:21 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:21 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:21 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:21 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:22 **** Incremental Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:22 **** Incremental Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:22 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:22 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:23 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:23 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:23 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:23 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:23 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:24 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:24 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:24 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:24 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:73:9: warning: variable ‘sub_summ’ set but not used [-Wunused-but-set-variable]
+  double sub_summ = 0;
+         ^~~~~~~~
+Finished building: ../src/test_iptimes_gen_alg.cpp
+ 
+Building target: test_iptimes_gen_alg
+Invoking: GCC C++ Linker
+g++  -o "test_iptimes_gen_alg"  ./src/RegressionTests.o ./src/StochasticModelFit.o ./src/test_iptimes_gen_alg.o   -larmadillo
+Finished building target: test_iptimes_gen_alg
+ 
+11:51:43 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:43 **** Incremental Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:44 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:44 **** Incremental Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:44 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:44 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:44 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:44 **** Incremental Build of configuration Debug for project Popen2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+11:51:45 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:45 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:45 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:45 **** Incremental Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:45 **** Incremental Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:46 **** Incremental Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:46 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+11:51:46 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:46 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:47 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:47 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:47 **** Incremental Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:47 **** Incremental Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:47 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:47 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:48 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:48 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:48 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:48 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:49 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:49 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:49 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:49 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:49 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:73:9: warning: variable ‘sub_summ’ set but not used [-Wunused-but-set-variable]
+  double sub_summ = 0;
+         ^~~~~~~~
+Finished building: ../src/test_iptimes_gen_alg.cpp
+ 
+Building target: test_iptimes_gen_alg
+Invoking: GCC C++ Linker
+g++  -o "test_iptimes_gen_alg"  ./src/RegressionTests.o ./src/StochasticModelFit.o ./src/test_iptimes_gen_alg.o   -larmadillo
+Finished building target: test_iptimes_gen_alg
+ 
+11:51:55 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:52:03 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:52:09 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:52:18 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:73:9: warning: variable ‘sub_summ’ set but not used [-Wunused-but-set-variable]
+  double sub_summ = 0;
+         ^~~~~~~~
+Finished building: ../src/test_iptimes_gen_alg.cpp
+ 
+Building target: test_iptimes_gen_alg
+Invoking: GCC C++ Linker
+g++  -o "test_iptimes_gen_alg"  ./src/RegressionTests.o ./src/StochasticModelFit.o ./src/test_iptimes_gen_alg.o   -larmadillo
+Finished building target: test_iptimes_gen_alg
+ 
+11:52:28 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:53 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:53 **** Incremental Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:53 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:53 **** Incremental Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:53 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:54 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:54 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:54 **** Incremental Build of configuration Debug for project Popen2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+11:56:54 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:54 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:54 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:55 **** Incremental Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:55 **** Incremental Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:55 **** Incremental Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:55 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+11:56:56 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:56 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:56 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:56 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:56 **** Incremental Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:56 **** Incremental Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:57 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:57 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:57 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:57 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:58 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:58 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:58 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:58 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:58 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:58 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:59 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:73:9: warning: variable ‘sub_summ’ set but not used [-Wunused-but-set-variable]
+  double sub_summ = 0;
+         ^~~~~~~~
+Finished building: ../src/test_iptimes_gen_alg.cpp
+ 
+Building target: test_iptimes_gen_alg
+Invoking: GCC C++ Linker
+g++  -o "test_iptimes_gen_alg"  ./src/RegressionTests.o ./src/StochasticModelFit.o ./src/test_iptimes_gen_alg.o   -larmadillo
+Finished building target: test_iptimes_gen_alg
+ 
+11:57:03 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:01 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:02 **** Incremental Build of configuration Debug for project CsvCpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:02 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:02 **** Incremental Build of configuration Debug for project FastTest ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:02 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:03 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:03 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:03 **** Incremental Build of configuration Debug for project Popen2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+11:58:03 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:03 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:04 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:04 **** Incremental Build of configuration Debug for project Test_Tclap ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:04 **** Incremental Build of configuration Debug for project Test_Tclap2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:04 **** Incremental Build of configuration Debug for project Test_nemaspace ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:04 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+Making all in src
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
+make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+11:58:05 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:05 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:05 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:05 **** Incremental Build of configuration Debug for project Tutorial_DesignPattern ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:05 **** Incremental Build of configuration Debug for project Tutorial_Factory1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:05 **** Incremental Build of configuration Debug for project Tutorial_Factory2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:06 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:06 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:06 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:07 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:07 **** Incremental Build of configuration Debug for project Tutorial_ditg ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:07 **** Incremental Build of configuration Debug for project Tutorial_iperf ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:07 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:07 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:07 **** Incremental Build of configuration Debug for project Tutorial_rapidXml ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:08 **** Incremental Build of configuration Debug for project Tutorial_time ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:08 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+Building file: ../src/test_iptimes_gen_alg.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_iptimes_gen_alg.d" -MT"src/test_iptimes_gen_alg.o" -o "src/test_iptimes_gen_alg.o" "../src/test_iptimes_gen_alg.cpp"
+../src/test_iptimes_gen_alg.cpp: In function ‘bool regularize_iptimes(std::vector<double>&, double, double)’:
+../src/test_iptimes_gen_alg.cpp:30:9: warning: unused variable ‘time_i’ [-Wunused-variable]
+  double time_i = 0;
+         ^~~~~~
+../src/test_iptimes_gen_alg.cpp: In function ‘int main()’:
+../src/test_iptimes_gen_alg.cpp:73:9: warning: variable ‘sub_summ’ set but not used [-Wunused-but-set-variable]
+  double sub_summ = 0;
+         ^~~~~~~~
+Finished building: ../src/test_iptimes_gen_alg.cpp
+ 
+Building target: test_iptimes_gen_alg
+Invoking: GCC C++ Linker
+g++  -o "test_iptimes_gen_alg"  ./src/RegressionTests.o ./src/StochasticModelFit.o ./src/test_iptimes_gen_alg.o   -larmadillo
+Finished building target: test_iptimes_gen_alg
+ 
+11:58:15 **** Incremental Build of configuration Debug for project test_iptimes_gen_alg ****
+make all 
+make: Nothing to be done for 'all'.

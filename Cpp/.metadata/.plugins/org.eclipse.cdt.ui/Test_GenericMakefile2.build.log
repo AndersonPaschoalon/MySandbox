@@ -1,6 +1,6 @@
-19:25:45 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+11:58:03 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:25:45 Build Finished (took 119ms)
+11:58:03 Build Finished (took 114ms)
 
