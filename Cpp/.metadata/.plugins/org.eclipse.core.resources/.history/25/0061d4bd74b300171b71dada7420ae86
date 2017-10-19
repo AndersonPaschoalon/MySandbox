@@ -1,0 +1,267 @@
+//============================================================================
+// Name        : Tutorial_libtins.cpp
+// Author      : Anderson Paschoalon
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <tins/tins.h>
+#include <string>
+#include "Protocol.h"
+
+using namespace Tins;
+using std::string;
+
+void test1_sniffer();
+bool callback(const PDU &pdu);
+void test2_sendpkt();
+void test3_sendpkt();
+string randomStr();
+void sendPackets(std::string etherProtocol, std::string etherDst,
+		std::string etherSrc, std::string netProtocol, std::string netSrc,
+		std::string netDst, uint ttlNumber, std::string transportProtocol,
+		uint portStc, uint portDst, uint npackets);
+void test3_sendpkt();
+void test4_sendpkt();
+
+int main()
+{
+
+	bool t1 = false; // Sniffer
+	bool t2 = false;	// send packet
+	bool t3 = false; // send an arbitrary number of packets
+	bool t4 = true;
+
+	if (t1)
+		test1_sniffer();
+	if (t2)
+		test2_sendpkt();
+	if (t3)
+		test3_sendpkt();
+	if (t4)
+		test4_sendpkt();
+
+}
+
+void test1_sniffer()
+{
+	Sniffer("enp3s0").sniff_loop(callback);
+}
+string randomStr()
+{
+	string sRet =
+			"FWvzqBro8ND379AQyZcfT14J8YWsooQrE5YuGlD4RCLXZW7ZRTygTG1cf50hkAEd9WgNPUob1ODGajJW4JyAaiIOFBqbp2XbHvr6mlll1JCmOMDByESFZ27vrhpYbHuDCIDvsiF6VfbZPkvbRChe5Z2NWTiIw28p96sUmw8cCmx7U0k3iIgmQTvS2a3jjyDlyCg6Qs6f mdaRI9UgEERUwVWZPJrK FE4RMONaVsR0FlaO1gk5 myNdOl6rVK8YwaAIHQlf 50Mbjq17Nd1y7ICY2mtP RfB9bjr1kGNwmGYWN7BD 1zSg2jDcGpRjr3mdw9LVdwNj9qWT9L97XZCOG5lK4V0L4uqaIloPfnwS1uevJa7gW8zrv21xMA6pFIS7M4zskGgNX7S2xS5OphBwimkW4gbCN5hD0vfehgMVRPPRVuHS9mooErXlZRs4uDfzuJQxW9o8LjVSPsTgRgTBiHwcWYlBScoGaNy JW7S1xTh6ZNpTYevkctq 20x4W37p0chHMIiy1v9r KZ8PmRl2e2iNtiJYTelE bj8hwpCmYdxj5KjGJJmX 8tQXbsSCSQJa6pS3Hkgi 8KqYXqu2gqriR349WAcN lM4o9an32ieUxEwCUURU nRH6Pni2ysC46Pz0eMin 4Y2NZ8Z0kR3ZKT35j8G0 6zbN7SyXUj0gj849vcMk EJv5qVlNUQ3wVNJNlDBc FY1BGJBuQTaxk7ifzlOI Eah91G3lnyOmizmsJnwv hWDK7badVMZD27vA9ipwPf7voUAlIaBbHr1DiFpTjnkk9KF6sU4teOWyACR3LExbPrfrE6QJ4UuFOVw3zGY1PIqUlw0iomvo1Nfi27Pc9iU7mf59ycXuvHjkLVlB1uzMkUoBue0r57GIcVGJzlxmDLzDJx9riQe5NDBjLSf3aNF6iiwNBEBfq5fPnJiCmv6TyNqoSRozzKFdj2JvEw7NAlAli3xECI7fy0ry1nLXPJsPSMNGhrWbLkPROVMldWZrOafK";
+	return (sRet);
+}
+
+bool callback(const PDU &pdu)
+{
+	const IP &ip = pdu.rfind_pdu<IP>(); // Find the IP layer
+	const TCP &tcp = pdu.rfind_pdu<TCP>(); // Find the TCP layer
+	std::cout << ip.src_addr() << ':' << tcp.sport() << " -> " << ip.dst_addr()
+			<< ':' << tcp.dport() << std::endl;
+	return true;
+}
+
+void test2_sendpkt()
+{
+	PacketSender sender;
+	IP pkt = IP("192.168.0.1") / TCP(22) / RawPDU(randomStr().c_str());
+	std::cout << std::endl;
+	for (;;)
+	{
+		sender.send(pkt);
+		std::cout << ".";
+	}
+}
+
+void sendPackets(protocol etherProtocol, protocol netProtocol,
+		protocol transportProtocol, protocol application, std::string etherDst,
+		std::string etherSrc, std::string netSrc, std::string netDst,
+		uint ttlNumber, uint portStc, uint portDst, uint npackets, uint pktSize)
+{
+
+	PacketSender sender;
+	PDU* flowPkt;
+
+	/// Packet crafter
+
+	if (etherProtocol == PROTOCOL__ETHERNET)
+	{
+		if (netProtocol == PROTOCOL__IPV4)
+		{
+
+			IP ip_pkt = IP(netDst, netDst);
+			ip_pkt.ttl(ttlNumber);
+
+			if (transportProtocol == PROTOCOL__TCP)
+			{
+				if (application == PROTOCOL__DHCP)
+				{
+
+					flowPkt = new ip_pkt / TCP(portDst, portStc) / DHCP()
+							/ RawPDU(std::string(pktSize, 'H'));
+				}
+				else if (application == PROTOCOL__DNS)
+				{
+
+					flowPkt = new ip_pkt / TCP(portDst, portStc) / DNS()
+							/ RawPDU(std::string(pktSize, 'D'));
+				}
+				else
+				{
+					flowPkt = new ip_pkt / TCP(portDst, portStc)
+							/ RawPDU(std::string(pktSize, 'T'));
+				}
+
+			}
+			else if (transportProtocol == PROTOCOL__UDP)
+			{
+
+				if (application == PROTOCOL__DHCP)
+				{
+
+					flowPkt = new ip_pkt / UDP(portDst, portStc) / DHCP()
+							/ RawPDU(std::string(pktSize, 'H'));
+				}
+				else if (application == PROTOCOL__DNS)
+				{
+
+					flowPkt = new ip_pkt / UDP(portDst, portStc) / DNS()
+							/ RawPDU(std::string(pktSize, 'D'));
+				}
+				else
+				{
+					flowPkt = new ip_pkt / UDP(portDst, portStc)
+							/ RawPDU(std::string(pktSize, 'U'));
+				}
+
+			}
+			else if (transportProtocol == PROTOCOL__ICMP)
+			{
+
+				flowPkt = new ip_pkt / ICMP()
+						/ RawPDU(std::string(pktSize, 'I'));
+			}
+
+		}
+		else if (netProtocol == "ipv6")
+		{
+
+			IPv6 ipv6_pkt(netDst, netDst);
+			ipv6_pkt.hop_limit(ttlNumber);
+
+			if (transportProtocol == PROTOCOL__TCP)
+			{
+				if (application == PROTOCOL__DHCP)
+				{
+
+					flowPkt = new ipv6_pkt / TCP(portDst, portStc) / DHCP()
+							/ RawPDU(std::string(pktSize, 'H'));
+				}
+				else if (application == PROTOCOL__DNS)
+				{
+
+					flowPkt = new ipv6_pkt / TCP(portDst, portStc) / DNS()
+							/ RawPDU(std::string(pktSize, 'D'));
+				}
+				else
+				{
+					flowPkt = new ipv6_pkt / TCP(portDst, portStc)
+							/ RawPDU(std::string(pktSize, 'T'));
+				}
+
+			}
+			else if (transportProtocol == PROTOCOL__UDP)
+			{
+
+				if (application == PROTOCOL__DHCP)
+				{
+
+					flowPkt = new ipv6_pkt / UDP(portDst, portStc) / DHCP()
+							/ RawPDU(std::string(pktSize, 'h'));
+				}
+				else if (application == PROTOCOL__DNS)
+				{
+
+					flowPkt = new ipv6_pkt / UDP(portDst, portStc) / DNS()
+							/ RawPDU(std::string(pktSize, 'd'));
+				}
+				else
+				{
+					flowPkt = new ipv6_pkt / UDP(portDst, portStc)
+							/ RawPDU(std::string(pktSize, 'u'));
+				}
+			}
+			else if (transportProtocol == PROTOCOL__ICMP)
+			{
+
+				flowPkt = new ipv6_pkt / ICMPv6()
+						/ RawPDU(std::string(pktSize, 'i'));
+			}
+		}
+	}
+	else if (etherProtocol == PROTOCOL__ARP)
+	{
+		flowPkt = new ARP();
+	}
+	else
+	{
+
+	}
+
+	/// send packet
+	std::cout << std::endl;
+	for (;;)
+	{
+		sender.send(*flowPkt);
+		std::cout << ".";
+	}
+
+	delete flowPkt;
+
+	PacketSender sender;
+	EthernetII pkt = EthernetII() / IP() / TCP() / RawPDU("foo");
+	sender.send(pkt, "eth0"); // send it through eth0
+
+// if you're sending multiple packets, you might want to create
+// the NetworkInterface object once
+	NetworkInterface iface("eth0");
+	sender.send(pkt, iface);
+}
+
+void test3_sendpkt()
+{
+	PacketSender sender;
+	PDU* pkt;
+
+	pkt = new IP("192.168.0.1");
+
+	std::cout << std::endl;
+	for (;;)
+	{
+		sender.send(*pkt, "enp3s0");
+		std::cout << ".";
+	}
+
+	delete pkt;
+}
+
+void test4_sendpkt()
+{
+	PacketSender sender;
+	IP flowPkt = IP();
+
+/// Packet crafter
+
+/// send packet
+	std::cout << std::endl;
+	for (;;)
+	{
+		sender.send(flowPkt);
+		std::cout << ".";
+	}
+
+}

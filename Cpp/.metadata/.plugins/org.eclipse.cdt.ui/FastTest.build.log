@@ -1,6 +1,6 @@
-11:58:02 **** Incremental Build of configuration Debug for project FastTest ****
+01:14:55 **** Incremental Build of configuration Debug for project FastTest ****
 make all 
 make: Nothing to be done for 'all'.
 
-11:58:02 Build Finished (took 220ms)
+01:14:55 Build Finished (took 106ms)
 

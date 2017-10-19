@@ -1,6 +1,15 @@
-11:58:07 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
+01:15:00 **** Incremental Build of configuration Debug for project Tutorial_libtins ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Tutorial_libtins.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_libtins.d" -MT"src/Tutorial_libtins.o" -o "src/Tutorial_libtins.o" "../src/Tutorial_libtins.cpp"
+Finished building: ../src/Tutorial_libtins.cpp
+ 
+Building target: Tutorial_libtins
+Invoking: GCC C++ Linker
+g++  -o "Tutorial_libtins"  ./src/RegressionTests.o ./src/Tutorial_libtins.o   -ltins -lpthread
+Finished building target: Tutorial_libtins
+ 
 
-11:58:07 Build Finished (took 106ms)
+01:15:03 Build Finished (took 2s.382ms)
 

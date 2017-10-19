@@ -1,6 +1,6 @@
-11:58:04 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
+01:14:56 **** Incremental Build of configuration Debug for project Test_PlogMacros ****
 make all 
 make: Nothing to be done for 'all'.
 
-11:58:04 Build Finished (took 94ms)
+01:14:56 Build Finished (took 108ms)
 
