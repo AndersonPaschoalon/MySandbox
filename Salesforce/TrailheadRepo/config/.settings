@@ -1,0 +1,30 @@
+{
+    "projectName": "TrailheadRepo",
+    "username": "anderson.paschoalon@brave-badger-193468.com",
+    "id": "96ce19f0-66ea-11e8-b68b-a70eef7628af",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://brave-badger-193468-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\GRI\\Workspace\\Salesforce",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AppMenu",
+        "AuraDefinitionBundle",
+        "AuthProvider",
+        "ConnectedApp",
+        "CustomApplication",
+        "CustomApplicationComponent",
+        "CustomMetadata",
+        "Dashboard",
+        "EmailTemplate",
+        "Flow",
+        "Report",
+        "SharingRules",
+        "StaticResource",
+        "Workflow"
+    ]
+}
