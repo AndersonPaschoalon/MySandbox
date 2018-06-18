@@ -1,0 +1,35 @@
+36.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WAVE,INFO;WORKFLOW,INFO
+00:49:28.0 (733407)|USER_INFO|[EXTERNAL]|005f4000002Yjy1|anderson.paschoalon@brave-badger-193468.com|Fuso horário de Brasília|GMT-03:00
+00:49:28.0 (779108)|EXECUTION_STARTED
+00:49:28.0 (784442)|CODE_UNIT_STARTED|[EXTERNAL]|01pf400000HEl1A|OpportunityBuilder.run_test_1()
+00:49:28.0 (28393672)|DML_BEGIN|[39]|Op:Insert|Type:Opportunity|Rows:10
+00:49:28.0 (180928521)|DML_END|[39]
+00:49:28.0 (181397825)|DML_BEGIN|[45]|Op:Insert|Type:Product2|Rows:55
+00:49:28.0 (298312424)|DML_END|[45]
+00:49:28.0 (299791059)|DML_BEGIN|[57]|Op:Insert|Type:PricebookEntry|Rows:55
+00:49:28.0 (451357751)|DML_END|[57]
+00:49:28.0 (453383623)|DML_BEGIN|[71]|Op:Insert|Type:OpportunityLineItem|Rows:55
+00:49:28.0 (993535898)|DML_END|[71]
+00:49:28.0 (993761155)|USER_DEBUG|[72]|DEBUG|opps.size()=10
+00:49:28.0 (993799726)|USER_DEBUG|[73]|DEBUG|allProducts.size()=55
+00:49:28.0 (993825282)|USER_DEBUG|[74]|DEBUG|allPricebookEntries.size()=55
+00:49:28.0 (993848797)|USER_DEBUG|[75]|DEBUG|allOppLineItems.size()=55
+00:49:28.993 (993863445)|CUMULATIVE_LIMIT_USAGE
+00:49:28.993 (993863445)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 4 out of 150
+  Number of DML rows: 175 out of 10000
+  Maximum CPU time: 40 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+00:49:28.993 (993863445)|CUMULATIVE_LIMIT_USAGE_END
+
+00:49:28.0 (993898281)|CODE_UNIT_FINISHED|OpportunityBuilder.run_test_1()
+00:49:28.0 (995005175)|EXECUTION_FINISHED
