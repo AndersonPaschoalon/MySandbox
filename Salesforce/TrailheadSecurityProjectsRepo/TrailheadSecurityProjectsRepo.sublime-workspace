@@ -1,0 +1,343 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Helper",
+				"HelperClub\t[Custom Apex Class]"
+			],
+			[
+				"the",
+				"theContact"
+			],
+			[
+				"Stage",
+				"StageName"
+			],
+			[
+				"N",
+				"new"
+			],
+			[
+				"Hel",
+				"HelperOpportunity"
+			],
+			[
+				"asser",
+				"assertEquals()"
+			],
+			[
+				"First",
+				"FirstName"
+			],
+			[
+				"Cota",
+				"Contact"
+			],
+			[
+				"TestData",
+				"TestDataFactory"
+			],
+			[
+				"asse",
+				"assertEquals()"
+			],
+			[
+				"Auto",
+				"AutoProcessMembershipOpps\t[Custom Apex Class]"
+			],
+			[
+				"Test",
+				"TestDataFactory\t[Custom Apex Class]"
+			],
+			[
+				"createConta",
+				"createContactsWithDefaultAccount"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"f",
+				"fullName"
+			],
+			[
+				"layou",
+				"layoutItems"
+			],
+			[
+				"layo",
+				"layoutSections"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/pages/ApexEncryptionDemo.page",
+			"settings":
+			{
+				"buffer_size": 4785,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Packe",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo",
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo/src",
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo/src/aura",
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo/src/pages"
+	],
+	"file_history":
+	[
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/triggers/Opportunity_Before.trigger",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/triggers/Opportunity_After.trigger",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/AutoProcessMembershipOpps_Test.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperSObject_Test.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperSObject.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/TriggerUtils.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/OppByProductCode.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/OpportunityUpdatePricebookEProduto.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/GDPRSoftConsentFollowUpEmail.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/OpportunityAtualizaLastOpportunityWon.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperEvent.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/OppByProductCode_Test.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/AutoProcessMembershipOpps.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/TestDataFactory_Test.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperRecordType.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/ContactOppMembership_Test.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/TestDataFactory.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/ContactOppMembership.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/OppContactValidationRules_Test.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/OppContactValidationRules.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/OppByProductCode.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperSObject.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperClub.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/AutoProcessMembershipOpps.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperOpportunity.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperMembership.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperEvent.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/AutoProcessMembershipOpps_Test.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/ContactOppMembership_Test.cls-meta.xml",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/triggers/VATonOpportunityTrigger.trigger",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/Utils.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperMembership_Test.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperOpportunity_Test.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperEmail.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperOpportunity.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperMembership.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox02/src/classes/HelperRecordType_Test.cls",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox/debug/logs/mmst.log",
+		"/C/Users/GRI/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/C/Users/GRI/GRI_Projects_Repo/Salesforce_Sandbox/debug/logs/2018-06-01 17-26-37.log",
+		"/C/Users/GRI/Desktop/Novo Documento de Texto.txt",
+		"/C/Users/GRI/Documents/Trailhead_01/src/classes/HelloWorld.cls",
+		"/C/Users/GRI/Documents/Trailhead_01/src/classes/UpdatePageLayout.cls",
+		"/C/Users/GRI/Documents/Trailhead_01/src/classes/PostInstallCallback.cls",
+		"/C/Users/GRI/Documents/Trailhead_01/src/classes/DeployMetadata.cls",
+		"/C/Users/GRI/Documents/Trailhead_01/src/classes/UpdateContactPageLayout.cls",
+		"/C/Users/GRI/Documents/Trailhead_01/src/classes/PostInstallScript.cls",
+		"/C/Users/GRI/Documents/Trailhead_01/src/aura/helloWorld/helloWorld.cmp",
+		"/C/Users/GRI/Documents/Trailhead_01/src/aura/helloWorld/helloWorld.cmp-meta.xml"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/pages/ApexEncryptionDemo.page",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Visualforce.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TrailheadSecurityProjectsRepo.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 383.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

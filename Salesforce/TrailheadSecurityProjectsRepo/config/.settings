@@ -1,0 +1,17 @@
+{
+    "projectName": "TrailheadSecurityProjectsRepo",
+    "username": "anderson.paschoalon@brave-badger-193468-3.com",
+    "id": "421e7910-75d4-11e8-852d-1d4477f7030c",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://uss-serenity-9559-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\GRI\\Workspace\\Salesforce",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
