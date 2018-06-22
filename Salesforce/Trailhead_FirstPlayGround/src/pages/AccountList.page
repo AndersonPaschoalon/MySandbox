@@ -1,0 +1,12 @@
+<apex:page standardController="Account" recordSetVar="accounts">
+    <apex:form >
+
+        <!-- <ul> -->
+	    <apex:repeat value="{! accounts }" var="a">
+           	<!-- <li> <apex:outputLink  value="https://resourceful-badger-77464-dev-ed.lightning.force.com/one/one.app#/sObject/{! ac.Id}/view">  {! ac.Name} </apex:outputLink> </li> --> 
+			<li> <apex:outputLink value="/{! a.Id}">  {! a.Name} </apex:outputLink> </li> 
+        </apex:repeat>
+        <!-- </ul> -->
+        
+    </apex:form>
+</apex:page>
