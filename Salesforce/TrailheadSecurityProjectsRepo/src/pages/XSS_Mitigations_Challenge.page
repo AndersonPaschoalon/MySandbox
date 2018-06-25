@@ -7,11 +7,12 @@
         <apex:pageBlockSection title="Demo" columns="1" id="tableBlock">
             <c:codeLink type="Visualforce" namespace="" edit="true" name="XSS_Mitigations_Challenge" description="Edit this Visualforce page to perform the challenge."/>
             
-            
+            <!--this dont need encode-->
             <apex:outputText value="{!sampleMergeField1}"/>
 
 
-            <apex:outputText value="{!sampleMergeField2}" escape="false"/>
+            <!--this *needs* encode-->
+            <apex:outputText value="{!HTMLENCODE(sampleMergeField2)}" escape="false"/>
 
 
             <apex:outputText >
@@ -20,19 +21,21 @@
        
        
             <script>
-                document.write('{!sampleMergeField4}');
+                //this *needs* encode
+                document.write('{!JSINHTMLENCODE(sampleMergeField4)}');
             </script>
              
-            
+            <!--this dont need encode-->
             {!sampleMergeField5}
             
             
             <script>
-                var x = '{!sampleMergeField6}';
+                //this *needs* encod
+                var x = '{!JSENCODE(sampleMergeField6)}';
             </script>
             
-            
-            <apex:outputLabel value="{!sampleMergeField7}" escape="false"/>
+            <!--this *needs* encode-->
+            <apex:outputLabel value="{!HTMLENCODE(sampleMergeField7)}" escape="false"/>
                      
 
         </apex:pageBlockSection>

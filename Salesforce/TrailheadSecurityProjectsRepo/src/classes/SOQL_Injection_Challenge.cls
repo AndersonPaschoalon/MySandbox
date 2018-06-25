@@ -1,11 +1,12 @@
 public class SOQL_Injection_Challenge {
-
+ 
     public string textual {get; set;}
     public List<Supply__c> whereclause_records {get; set;}
 
 
 
 //SELECT Id,Name,Quantity__c,Storage_Location__c,Type__c FROM Supply__c
+// Chalange: SOQL injection is {%' and Nobles_Only__c=true and name like '%}
     public PageReference whereclause_search(){
         string query = 'SELECT Id,Name,Quantity__c,Storage_Location__c,Storage_Location__r.Castle__c,Type__c FROM Supply__c';
         string whereClause = '';

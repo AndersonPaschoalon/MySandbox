@@ -1,4 +1,4 @@
-public class SOQL_Injection_String_Fix {
+public class SOQL_Injection_String_Fix { 
 
     public List<Personnel__c> whereclause_records {get; set;}
     public String textualTitle {get; set;}
@@ -9,7 +9,8 @@ public class SOQL_Injection_String_Fix {
         String whereClause = '';
         if(textualTitle != null && textualTitle!='')
         {
-            whereClause += 'Title__c like  \'%'+textualTitle+'%\' ';
+            whereClause += 'Title__c like  \'%'+String.escapeSingleQuotes(textualTitle)+'%\' ';
+            //whereClause += 'Title__c like  \'%'+textualTitle+'%\' ';
             whereclause_records = database.query(query+' where '+whereClause);
 
         }

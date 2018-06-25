@@ -33,10 +33,10 @@ public class XSS_Apex_Mitigations_Demo {
 
     public XSS_Apex_Mitigations_Demo(){
         person = [SELECT Favorite_Animal__c,Favorite_Color__c,Id,Name,Title__c FROM Personnel__c where Favorite_Animal__c!=null and Favorite_Color__c!=null limit 1];   
-        title = person.Title__c;
-        name = person.name;
-        color = person.favorite_color__c;
-        animal = person.favorite_animal__c;
+        title = ESAPI.encoder().SFDC_HTMLENCODE(person.Title__c);
+        name = ESAPI.encoder().SFDC_HTMLENCODE(person.name);
+        color = ESAPI.encoder().SFDC_HTMLENCODE(person.favorite_color__c);
+        animal = ESAPI.encoder().SFDC_HTMLENCODE(person.favorite_animal__c);
     }
 
     public pageReference APEXXSS(){

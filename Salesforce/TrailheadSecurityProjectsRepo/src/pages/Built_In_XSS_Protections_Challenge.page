@@ -7,17 +7,17 @@
         <apex:pageBlockSection title="Demo" columns="1" id="tableBlock">          
             
             <apex:outputText value="{!sampleMergeField1}"/>
-            <!-- sampleMergeField1 is vulnerable to XSS: YES / NO -->
+            <!-- sampleMergeField1 is vulnerable to XSS: NO -->
 
 
             <apex:outputText value="{!sampleMergeField2}" escape="false"/>
-            <!-- sampleMergeField2 is vulnerable to XSS: YES / NO -->
+            <!-- sampleMergeField2 is vulnerable to XSS: YES -->
 
 
             <apex:outputText >
                 {!sampleMergeField3}
             </apex:outputText>
-            <!-- sampleMergeField3 is vulnerable to XSS: YES / NO -->
+            <!-- sampleMergeField3 is vulnerable to XSS: NO -->
        
        
             <style>
@@ -25,21 +25,21 @@
                     color: #{!sampleMergeField4};
                 }
             </style>
-            <!-- sampleMergeField4 is vulnerable to XSS: YES / NO -->
+            <!-- sampleMergeField4 is vulnerable to XSS: YES -->
              
             
             {!sampleMergeField5}
-            <!-- sampleMergeField5 is vulnerable to XSS: YES / NO -->
+            <!-- sampleMergeField5 is vulnerable to XSS: NO -->
             
             
             <script>
                 var x = '{!sampleMergeField6}';
             </script>
-            <!-- sampleMergeField6 is vulnerable to XSS: YES / NO -->
+            <!-- sampleMergeField6 is vulnerable to XSS: YES -->
             
             
             <apex:outputLabel value="{!sampleMergeField7}" escape="false"/>
-            <!-- sampleMergeField7 is vulnerable to XSS: YES / NO -->
+            <!-- sampleMergeField7 is vulnerable to XSS: YES -->
             
        
         </apex:pageBlockSection>

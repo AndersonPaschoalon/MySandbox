@@ -7,13 +7,13 @@
         <apex:pageBlockSection title="Demo" columns="1" id="tableBlock">
 
             <apex:outputPanel >
-              <apex:outputText value="Welcome, <b>{!$CurrentPage.Parameters.user}</b>!" escape="false"/><br/>
+              <apex:outputText value="Welcome, <b>{!HTMLENCODE($CurrentPage.Parameters.user)}</b>!" escape="false"/><br/>
                 
                 <apex:outputText value="You are viewing the castle friend finder! We have randomly selected a friend for you." escape="false"/><br/>
                 <apex:outputText id="output1" value=""/>
                 <apex:outputText id="output2" value=""/>
                 <script>
-                    var vip = '{!title}';
+                    var vip = '{!JSENCODE(title)}';
 
                     if(vip!=''){
                         document.getElementById('{!$Component.output1}').innerHTML = '<br/>This person is a: <br/>&nbsp;-----<br/>| VIP |<br/>&nbsp;-----<br/>LUCKY YOU!';
@@ -22,9 +22,9 @@
                     }  
 
                     var html = '<br/><br/><b>---------------------</b>';
-                    html += '<br/>Personnel Name: {!JSENCODE(name)}';
-                    html += '<br/>Favorite color: {!JSENCODE(color)}';
-                    html += '<br/>Favorite animal: {!JSENCODE(animal)}';
+                    html += '<br/>Personnel Name: {!JSINHTMLENCODE(name)}';
+                    html += '<br/>Favorite color: {!JSINHTMLENCODE(color)}';
+                    html += '<br/>Favorite animal: {!JSINHTMLENCODE(animal)}';
                     html += '<br/><b>---------------------</b>';
                     document.getElementById('{!$Component.output2}').innerHTML = html;
                     

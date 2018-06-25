@@ -47,7 +47,7 @@
 			"file": "src/classes/ProductsSelector.cls",
 			"settings":
 			{
-				"buffer_size": 1745,
+				"buffer_size": 1744,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -112,8 +112,7 @@
 	"expanded_folders":
 	[
 		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo",
-		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo/src",
-		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo/src/classes"
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo/src"
 	],
 	"file_history":
 	[
@@ -144,7 +143,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -189,7 +188,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1745,
+						"buffer_size": 1744,
 						"regions":
 						{
 						},
@@ -272,7 +271,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -313,7 +312,7 @@
 	"project": "TrailheadRepo.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -12,6 +12,12 @@
         "ApexComponent",
         "ApexPage",
         "ApexTrigger",
+        "AuraDefinitionBundle",
+        "CustomObject",
+        "Dashboard",
+        "Flow",
+        "Report",
+        "ReportType",
         "StaticResource",
         "Workflow"
     ]

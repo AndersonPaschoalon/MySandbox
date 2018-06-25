@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>TestFlow1 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>TestFlow1</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>CreateAccount</name>
+        <label>Create Account</label>
+        <locationX>262</locationX>
+        <locationY>178</locationY>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>AccountName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Phone</field>
+            <value>
+                <elementReference>Phone</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordCreates>
+    <screens>
+        <name>New_Account</name>
+        <label>New Account</label>
+        <locationX>260</locationX>
+        <locationY>43</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>CreateAccount</targetReference>
+        </connector>
+        <fields>
+            <name>AccountName</name>
+            <dataType>String</dataType>
+            <fieldText>Account Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>foneNumber</name>
+            <dataType>Number</dataType>
+            <fieldText>Phone Number</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+        </fields>
+    </screens>
+    <startElementReference>New_Account</startElementReference>
+    <variables>
+        <name>Phone</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,4 +1,4 @@
-public class SOQL_Injection {
+public class SOQL_Injection { 
 
     public List<Personnel__c> whereclause_records {get; set;}
     public String textualTitle {get; set;}
