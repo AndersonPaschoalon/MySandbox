@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+
+    </head>
+<body>
+
+<p>Create a dynamic picklist</p>
+
+<p id="debug">[Debug] </p>
+<br>
+
+<!--
+<p id="csv-input-id"> teste, teste, pera, Aruva, maa, salada mista, diz o que vc quer, pacoca, avocado</p>
+<script type="text/javascript" src="picklistFromCsv.js"></script>
+ -->
+<div id="list-of-products">prod 1,prod 2,prod 3,prod 4,prod 5,prod 6</div> <br> <!-- data extension de produtos -->
+
+In Yes:  <div id="list-of-products-yes">prod 1,prod 2,prod 6</div> <br>
+In No:  <div id="list-of-products-no">prod 4,prod 5</div> <br>
+<!--
+Choice Yes:  <div id="choices-products-yes"></div> <br>
+Choice No:  <div id="choices-products-no"></div> <br>
+Choice Blank:  <div id="choices-products-blank"></div> <br>
+-->
+
+
+    <form method="post" action="%%=v(@SUBIMIT_LANDING_PAGE_URL)=%%">
+       contact email: <input  type="text" name="ContactEmail" value="email@cool.com" ><br>  
+  yes options: <input id="choices-products-yes" type="text" name="TestRequestParameter" value="" ><br>
+  no options : <input id="choices-products-no" type="text" name="ContactEmail" value="" ><br> 
+      blank options: <input id="choices-products-blank" type="text" name="TestRequestParameter" value=""><br>
+      <input type="submit" value="Submit">
+    </form>   
+ 
+
+        <script src="picklistFromCsv_v0-2.js">
+            formularyFromHtmlCsv('list-of-products');
+            tickFormularyFromHtmlCsv('list-of-products-yes', 'dynamic-yes');
+            tickFormularyFromHtmlCsv('list-of-products-no', 'dynamic-no');  
+            putOnHtmlFromFormulary('choices-products-yes', 'choices-products-no', 'choices-products-blank', 
+                'dynamic-yes', 'dynamic-no', ',')
+        </script> 
+
+</body>
+</html>

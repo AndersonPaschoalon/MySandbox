@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style >
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<!---------------------------------------------------------------------------------------->
+<!-- The inner HTML of these tags must be filled with ampscript  -->
+<!-- (1) A list of Products for each segmentation () -->
+<!-- (2) A list of Yes Producs by segementation (Region+sector) -->
+<!-- segmentatins. -->
+<div id ="ampscript-input-data">
+<div id="list-of-products-r1">prod 1,prod 2,prod 3,prod 4,prod 5</div> <br>
+<!-- Ampscript: fill with Products data extension  -->
+<div id="list-of-products-r2">prod 1,prod 2,prod 3,prod 4,prod 5,prod 6</div> <br> 
+<!-- Ampscript: fill with Products data extension  -->
+<div id="list-of-products-r3">prod 1,prod 2,prod 3,prod 4,prod 5,prod 6, Prod 7</div> <br> 
+<!-- Ampscript: fill with Contact data extension (Synchronized or Aux)-->
+<div id="list-of-products-yes-r1">prod 1,prod 2,prod 6</div> <br>
+<!-- Ampscript: fill with Contact data extension (Synchronized or Aux)-->
+<div id="list-of-products-yes-r2">prod 1,prod 2,prod 6</div> <br>
+<!-- Ampscript: fill with Contact data extension (Synchronized or Aux)-->
+<div id="list-of-products-yes-r3">prod 1,prod 2,prod 6</div> <br>
+</div>
+<!---------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------------------------------------------->
+<!-- Data Subimitted to the Update page. This forms reflects the Data extension fields  -->
+<!-- and is auto-filled by the javascripts.-->
+<!-- One CSV line per secmentation (sector+region)-->
+<form method="post" action="%%=v(@SUBIMIT_LANDING_PAGE_URL)=%%">
+    * contact email: <input  type="text" name="ContactEmail" value="email@cool.com" ><br>  
+    * (Csv) yes options R1: <input id="choices-products-yes-r1" type="text" name="CsvYesOptionsR1" value="" ><br>
+    * (Csv) yes options R2: <input id="choices-products-yes-r2" type="text" name="CsvYesOptionsR2" value="" ><br>
+    * (Csv) yes options R3: <input id="choices-products-yes-r3" type="text" name="CsvYesOptionsR3" value="" ><br>
+    * Email opt out Yes/No: <input id="email-opt-out" type="text" name="EmailOptOut" value="" ><br>
+    * Email opt Out (time): <input id="email-opt-out-time" type="text" name="EmailOptOutTime" value="" ><br>
+    * GDPR full Consent   : <input id="gdpr-full-consent" type="text" name="GDPRFullConsent" value="" ><br>
+    * TimeStamp   : <input id="TimeStamp" type="text" name="TimeStamp" value="" ><br>
+<input type="submit" value="Submit">
+</form>   
+<!---------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------------------------------------------->
+<!--Formulary created dynamically by javascript. Here must resides its squeleton -->
+<!--Here shoudl resides the producst segmentation--> 
+<!---------------------------------------------------------------------------------------->
+<button class="collapsible">Region1</button>
+<div class="content">
+  <p id="Region1"></p>
+</div>
+<button class="collapsible">Region1</button>
+<div class="content">
+  <p id="Region2"></p>
+</div>
+<button class="collapsible">Region1</button>
+<div class="content">
+  <p id="Region3"></p>
+</div>
+<!---------------------------------------------------------------------------------------->
+
+                                                                                                                                                                                                                                                                                                                                                                                              
+<script src="testJs.js">
+//EventListenerColapse("collapsible")
+</script>
+
+</body>
+</html>
