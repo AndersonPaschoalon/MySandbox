@@ -1,4 +1,4 @@
-<apex:page controller="SOQL_Injection_Challenge" sidebar="false" tabStyle=" SOQL_Injection_Challenge__tab">
+<apex:page controller="SOQL_Injection_Challenge" sidebar="false" tabStyle="SOQL_Injection_Challenge__tab">
 <apex:sectionHeader title="SOQL Injection Challenge" />
 <apex:form >
     <apex:pageBlock >
@@ -10,7 +10,6 @@
         </apex:outputPanel>
         <apex:outputPanel >
             Search by supply name:
-            <!--Chalange: SOQL injection is {%' and Nobles_Only__c=true and name like '%}-->
             <apex:inputtext value="{!textual}"/>
         </apex:outputPanel>           
         <apex:commandButton value="Perform Search" action="{!whereclause_search}"/>

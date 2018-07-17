@@ -1,4 +1,4 @@
-<apex:page controller="SOQL_Injection" sidebar="false" tabStyle="SOQL_Injection__tab"> 
+<apex:page controller="SOQL_Injection" sidebar="false" tabStyle="SOQL_Injection__tab">
 <apex:sectionHeader title="SOQL Injection" />
 <apex:form >
     <apex:pageBlock >

@@ -75,33 +75,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/classes/SOQL_Injection_Typecasting_Fix.cls",
-			"settings":
-			{
-				"buffer_size": 571,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/classes/SOQL_Injection_String_Fix.cls",
-			"settings":
-			{
-				"buffer_size": 689,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/classes/Prevent_SOQL_Injection_Challenge.cls",
-			"settings":
-			{
-				"buffer_size": 2263,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -151,6 +124,9 @@
 	],
 	"file_history":
 	[
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo/src/classes/SOQL_Injection_Typecasting_Fix.cls",
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo/src/classes/SOQL_Injection_String_Fix.cls",
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo/src/classes/Prevent_SOQL_Injection_Challenge.cls",
 		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo/src/pages/SOQL_Injection_Challenge.page",
 		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo/src/classes/SOQL_Injection_Challenge.cls",
 		"/C/Users/GRI/Workspace/Salesforce/TrailheadSecurityProjectsRepo/src/classes/SOQL_Injection.cls",
@@ -245,99 +221,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/classes/SOQL_Injection_Typecasting_Fix.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 571,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								152,
-								152
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/classes/SOQL_Injection_String_Fix.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 689,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								420,
-								420
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 34.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/classes/Prevent_SOQL_Injection_Challenge.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2263,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								699,
-								706
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

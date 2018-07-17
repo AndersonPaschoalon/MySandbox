@@ -1,15 +1,15 @@
 public class Visualforce_Anti_Protections_Demo {
 
 
-	public List<Requisition__c> requisitions {get;set;}
+    public List<Requisition__c> requisitions {get;set;}
 
 
-	public Visualforce_Anti_Protections_Demo(){
-	    requisitions = new List<Requisition__c>();
-	    for(Requisition__c requisition : [SELECT name, Castle__c, Resource__c, Quantity__c, Description__c FROM Requisition__c LIMIT 5]){
-	        requisitions.add(requisition);
-	    } 
-	}
+    public Visualforce_Anti_Protections_Demo(){
+        requisitions = new List<Requisition__c>();
+        for(Requisition__c requisition : [SELECT name, Castle__c, Resource__c, Quantity__c, Description__c FROM Requisition__c LIMIT 5]){
+            requisitions.add(requisition);
+        } 
+    }
 
 
     public pageReference seedURL(){
@@ -17,6 +17,7 @@ public class Visualforce_Anti_Protections_Demo {
         String urlParam = ApexPages.currentPage().getParameters().get('retURL');
         if(string.isBlank(urlParam)){      
             p.getParameters().put('retURL', '/home/home.jsp');
+            //p.getParameters().put('retURL', 'https://www.google.com');
             p.setRedirect(true);
             return p;
         }
@@ -30,6 +31,7 @@ public class Visualforce_Anti_Protections_Demo {
             try{
                 update requisitions;
                 String onsave = ApexPages.currentPage().getParameters().get('retURL');
+                //onSave = (onSave == NULL) ? '/home/home.jsp' : onSave;
                 onSave = (onSave == NULL) ? '/home/home.jsp' : onSave;
                 savePage = new PageReference(onSave);
                 savePage.setRedirect(true);

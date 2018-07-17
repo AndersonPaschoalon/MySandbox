@@ -1,13 +1,13 @@
 public class Prevent_Open_Redirect_Challenge {
 
-	public Resource_Type__c rtype {get;set;}
+    public Resource_Type__c rtype {get;set;}
 
-	public Prevent_Open_Redirect_Challenge(){
-		if(rtype==null){
-			string rtid = [select id from recordType where sObjectType = 'Resource_Type__c' and DeveloperName = 'Personnel' limit 1].id; 
-		    rtype = new Resource_Type__c(recordtypeid=rtid);
-		}
-	}
+    public Prevent_Open_Redirect_Challenge(){
+        if(rtype==null){
+            string rtid = [select id from recordType where sObjectType = 'Resource_Type__c' and DeveloperName = 'Personnel' limit 1].id; 
+            rtype = new Resource_Type__c(recordtypeid=rtid);
+        }
+    }
 
     public PageReference save(){
         PageReference savePage;
@@ -15,11 +15,15 @@ public class Prevent_Open_Redirect_Challenge {
             try{
 
 
-                insert rtype;
+                insert rtype;//ok
 
                 String finishURL = ApexPages.currentPage().getParameters().get('finishURL');
-                
-                savePage = new PageReference(finishURL);
+                if(finishURL.startsWith('/')){
+                    finishURL = finishURL.replaceFirst('/+','');
+                    //finishURL = finishURL.replaceFirst('/','');
+                }
+                savePage = new PageReference('/'+finishURL);
+                //savePage = new PageReference(finishURL);
                 
                 savePage.setRedirect(true);
                 
@@ -45,13 +49,13 @@ public class Prevent_Open_Redirect_Challenge {
             p.getParameters().put('finishURL', '/'+keyPrefix);
             p.setRedirect(true);
         } else {
-        	p.getParameters().put('finishURL',finishURL);
+            p.getParameters().put('finishURL',finishURL);
         }
 
         if(p.getRedirect()==true){
-        	return p;
+            return p;
         } else {
-        	return null; 
+            return null; 
         }
     }
 

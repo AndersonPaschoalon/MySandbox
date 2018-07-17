@@ -42,7 +42,7 @@ public class Relative_URL_Protection_Demo {
         String completion = ApexPages.currentPage().getParameters().get('onSave');
 
         if(completion.startsWith('/')){
-            completion = completion.replaceFirst('/','');
+            completion = completion.replaceFirst('/+','');
         }
         savePage = new PageReference('/'+completion);
 
