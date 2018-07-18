@@ -1,4 +1,5 @@
-<apex:page controller="CSRF_Challenge" sidebar="false" tabStyle="CSRF_Challenge__tab" action="{!approveReq}">
+<!--<apex:page controller="CSRF_Challenge" sidebar="false" tabStyle="CSRF_Challenge__tab" action="{!approveReq}">-->
+<apex:page controller="CSRF_Challenge" sidebar="false" tabStyle="CSRF_Challenge__tab" >
 <apex:sectionHeader title="CSRF Challenge" />
 <apex:form >
     <apex:pageBlock >
@@ -22,7 +23,13 @@
                     <apex:outputfield value="{!req.Approved__c}" />
                 </apex:column>                                                  
                 <apex:column headervalue="Approval Action">
+                    <!-- old
                     <apex:outputLink target="_new" value="/apex/CSRF_Challenge?approve={!req.id}">Approve This Requisition</apex:outputLink>
+                    -->
+                    <!--new-->
+                    <apex:commandLink value="Approve This Requisition" action="{!approveReqNOCSRF}">
+                        <apex:param name="accId" value="{!req.id}" assignTo="{!approve}"/>
+                    </apex:commandLink>
                 </apex:column>
                 <apex:column headervalue="Approval Action (NO CSRF)">
                     TBD

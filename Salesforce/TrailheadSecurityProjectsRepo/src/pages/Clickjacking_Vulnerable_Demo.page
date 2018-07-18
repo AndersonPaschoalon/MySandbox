@@ -13,8 +13,8 @@
               left: 200px;
               height: 300px;              
               //Comment below 2 lines to see what is behind image
-              filter:alpha(opacity=0);
-              opacity:0;
+              //filter:alpha(opacity=0);
+              //opacity:0;
             }
             
             .im

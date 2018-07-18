@@ -1,4 +1,5 @@
-<apex:page controller="CSRF_Mitigation_Demo" sidebar="false" action="{!performInitAction}" tabStyle="CSRF_Mitigation_Demo__tab">
+<!--<apex:page controller="CSRF_Mitigation_Demo" sidebar="false" action="{!performInitAction}" tabStyle="CSRF_Mitigation_Demo__tab">-->
+<apex:page controller="CSRF_Mitigation_Demo" sidebar="false" tabStyle="CSRF_Mitigation_Demo__tab">
 <apex:sectionHeader title="CSRF Mitigation Demo" />
 <apex:form >
     <apex:pageBlock >
@@ -8,7 +9,13 @@
                 <apex:pageBlockTable value="{!PersonList}" var="person" id="accTable">
                     <apex:column id="currPer"><apex:outputLink target="_blank" value="/{!person.id}">{!person.Name}</apex:outputLink></apex:column>
                     <apex:column id="currPerRole" headerValue="Role" value="{!person.Type__r.Name}"/>
+                    <!-- old
                     <apex:column > <apex:outputLink value="/apex/CSRF_Mitigation_Demo?UserID={!person.Id}"> Knight This Squire </apex:outputLink> </apex:column>
+                    -->
+                    <!--new-->
+                    <apex:commandLink value="Knight This Squire" action="{!knightSquire}">
+                        <apex:param name="accId" value="{!person.id}" assignTo="{!currPerId}"/>
+                    </apex:commandLink>
                 </apex:pageBlockTable>
             <apex:outputText value="{!message}" style="color:red"/>
             <apex:outputText value="List of Knights"/>
