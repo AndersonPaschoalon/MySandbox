@@ -3,4 +3,5 @@
     <defaultLandingTab>Quickstart</defaultLandingTab>
     <label>External Orders</label>
     <tab>Quickstart</tab>
+    <tab>Orders__x</tab>
 </CustomApplication>

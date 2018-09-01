@@ -1,4 +1,7 @@
 <aura:component >
-    <c:helloHeading />
-	<p>Hello Lightning!</p>
+    <br></br>#helloWorld<br></br>
+    
+	HelloHeading App: <c:helloHeading />
+	Hello World tag: <p>Hello Lightning!</p>
+    
 </aura:component>

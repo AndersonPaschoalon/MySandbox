@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <!--Local includes-->
+        <link rel="stylesheet" type="text/css" href="chat-box-style.css">
+        <script type="text/javascript" src="chatbox-jslib.js"></script>
+        <!--Jquery-->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <!-- Bootstrap -->
+        <!--
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        --> 
+
+        <script>
+function swapVisibility(tagId)
+{
+  if($("#"+tagId).is(":hidden"))
+  {
+    $("#"+tagId).show();
+  }
+  else
+  {
+    $("#"+tagId).hide();
+  }
+}
+
+/** tag actions **/
+$(document).ready(function(){
+    $( "#chat-floating-button" ).click(function() {
+        alert( "Handler for .click() called." );
+    });
+});
+        </script>
+    </head>
+    <body>
+        
+        <!--START: CHAT BUTTON-->
+        <button id="chat-floating-button"  class="ui-btn ui-icon-delete ui-btn-icon-left">Left</button>
+        <!--END: CHAT BUTTON-->
+
+
+        <!------------------------------------------------------------------------------>
+        <!--                          START: CHAT BOX FORM                            -->
+        <!------------------------------------------------------------------------------>
+        <div class="chat-box" id="div-chat-main-window">
+            <div class="rTable">
+               <div class="rTableBody">
+                  <div class="rTableRow">
+                     <div class="rTableCell">
+                        <div class="rTable">
+                           <div class="rTableBody">
+                              <div class="rTableRow">
+                                 <div class="rTableCell">
+                                    <div><a href="#">Left</a></div>
+                                 </div>
+                                 <div class="rTableCell">
+                                    <div class="rTable">
+                                       <div class="rTableBody">
+                                          <div class="rTableRow">
+                                             <div class="rTableCell">
+                                                <div><a href="#">Icon only</a></div>
+                                             </div>
+                                             <div class="rTableCell">
+                                                <div><a href="#">Icon only</a></div>
+                                             </div>
+                                             <div class="rTableCell">
+                                                <div><a href="#">Icon only</a></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="rTableRow">
+                     <div class="rTableCell"><iframe src="http://player.vimeo.com/video/41135183" width="300" height="150" seamless=""></iframe></div>
+                  </div>
+               </div>
+</div>
+        <div>
+        <!------------------------------------------------------------------------------>
+        <!--                          END: CHAT BOX FORM                              -->
+        <!------------------------------------------------------------------------------>
+
+<!--
+        <div class="chat-box">
+          <div class="open">Open
+          <div class="box">
+            <br>
+            Test
+            <br>
+          </div>
+            <div>
+        <div>
+--> 
+
+        
+    </body>
+</html>

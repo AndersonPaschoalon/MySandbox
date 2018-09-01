@@ -1,5 +1,6 @@
 <aura:component >
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <!--attributes-->
     <aura:attribute name="formatdate" type="Date"/>
     <aura:attribute name="expense" type="Expense__c"/>
 
@@ -27,4 +28,6 @@
                              onchange="{!c.clickReimbursed}"/>
         </p>
     </lightning:card>
+    <!--events-->
+    <aura:registerEvent name="updateExpense" type="c:expensesItemUpdate"/>
 </aura:component>

@@ -1,0 +1,200 @@
+<html>
+<head>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script>
+	function swapVisibility(tagId)
+	{
+	  if($("#"+tagId).is(":hidden"))
+	  {
+		$("#"+tagId).show();
+	  }
+	  else
+	  {
+		$("#"+tagId).hide();
+	  }
+	}
+	function openWindow(id)
+	{
+		$("#"+id).animate({ 
+		"width": "300px",
+		"height": "400px"}, 
+		1000 );
+	}
+	// "div-chat-box-button"
+	// Turn chat window visible and button invisible	
+	$(document).ready(function(){
+		$("#div-chat-box-button").click(function(){
+			swapVisibility("div-chat-box-button");
+			openWindow("div-chat-main-window");
+		});	
+
+	});
+
+</script>
+<style>
+*{padding:0;margin:0;}
+
+table, th, td {
+   border: 1px solid black;
+   width: 100%;
+}
+.chat-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.box{
+    transition: height 0.1s ease-out;
+    width: 300px;
+    height: 0px;
+    background: red;
+    z-index: 9999;
+}
+.open:hover>.box{
+  height:400px;
+      transition: height 0.1s ease-out;
+}
+.open {
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #3F51B5;
+    background: #673AB7;
+    color: #eaeaea;
+}
+
+.div-chat-button{
+	position:fixed;
+	width:200px;
+	height:40px;
+	bottom:3px;
+	right:3px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:0px;
+	box-shadow: 2px 2px 3px #999;
+	overflow: auto;
+}
+
+.inner-chat-logo {
+    float: right;
+    object-fit: contain;
+    width: 90%; 
+    height: 90%; 
+}
+
+.div-chat-box-closed{
+	position:fixed;
+	width:200px;
+	height:40px;
+	bottom:3px;
+	right:3px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:0px;
+	box-shadow: 2px 2px 3px #999;
+	overflow: auto;
+}
+
+</style>
+</head>
+<body>
+
+<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+
+
+
+<div class="chat-box" id="div-chat-main-window">
+	<table style="width:300px" class="ui-responsive table-stroke">
+		<tbody>
+			<tr>
+				<td>
+					<table>
+						<tbody>
+							<tr>
+								<td style="width:66%" >
+									<div id="div-chat-header">
+										<a href="#" class="ui-btn ui-icon-delete ui-btn-icon-left">Left</a>
+									</div>
+								</td>
+								<td>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width:11%" >
+													<div id="div-chat-minimize">
+														<a href="#" class="ui-btn ui-icon-delete ui-btn-icon-notext">Icon only</a>
+													</div>
+												</td>
+												<td style="width:11%">
+													<div id="div-chat-popup">
+														<a href="#" class="ui-btn ui-icon-delete ui-btn-icon-notext">Icon only</a>
+													</div>
+												</td>
+												<td style="width:11%" >
+													<div id="div-chat-close">
+														<a href="#" class="ui-btn ui-icon-delete ui-btn-icon-notext">Icon only</a>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id="div-id-chat-body"></div>
+					<iframe src="http://player.vimeo.com/video/41135183"  seamless></iframe>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+<div>
+
+ 
+<div class="chat-box">
+  <div class="open">Open
+  <div class="box">
+    <br>
+    Test
+    <br>
+  </div>
+    <div>
+<div>
+
+<div  class="div-chat-box-button">ChatButton</div>
+
+<script>
+
+function clickChatButton(buttonId)
+{
+
+	$("#"+buttonId)
+	// open a open chat table 
+	// hide the button
+}
+function clickMinimize()
+{
+	// the window is open, hide, if if is hide, open
+}
+
+function clickPopUp()
+{
+	// close the window
+	// open the button
+	// open a Popup
+}
+function clickClose()
+{
+	// close the window
+	// open the button
+}
+</script>
+
+</body>
+</html>

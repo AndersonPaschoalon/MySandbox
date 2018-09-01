@@ -138,6 +138,40 @@
     {
         "attributes": {
             "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000002AifDCAS"
+        },
+        "Id": "0Adf4000002AifDCAS",
+        "AuraDefinitionBundleId": "0Abf40000002OWWCA2",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf40000002OWWCA2"
+            },
+            "DeveloperName": "campingList"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000002AhUfCAK"
+        },
+        "Id": "0Adf4000002AhUfCAK",
+        "AuraDefinitionBundleId": "0Abf40000002OWWCA2",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf40000002OWWCA2"
+            },
+            "DeveloperName": "campingList"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
             "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000001Ot4iCAC"
         },
         "Id": "0Adf4000001Ot4iCAC",
@@ -444,6 +478,23 @@
     {
         "attributes": {
             "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000002AhZqCAK"
+        },
+        "Id": "0Adf4000002AhZqCAK",
+        "AuraDefinitionBundleId": "0Abf40000002PV6CAM",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf40000002PV6CAM"
+            },
+            "DeveloperName": "expenses"
+        },
+        "DefType": "SVG",
+        "Format": "SVG"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
             "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000001OwDOCA0"
         },
         "Id": "0Adf4000001OwDOCA0",
@@ -495,6 +546,23 @@
     {
         "attributes": {
             "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022awQCAQ"
+        },
+        "Id": "0Adf40000022awQCAQ",
+        "AuraDefinitionBundleId": "0Abf40000002SK2CAM",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf40000002SK2CAM"
+            },
+            "DeveloperName": "expenseItem"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
             "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000001P5TUCA0"
         },
         "Id": "0Adf4000001P5TUCA0",
@@ -507,6 +575,244 @@
             "DeveloperName": "expensesList"
         },
         "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022awaCAA"
+        },
+        "Id": "0Adf40000022awaCAA",
+        "AuraDefinitionBundleId": "0Abf40000002SKCCA2",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf40000002SKCCA2"
+            },
+            "DeveloperName": "expensesList"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022awVCAQ"
+        },
+        "Id": "0Adf40000022awVCAQ",
+        "AuraDefinitionBundleId": "0Abf40000002SKCCA2",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf40000002SKCCA2"
+            },
+            "DeveloperName": "expensesList"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000002AhUkCAK"
+        },
+        "Id": "0Adf4000002AhUkCAK",
+        "AuraDefinitionBundleId": "0Abf40000002wZzCAI",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf40000002wZzCAI"
+            },
+            "DeveloperName": "TestValueTransmission"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000002AhUpCAK"
+        },
+        "Id": "0Adf4000002AhUpCAK",
+        "AuraDefinitionBundleId": "0Abf40000002wa4CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf40000002wa4CAA"
+            },
+            "DeveloperName": "harnessApp2"
+        },
+        "DefType": "APPLICATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000002AhUuCAK"
+        },
+        "Id": "0Adf4000002AhUuCAK",
+        "AuraDefinitionBundleId": "0Abf40000002wa9CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf40000002wa9CAA"
+            },
+            "DeveloperName": "CampingTestApp"
+        },
+        "DefType": "APPLICATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022awLCAQ"
+        },
+        "Id": "0Adf40000022awLCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000SAoQCAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000SAoQCAW"
+            },
+            "DeveloperName": "expensesItemUpdate"
+        },
+        "DefType": "EVENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022axnCAA"
+        },
+        "Id": "0Adf40000022axnCAA",
+        "AuraDefinitionBundleId": "0Abf4000000SAoVCAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000SAoVCAW"
+            },
+            "DeveloperName": "expenseForm"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022awfCAA"
+        },
+        "Id": "0Adf40000022awfCAA",
+        "AuraDefinitionBundleId": "0Abf4000000SAoVCAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000SAoVCAW"
+            },
+            "DeveloperName": "expenseForm"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022awkCAA"
+        },
+        "Id": "0Adf40000022awkCAA",
+        "AuraDefinitionBundleId": "0Abf4000000SAoVCAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000SAoVCAW"
+            },
+            "DeveloperName": "expenseForm"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022ayCCAQ"
+        },
+        "Id": "0Adf40000022ayCCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000SAozCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000SAozCAG"
+            },
+            "DeveloperName": "CampingApp"
+        },
+        "DefType": "APPLICATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022ayWCAQ"
+        },
+        "Id": "0Adf40000022ayWCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000SAp4CAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000SAp4CAG"
+            },
+            "DeveloperName": "campingListForm"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022ayHCAQ"
+        },
+        "Id": "0Adf40000022ayHCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000SAp4CAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000SAp4CAG"
+            },
+            "DeveloperName": "campingListForm"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022ayMCAQ"
+        },
+        "Id": "0Adf40000022ayMCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000SAp4CAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000SAp4CAG"
+            },
+            "DeveloperName": "campingListForm"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000022ayRCAQ"
+        },
+        "Id": "0Adf40000022ayRCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000SAp9CAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000SAp9CAG"
+            },
+            "DeveloperName": "addItemEvent"
+        },
+        "DefType": "EVENT",
         "Format": "XML"
     }
 ]
