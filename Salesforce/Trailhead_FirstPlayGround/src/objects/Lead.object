@@ -310,6 +310,40 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Lead_Quality_Helper__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISBLANK(Email), 0, 1)+
+IF( ISBLANK(Phone), 0, 1)+
+IF( ISBLANK(Company), 0, 1)+
+IF( ISBLANK(Title), 0, 1)+
+IF( ISBLANK(TEXT(Industry )), 0, 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Quality Helper</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Quality__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(
+  CASE(Lead_Quality_Helper__c,
+    1, &quot;/img/samples/stars_100.gif&quot;,
+    2, &quot;/img/samples/stars_200.gif&quot;,
+    3, &quot;/img/samples/stars_300.gif&quot;,
+    4, &quot;/img/samples/stars_400.gif&quot;,
+    5, &quot;/img/samples/stars_500.gif&quot;,
+    &quot;/img/samples/stars_000.gif&quot;),
+&quot;Unknown&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Quality</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>MobilePhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -404,12 +438,50 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Rating__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+  AnnualRevenue &gt; 1000000 &amp;&amp;
+  CONTAINS(CASE(Country, &quot;United States&quot;, &quot;US&quot;, &quot;America&quot;, &quot;US&quot;, 
+    &quot;USA&quot;, &quot;US&quot;, &quot;US&quot;, &quot;US&quot;, &quot;NA&quot;), &quot;US&quot;),
+  IF(
+    ISPICKVAL(LeadSource, &quot;Partner Referral&quot;), &quot;Hot&quot;,
+    IF(
+      ISPICKVAL(LeadSource, &quot;PurchasedList&quot;) ||
+      ISPICKVAL(LeadSource, &quot;Web&quot;),
+      &quot;Warm&quot;, &quot;Cold&quot;
+    )
+  ), &quot;Cold&quot;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Rating</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>SICCode__c</fullName>
         <externalId>false</externalId>
         <label>SIC Code</label>
         <length>15</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Star_Rating__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(
+  CASE(Rating__c,
+    &quot;Hot&quot;, &quot;/img/samples/stars_500.gif&quot;,
+    &quot;Warm&quot;, &quot;/img/samples/stars_300.gif&quot;,
+    &quot;Cold&quot;, &quot;/img/samples/stars_100.gif&quot;,
+    &quot;/img/samples/stars_000.gif&quot;),
+&quot;Unknown&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Star Rating</label>
+        <required>false</required>
         <type>Text</type>
         <unique>false</unique>
     </fields>

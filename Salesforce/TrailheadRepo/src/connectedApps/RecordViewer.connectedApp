@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>anderson.paschoalon@griclub.org</contactEmail>
+    <label>RecordViewer</label>
+    <oauthConfig>
+        <callbackUrl>https://localhost:8443/oauth-redirect</callbackUrl>
+        <consumerKey>3MVG9zlTNB8o8BA2L_zH_IGa36AdhNox03GQ88yg4rSkD_NI1uduXI4TpmjkxzEfvSA3jKaO_aG5Q2sz38tJp</consumerKey>
+        <scopes>Api</scopes>
+    </oauthConfig>
+</ConnectedApp>

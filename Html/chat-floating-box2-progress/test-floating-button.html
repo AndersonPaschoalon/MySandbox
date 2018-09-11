@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Demo Chat Button</title>
+      
+      <!--CHAT BUTTON: HEAD-->
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
+      <link rel = "stylesheet"
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet" href = "css/materialize.min.css">
+      <script type = "text/javascript"
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+      <script src = "js/materialize.min.js"></script>
+      <script>
+      $(document).ready(function(){
+            $('.fixed-action-btn').floatingActionButton();
+      });
+      $(document).ready(function(){
+            $('.tooltipped').tooltip();
+      });
+      function chatPopUp(url, title, w, h) {
+          // Fixes dual-screen position                         Most browsers      Firefox
+          var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : window.screenX;
+          var dualScreenTop = window.screenTop != undefined ? window.screenTop : window.screenY;
+
+          var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+          var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+          var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+          var top = ((height / 2) - (h / 2)) + dualScreenTop;
+          //var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+          var newWindow = window.open(url, title, ',resizable=false,location=no,width=400, height=500,titlebar=0,toolbar=0');
+          // Puts focus on the newWindow
+          if (window.focus) {
+              newWindow.focus();
+          }
+      } 
+      </script>
+      <!--CHAT BUTTON: HEAD-->
+   </head>
+  
+   <body>
+
+
+
+      <!--CHAT BUTTON: BODY-->
+      <!--START: Online chat button-->   
+      <!--
+      <div class="fixed-action-btn tooltipped" data-position="left" data-tooltip="Need our help? Chat with us.">
+            <center>
+            <a target="_blank" id="liveagent_button_online_573360000008uB0" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('573360000008uB0')" class="btn-floating btn-large teal accent-3" >
+                  <i class="large material-icons left">chat_bubble_outline</i>
+            </a>
+            </center>
+      </div>
+      --> 
+      
+
+        
+      <div class="fixed-action-btn tooltipped" data-position="left" data-tooltip="Need our help? Chat with us.">
+            <center>
+            <a  id="liveagent_button_online_573360000008uB0"  style="display: none;" onclick="window.open('', 'chatchat');liveagent.startChatWithWindow('573360000008uB0', 'chatchat')" class="btn-floating btn-large teal accent-3" >
+                  <i class="large material-icons left">chat_bubble_outline</i>
+            </a>
+            </center>
+      </div>
+
+
+
+      <!--END: Online chat button-->   
+      <!--START: Offline chat button--> 
+      <!--
+      <div id="liveagent_button_offline_573360000008uB0" style="display: none;" class="fixed-action-btn tooltipped" data-position="left" data-tooltip="Contact Us">
+            <a class="btn-floating btn-large red darken-3" href="#"
+            onclick="chatPopUp('https://smartus-gri-group-sandbox-test.cs25.force.com/offlinesalesprechat/','xtf','360','550');">
+                  <i class="large material-icons left">email</i>
+            </a>
+            </center>
+      </div>
+      -->
+      <div id="liveagent_button_offline_573360000008uB0" style="display: none;" class="fixed-action-btn tooltipped" data-position="left" data-tooltip="Contact Us">
+            <a class="btn-floating btn-large red darken-3" href='https://smartus-gri-group-sandbox-test.cs25.force.com/offlinesalesprechat/' target="_blank">
+                  <i class="large material-icons left">email</i>
+            </a>
+            </center>
+      </div>      
+      <!--END: Offline chat button-->  
+      <!--START: Salesforce Live Agent Scripts-->
+      <script type="text/javascript">
+            if (!window._laq) { window._laq = []; }
+            window._laq.push(function(){liveagent.showWhenOnline('573360000008uB0', document.getElementById('liveagent_button_online_573360000008uB0'));
+            liveagent.showWhenOffline('573360000008uB0', document.getElementById('liveagent_button_offline_573360000008uB0'));
+            });
+      </script>
+      <script type='text/javascript' src='https://c.la4-c2cs-dfw.salesforceliveagent.com/content/g/js/43.0/deployment.js'></script>
+      <script type='text/javascript'>
+      
+     // win.focus();
+      liveagent.init('https://d.la4-c2cs-dfw.salesforceliveagent.com/chat', '572360000008rYE', '00D1b000000DOGf');
+      </script>
+      <!--END: Salesforce Live Agent Scripts-->
+      <!--CHAT BUTTON: BODY-->
+
+   </body>
+</html>

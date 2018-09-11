@@ -159,6 +159,21 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Last_Day_of_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+  MONTH( today() ) = 12,
+  DATE( YEAR( today() ), 12, 31 ),
+  DATE( YEAR( today() ), MONTH ( today() ) + 1, 1 ) - 1 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last Day of Month</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Origin</fullName>
         <picklist>
             <picklistValues>
@@ -498,6 +513,17 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>Mark_as_Escalated</fullName>
+        <active>false</active>
+        <description>Create a validation rule formula that does not allow a user to mark a case as escalated unless the priority is set to &apos;High&apos;, the case was not Closed when Created, and the case isn’t closed.</description>
+        <errorConditionFormula>OR(
+ISPICKVAL(Status, &apos;Closed&apos;), 
+IsClosedOnCreate,
+NOT( ISPICKVAL(Priority, &apos;High&apos;))
+)</errorConditionFormula>
+        <errorMessage>You can only set a case as escalated if it is high priority and not closed</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>

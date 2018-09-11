@@ -1,0 +1,79 @@
+<apex:page standardController="Account">
+    <script>
+function check(theId) {
+    document.getElementById(theId).checked = true;
+}
+check('business-email')
+    </script>
+    
+    <table style="width:100%">
+      <tr>
+        <th>
+            <apex:form >
+                <apex:inputCheckbox />
+            </apex:form>
+        </th>
+        <th>Day 1</th>
+      </tr>
+      <tr>
+        <th>
+            <apex:form >
+                <apex:inputCheckbox />
+            </apex:form>
+        </th>
+        <th>Day 2</th>
+      </tr> 
+      <tr>
+        <th>
+            <apex:form >
+                <apex:inputCheckbox />
+            </apex:form>
+        </th>
+        <th>Dinner (If applicable)</th>
+      </tr>
+      <tr>
+        <th>
+            <apex:form >
+                <apex:inputCheckbox />
+            </apex:form>
+        </th>
+        <th>Lunch (If applicable)</th>
+      </tr> 
+    </table>
+
+
+    <br/><br/><br/>
+<form>
+    <fieldset>
+        <legend>Select an Email</legend>
+
+        <div>
+            <input type="checkbox" name="email" id="business-email" onclick="check('business-email')" checked="true"/>
+            <label for="BusinessEmail">Business Email</label>
+        </div>
+
+        <div>
+            <input type="checkbox"  name="email"/>
+            <label for="SecretaryEmail1">Secretary Email 1</label>
+        </div>
+
+        <div>
+            <input type="checkbox"  name="email" />
+            <label for="SecretaryEmail2">Secretary Email 2</label>
+        </div>
+        <div>
+            <input type="checkbox"  name="email"/>
+            <label for="OtherEmail">
+                OtherEmail
+                <apex:form >
+                    <input type="text"/>
+                </apex:form>
+            </label>
+        </div>
+        
+    </fieldset>
+</form>
+    
+
+      
+</apex:page>

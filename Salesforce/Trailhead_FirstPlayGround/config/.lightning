@@ -2,6 +2,23 @@
     {
         "attributes": {
             "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad1N000000gPlASAU"
+        },
+        "Id": "0Ad1N000000gPlASAU",
+        "AuraDefinitionBundleId": "0Ab1N000000g7GVSAY",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab1N000000g7GVSAY"
+            },
+            "DeveloperName": "MyContactList"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
             "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad1N000001Hn2aSAC"
         },
         "Id": "0Ad1N000001Hn2aSAC",

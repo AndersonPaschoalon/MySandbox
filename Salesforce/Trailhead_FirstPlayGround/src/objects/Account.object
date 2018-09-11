@@ -100,6 +100,17 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Accumulated_Interest__c</fullName>
+        <externalId>false</externalId>
+        <formula>Principal__c * EXP(Interest_Rate__c * (YEAR(TODAY()) - VALUE(YearStarted)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Accumulated Interest</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>Active__c</fullName>
         <externalId>false</externalId>
         <label>Active</label>
@@ -180,6 +191,22 @@
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Future_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(
+  WEEKDAY(TODAY()),
+  3, TODAY() + 2 + 3,
+  4, TODAY() + 2 + 3,
+  5, TODAY() + 2 + 3,
+  6, TODAY() + 1 + 3,
+  TODAY() + 3
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Future Date</label>
+        <required>false</required>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>Industry</fullName>
@@ -318,6 +345,19 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Interest_Rate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Principal__c &lt; 10000, 0.02, 
+  IF(Principal__c &gt;= 10000 &amp;&amp;
+    Principal__c &lt; 100000, 0.03, 0.04))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Interest Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -394,6 +434,16 @@
         <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
         <summaryOperation>sum</summaryOperation>
         <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Principal__c</fullName>
+        <externalId>false</externalId>
+        <label>Principal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Rating</fullName>

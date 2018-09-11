@@ -76,6 +76,16 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Macaron_Flavor__c</fullName>
+        <defaultValue>CASE(MONTH(TODAY()),1, &quot;Gingerbread&quot;,2, &quot;Strawberry&quot;,4, &quot;Chocolate&quot;,7, &quot;Raspberry&quot;,11, &quot;Pumpkin&quot;,12, &quot;Mint&quot;, &quot;Vanilla&quot;)</defaultValue>
+        <externalId>false</externalId>
+        <globalPicklist>Flavors</globalPicklist>
+        <label>Macaron Flavor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -92,6 +102,15 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Shirt__c</fullName>
+        <externalId>false</externalId>
+        <globalPicklist>Flavors</globalPicklist>
+        <label>Shirt</label>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>

@@ -87,6 +87,19 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Cylinder_Volume__c</fullName>
+        <externalId>false</externalId>
+        <formula>ROUND(3.14159*height__c*(radius__c^2), 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cylinder Volume</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Days_to_Close__c</fullName>
         <externalId>false</externalId>
         <formula>CloseDate - TODAY()</formula>
@@ -154,7 +167,7 @@
         <externalId>false</externalId>
         <label>Discount Percent</label>
         <precision>18</precision>
-        <required>true</required>
+        <required>false</required>
         <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -201,6 +214,17 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Loss_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Loss Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>MainCompetitors__c</fullName>
@@ -386,6 +410,30 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>height__c</fullName>
+        <externalId>false</externalId>
+        <label>height</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>radius__c</fullName>
+        <externalId>false</externalId>
+        <label>radius</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>
         <filterScope>Everything</filterScope>
@@ -499,6 +547,25 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Close_Date_Alert</fullName>
+        <active>true</active>
+        <description>NOT(IsClosed) || (CloseDate &lt; TODAY() -1)</description>
+        <errorConditionFormula>NOT(IsClosed) || (CloseDate &lt; TODAY() -1)</errorConditionFormula>
+        <errorMessage>Hey McFly, unless you are planning to go back in time, please update your close date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loss_Reason_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+  $Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+  ISCHANGED(StageName),
+  ISPICKVAL(StageName, &apos;Closed Lost&apos;),
+  ISBLANK(Loss_Reason__c)
+)</errorConditionFormula>
+        <errorDisplayField>Loss_Reason__c</errorDisplayField>
+        <errorMessage>Opportunities can’t be marked Closed Lost without providing a Loss Reason.</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>DeliveryStatus</fullName>
         <availability>online</availability>
