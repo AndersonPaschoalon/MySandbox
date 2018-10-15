@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        alert("The paragraph was clicked.");
+    });
+});
+$(document).ready(function(){
+    $(".refactorurl").click(function(event) {
+        let anchorId = event.target.id;
+        let linkUrl = $('#'+anchorId).attr('href');
+        let noArgUrl = ""
+        for(let i=0; i<linkUrl.length; i++)
+        {
+        	if(linkUrl[i] != '?')
+            {
+            	noArgUrl += linkUrl[i];
+            }
+            else
+            {
+            	break;
+            }
+        }
+        alert('noArgUrl='+noArgUrl)
+        $('#'+anchorId).attr('href', noArgUrl);
+    });
+});
+
+</script>
+</head>
+<body>
+
+<a class='refactorurl' href="https://www.w3schools.com/jquery/event_click.asp?id=12sfsfdfdsz">achchor</a>
+
+<p>Click on this paragraph.</p>
+
+</body>
+</html>

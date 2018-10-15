@@ -88,10 +88,13 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo"
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo",
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo/src",
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo/src/classes"
 	],
 	"file_history":
 	[
+		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo/src/classes/MyContactListController.cls",
 		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo/src/aura/helloWorld/helloWorldController.js",
 		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo/src/classes/SMSUtils.cls",
 		"/C/Users/GRI/Workspace/Salesforce/TrailheadRepo/src/classes/UpdateContactAddresses.cls",
@@ -252,7 +255,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 278.0,
+	"side_bar_width": 276.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

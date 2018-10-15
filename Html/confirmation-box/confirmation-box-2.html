@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+
+function ConfirmDialog(message){
+    $('<div></div>').appendTo('body')
+                    .html('<div><h6>'+message+'?</h6></div>')
+                    .dialog({
+                        modal: true, title: 'Delete message', zIndex: 10000, autoOpen: true,
+                        width: 'auto', resizable: false,
+                        buttons: {
+                            Yes: function () {
+                                // $(obj).removeAttr('onclick');                                
+                                // $(obj).parents('.Parent').remove();
+																
+                                $('body').append('<h1>Confirm Dialog Result: <i>Yes</i></h1>');
+                                
+                                $(this).dialog("close");
+                            },
+                            No: function () {                           		                              $('body').append('<h1>Confirm Dialog Result: <i>No</i></h1>');
+                            
+                                $(this).dialog("close");
+                            }
+                        },
+                        close: function (event, ui) {
+                            $(this).remove();
+                        }
+                    });
+    };
+ ConfirmDialog('Are you sure');	
+</script>
+
+</body>
+</html>
+

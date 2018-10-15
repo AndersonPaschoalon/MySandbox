@@ -1,0 +1,18 @@
+{
+    "projectName": "Trailhead_Projects",
+    "username": "anderson.paschoalon@playful-moose-415038.com",
+    "id": "7a6a5eb0-c30e-11e8-9682-f5f8dc4bcaa9",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://playful-moose-415038-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\GRI\\Workspace\\Salesforce",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AuraDefinitionBundle",
+        "StaticResource"
+    ]
+}

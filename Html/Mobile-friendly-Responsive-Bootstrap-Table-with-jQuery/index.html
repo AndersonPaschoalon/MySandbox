@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mobile-friendly Responsive Bootstrap Table Demo</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<style class="cp-pen-styles">
+
+.divtable .tr {
+  overflow: hidden;
+  clear: both;
+  border-bottom: 1px solid #ccc;
+}
+
+.divtable .th,
+.divtable .td {
+  padding: 5px 10px;
+  float: left;
+}
+
+.divtable .th { font-weight: bold; }
+
+.firstname { width: 40%; }
+
+.lastname { width: 30%; }
+
+.username { width: 30%; }
+ @media (max-width: 767px) {
+
+.accordion-xs .headings { display: none; }
+
+.accordion-xs .tr { border-bottom-color: #fff; }
+
+.accordion-xs .th,
+ .accordion-xs .td {
+  float: none;
+  width: auto;
+  padding: 0;
+}
+
+.accordion-xs .accordion-xs-toggle {
+  background-color: orange;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-xs .accordion-xs-toggle:hover { background-color: #e69500; }
+
+.accordion-xs .accordion-xs-toggle:after {
+  content: '\2b';
+  float: right;
+}
+
+.accordion-xs .accordion-xs-toggle.collapsed:after { content: '\2212'; }
+
+.accordion-xs-collapse .inner { padding: 10px; }
+
+.accordion-xs-collapse .td:before { font-weight: bold; }
+
+.accordion-xs-collapse .lastname:before { content: 'Last Name: '; }
+
+.accordion-xs-collapse .username:before { content: 'Username: '; }
+
+.accordion-xs .accordion-xs-toggle:after {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+}
+</style>
+</head>
+
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/table/Mobile-friendly-Responsive-Bootstrap-Table-with-jQuery.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<h1 style="margin-top:150px; text-align:center;">Mobile-friendly Responsive Bootstrap Table Demo</h1>
+<div class="divtable accordion-xs">
+  <div class="tr headings">
+    <div class="th firstname">First Name</div>
+    <div class="th lastname">Last Name</div>
+    <div class="th username">Username</div>
+  </div>
+  <div class="tr">
+    <div class="td firstname accordion-xs-toggle">Mark</div>
+    <div class="accordion-xs-collapse">
+      <div class="inner">
+        <div class="td lastname">Otto</div>
+        <div class="td username">@mdo</div>
+      </div>
+    </div>
+  </div>
+  <div class="tr">
+    <div class="td firstname accordion-xs-toggle">Jacob</div>
+    <div class="accordion-xs-collapse">
+      <div class="inner">
+        <div class="td lastname">Thornton</div>
+        <div class="td username">@fat</div>
+      </div>
+    </div>
+  </div>
+  <div class="tr">
+    <div class="td firstname accordion-xs-toggle">Larry</div>
+    <div class="accordion-xs-collapse">
+      <div class="inner">
+        <div class="td lastname">the Bird</div>
+        <div class="td username">@twitter</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+<script>
+$(function() {    
+    var isXS = false,
+        $accordionXSCollapse = $('.accordion-xs-collapse');
+
+    // Window resize event (debounced)
+    var timer;
+    $(window).resize(function () {
+        if (timer) { clearTimeout(timer); }
+        timer = setTimeout(function () {
+            isXS = Modernizr.mq('only screen and (max-width: 767px)');
+            
+            // Add/remove collapse class as needed
+            if (isXS) {
+                $accordionXSCollapse.addClass('collapse');               
+            } else {
+                $accordionXSCollapse.removeClass('collapse');
+            }
+        }, 100);
+    }).trigger('resize'); //trigger window resize on pageload    
+    
+    // Initialise the Bootstrap Collapse
+    $accordionXSCollapse.each(function () {
+        $(this).collapse({ toggle: false });
+    });      
+    
+    // Accordion toggle click event (live)
+    $(document).on('click', '.accordion-xs-toggle', function (e) {
+        e.preventDefault();
+        
+        var $thisToggle = $(this),
+            $targetRow = $thisToggle.parent('.tr'),
+            $targetCollapse = $targetRow.find('.accordion-xs-collapse');            
+    	
+        if (isXS && $targetCollapse.length) { 
+            var $siblingRow = $targetRow.siblings('.tr'),
+                $siblingToggle = $siblingRow.find('.accordion-xs-toggle'),
+                $siblingCollapse = $siblingRow.find('.accordion-xs-collapse');
+            
+            $targetCollapse.collapse('toggle'); //toggle this collapse
+            $siblingCollapse.collapse('hide'); //close siblings
+            
+            $thisToggle.toggleClass('collapsed'); //class used for icon marker
+            $siblingToggle.removeClass('collapsed'); //remove sibling marker class
+        }
+    });
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .alert {
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+    }
+
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .closebtn:hover {
+        color: black;
+    }
+
+    .confirmbox-title {
+        font-style: oblique;
+    }
+    .confirmbox-content {
+        font-style: oblique;
+    }
+
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+<button onclick="run_confirm();">confirmation</button>
+<button onclick="run_error();">error</button>
+<button onclick="run_success();">success</button>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+
+<script>
+
+
+function run_error()
+{
+    action_function = function()
+    {
+        alert("error");
+    }
+    fire_error("title_msg", "body_msg", action_function);
+}
+function run_confirm()
+{
+    action_function_confirm = function()
+    {
+        location.reload();
+    }
+    action_function_cancel = function()
+    {
+        alert("cancel");
+    }
+    fire_confirmation("title_msg", "body_msg", 
+        action_function_confirm, action_function_cancel)
+}
+function run_success()
+{
+    action_function = function()
+    {
+        location.reload();
+    }
+    fire_success("<span class='confirmbox-title'>title_msg</span>", "<span class='confirmbox-title'>body_msg</span>", action_function);
+}
+
+function fire_confirmation(title_msg, body_msg, 
+    action_function_confirm, action_function_cancel)
+{
+    $.confirm({
+        title: title_msg,
+        content: body_msg,
+        type: 'blue',
+        buttons: {
+            confirm: {
+                btnClass: 'btn-orange',
+                action: function () {
+                    action_function_confirm();
+                }        
+            },
+            cancel: {
+                action: function () {
+                    action_function_cancel();
+                }
+            }
+
+
+        }
+    });
+}
+
+function fire_error(title_msg, body_msg, action_function)
+{
+    $.confirm({
+        title: title_msg,
+        content: body_msg,
+        type: 'red',
+        buttons: {
+            ok: {
+                btnClass: 'btn-red',
+                action: function () {
+                    action_function();
+                }
+            }
+        }
+    });
+}
+
+function fire_success(title_msg, body_msg, action_function)
+{
+    $.confirm({
+        title: title_msg,
+        content: body_msg,
+        type: 'blue',
+        buttons: {
+            ok: {
+                btnClass: 'btn-orange',
+                action: function () {
+                    action_function();
+                }
+            }
+        }
+    });
+}
+
+</script>
+
+</body>
+</html>
