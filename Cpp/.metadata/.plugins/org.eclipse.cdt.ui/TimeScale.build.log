@@ -1,6 +1,6 @@
-01:14:58 **** Incremental Build of configuration Debug for project TimeScale ****
+09:24:55 **** Incremental Build of configuration Debug for project TimeScale ****
 make all 
 make: Nothing to be done for 'all'.
 
-01:14:58 Build Finished (took 101ms)
+09:24:56 Build Finished (took 529ms)
 

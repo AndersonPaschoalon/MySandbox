@@ -32416,3 +32416,216 @@ make: Nothing to be done for 'all'.
 01:15:03 **** Incremental Build of configuration Debug for project Tutorial_time ****
 make all 
 make: Nothing to be done for 'all'.
+09:23:52 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+Building file: ../src/Algorithms.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithms.d" -MT"src/Algorithms.d" -o "src/Algorithms.o" "../src/Algorithms.cpp"
+In file included from /usr/include/c++/5/array:35:0,
+                 from ../src/Algorithms.h:20,
+                 from ../src/Algorithms.cpp:9:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+In file included from ../src/Algorithms.cpp:9:0:
+../src/Algorithms.h:23:21: fatal error: armadillo: No such file or directory
+compilation terminated.
+make: *** [src/Algorithms.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Algorithms.o' failed
+09:23:56 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/DatabaseSqlite3.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DatabaseSqlite3.d" -MT"src/DatabaseSqlite3.d" -o "src/DatabaseSqlite3.o" "../src/DatabaseSqlite3.cpp"
+In file included from ../src/DatabaseSqlite3.cpp:8:0:
+../src/DatabaseSqlite3.h:11:21: fatal error: sqlite3.h: No such file or directory
+compilation terminated.
+src/subdir.mk:27: recipe for target 'src/DatabaseSqlite3.o' failed
+make: *** [src/DatabaseSqlite3.o] Error 1
+09:23:57 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+09:23:58 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+09:23:59 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+09:24:00 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/anderson/Workspace/Cpp/Tests_Autotools/missing aclocal-1.15 
+/home/anderson/Workspace/Cpp/Tests_Autotools/missing: line 81: aclocal-1.15: command not found
+WARNING: 'aclocal-1.15' is missing on your system.
+         You should only need it if you modified 'acinclude.m4' or
+         'configure.ac' or m4 files included by 'configure.ac'.
+         The 'aclocal' program is part of the GNU Automake package:
+         <http://www.gnu.org/software/automake>
+         It also requires GNU Autoconf, GNU m4 and Perl in order to run:
+         <http://www.gnu.org/software/autoconf>
+         <http://www.gnu.org/software/m4/>
+         <http://www.perl.org/>
+Makefile:335: recipe for target 'aclocal.m4' failed
+make: *** [aclocal.m4] Error 127
+09:24:01 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+Building target: Tests_cpp
+Invoking: GCC C++ Linker
+g++  -o "Tests_cpp"  ./src/Tests_cpp.o   
+Finished building target: Tests_cpp
+ 
+09:24:02 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+Building file: ../src/AbsClass.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AbsClass.d" -MT"src/AbsClass.d" -o "src/AbsClass.o" "../src/AbsClass.cpp"
+Finished building: ../src/AbsClass.cpp
+ 
+Building file: ../src/BaseClass.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BaseClass.d" -MT"src/BaseClass.d" -o "src/BaseClass.o" "../src/BaseClass.cpp"
+Finished building: ../src/BaseClass.cpp
+ 
+Building file: ../src/D1Class.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/D1Class.d" -MT"src/D1Class.d" -o "src/D1Class.o" "../src/D1Class.cpp"
+Finished building: ../src/D1Class.cpp
+ 
+Building file: ../src/D2Class.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/D2Class.d" -MT"src/D2Class.d" -o "src/D2Class.o" "../src/D2Class.cpp"
+Finished building: ../src/D2Class.cpp
+ 
+Building target: TimeScale
+Invoking: GCC C++ Linker
+g++  -o "TimeScale"  ./src/AbsClass.o ./src/BaseClass.o ./src/D1Class.o ./src/D2Class.o ./src/Main.o   
+Finished building target: TimeScale
+ 
+09:24:05 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+Building target: Tutorial_Mutex
+Invoking: GCC C++ Linker
+g++  -o "Tutorial_Mutex"  ./src/Tutorial_Mutex.o   -lpthread
+./src/Tutorial_Mutex.o: In function `std::thread::thread<void (&)(int, char), int, char>(void (&)(int, char), int&&, char&&)':
+/usr/include/c++/6/thread:136: undefined reference to `std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)())'
+./src/Tutorial_Mutex.o: In function `std::thread::_State::_State()':
+/usr/include/c++/6/thread:66: undefined reference to `vtable for std::thread::_State'
+makefile:45: recipe for target 'Tutorial_Mutex' failed
+./src/Tutorial_Mutex.o: In function `std::thread::_State_impl<std::_Bind_simple<void (*(int, char))(int, char)> >::~_State_impl()':
+/usr/include/c++/6/thread:188: undefined reference to `std::thread::_State::~_State()'
+./src/Tutorial_Mutex.o:(.data.rel.ro._ZTINSt6thread11_State_implISt12_Bind_simpleIFPFvicEicEEEE[_ZTINSt6thread11_State_implISt12_Bind_simpleIFPFvicEicEEEE]+0x10): undefined reference to `typeinfo for std::thread::_State'
+collect2: error: ld returned 1 exit status
+make: *** [Tutorial_Mutex] Error 1
+09:24:06 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+Building file: ../src/Tutorial_NetworkSockets.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_NetworkSockets.d" -MT"src/Tutorial_NetworkSockets.d" -o "src/Tutorial_NetworkSockets.o" "../src/Tutorial_NetworkSockets.cpp"
+Finished building: ../src/Tutorial_NetworkSockets.cpp
+ 
+Building target: Tutorial_NetworkSockets
+Invoking: GCC C++ Linker
+g++  -o "Tutorial_NetworkSockets"  ./src/Tutorial_NetworkSockets.o   
+Finished building target: Tutorial_NetworkSockets
+ 
+09:24:07 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+Building target: Tutorial_StochasticFunctions
+Invoking: GCC C++ Linker
+g++  -o "Tutorial_StochasticFunctions"  ./src/Tutorial_StochasticFunctions.o   
+Finished building target: Tutorial_StochasticFunctions
+ 
+09:24:08 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+Building target: Tutorial_plog
+Invoking: GCC C++ Linker
+g++  -o "Tutorial_plog"  ./src/Tutorial_plog.o   
+Finished building target: Tutorial_plog
+ 
+09:24:50 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+make all 
+Building file: ../src/Algorithms.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithms.d" -MT"src/Algorithms.d" -o "src/Algorithms.o" "../src/Algorithms.cpp"
+In file included from /usr/include/c++/5/array:35:0,
+                 from ../src/Algorithms.h:20,
+                 from ../src/Algorithms.cpp:9:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+In file included from ../src/Algorithms.cpp:9:0:
+../src/Algorithms.h:23:21: fatal error: armadillo: No such file or directory
+compilation terminated.
+make: *** [src/Algorithms.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Algorithms.o' failed
+09:24:51 **** Incremental Build of configuration Debug for project EasySqlite ****
+make all 
+Building file: ../src/DatabaseSqlite3.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DatabaseSqlite3.d" -MT"src/DatabaseSqlite3.d" -o "src/DatabaseSqlite3.o" "../src/DatabaseSqlite3.cpp"
+In file included from ../src/DatabaseSqlite3.cpp:8:0:
+../src/DatabaseSqlite3.h:11:21: fatal error: sqlite3.h: No such file or directory
+compilation terminated.
+src/subdir.mk:27: recipe for target 'src/DatabaseSqlite3.o' failed
+make: *** [src/DatabaseSqlite3.o] Error 1
+09:24:52 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+make all 
+make: Nothing to be done for 'all'.
+09:24:52 **** Incremental Build of configuration Debug for project NetConfig ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project ProtocolTest ****
+
+Nothing to build for project ProtocolTest
+09:24:53 **** Incremental Build of configuration Default for project Test_GenericMakefile2 ****
+make all 
+make: Nothing to be done for 'all'.
+09:24:54 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+make all 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/anderson/Workspace/Cpp/Tests_Autotools/missing aclocal-1.15 
+/home/anderson/Workspace/Cpp/Tests_Autotools/missing: line 81: aclocal-1.15: command not found
+WARNING: 'aclocal-1.15' is missing on your system.
+         You should only need it if you modified 'acinclude.m4' or
+Makefile:335: recipe for target 'aclocal.m4' failed
+         'configure.ac' or m4 files included by 'configure.ac'.
+         The 'aclocal' program is part of the GNU Automake package:
+         <http://www.gnu.org/software/automake>
+         It also requires GNU Autoconf, GNU m4 and Perl in order to run:
+         <http://www.gnu.org/software/autoconf>
+         <http://www.gnu.org/software/m4/>
+         <http://www.perl.org/>
+make: *** [aclocal.m4] Error 127
+09:24:55 **** Incremental Build of configuration Release for project Tests_cpp ****
+make all 
+make: Nothing to be done for 'all'.
+09:24:55 **** Incremental Build of configuration Debug for project TimeScale ****
+make all 
+make: Nothing to be done for 'all'.
+09:24:56 **** Incremental Build of configuration Debug for project Tutorial_Mutex ****
+make all 
+Building target: Tutorial_Mutex
+Invoking: GCC C++ Linker
+g++  -o "Tutorial_Mutex"  ./src/Tutorial_Mutex.o   -lpthread
+./src/Tutorial_Mutex.o: In function `std::thread::thread<void (&)(int, char), int, char>(void (&)(int, char), int&&, char&&)':
+/usr/include/c++/6/thread:136: undefined reference to `std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)())'
+./src/Tutorial_Mutex.o: In function `std::thread::_State::_State()':
+/usr/include/c++/6/thread:66: undefined reference to `vtable for std::thread::_State'
+./src/Tutorial_Mutex.o: In function `std::thread::_State_impl<std::_Bind_simple<void (*(int, char))(int, char)> >::~_State_impl()':
+/usr/include/c++/6/thread:188: undefined reference to `std::thread::_State::~_State()'
+makefile:45: recipe for target 'Tutorial_Mutex' failed
+./src/Tutorial_Mutex.o:(.data.rel.ro._ZTINSt6thread11_State_implISt12_Bind_simpleIFPFvicEicEEEE[_ZTINSt6thread11_State_implISt12_Bind_simpleIFPFvicEicEEEE]+0x10): undefined reference to `typeinfo for std::thread::_State'
+collect2: error: ld returned 1 exit status
+make: *** [Tutorial_Mutex] Error 1
+09:24:57 **** Incremental Build of configuration Debug for project Tutorial_NetworkSockets ****
+make all 
+make: Nothing to be done for 'all'.
+09:24:58 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+make all 
+make: Nothing to be done for 'all'.
+09:24:58 **** Incremental Build of configuration Debug for project Tutorial_plog ****
+make all 
+make: Nothing to be done for 'all'.

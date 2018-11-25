@@ -1,6 +1,19 @@
-01:14:54 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
+09:24:50 **** Incremental Build of configuration Debug for project Algorithms_MasterDegreeProject ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Algorithms.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithms.d" -MT"src/Algorithms.d" -o "src/Algorithms.o" "../src/Algorithms.cpp"
+In file included from /usr/include/c++/5/array:35:0,
+                 from ../src/Algorithms.h:20,
+                 from ../src/Algorithms.cpp:9:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+In file included from ../src/Algorithms.cpp:9:0:
+../src/Algorithms.h:23:21: fatal error: armadillo: No such file or directory
+compilation terminated.
+make: *** [src/Algorithms.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Algorithms.o' failed
 
-01:14:54 Build Finished (took 83ms)
+09:24:51 Build Finished (took 638ms)
 

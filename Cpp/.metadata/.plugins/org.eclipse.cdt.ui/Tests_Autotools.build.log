@@ -1,12 +1,18 @@
-01:14:57 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
+09:24:54 **** Incremental Build of configuration Build (GNU) for project Tests_Autotools ****
 make all 
-Making all in src
-make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
-make[1]: Nothing to be done for 'all'.
-make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools/src'
-make[1]: Entering directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
-make[1]: Nothing to be done for 'all-am'.
-make[1]: Leaving directory '/home/anderson/Workspace/Cpp/Tests_Autotools'
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/anderson/Workspace/Cpp/Tests_Autotools/missing aclocal-1.15 
+/home/anderson/Workspace/Cpp/Tests_Autotools/missing: line 81: aclocal-1.15: command not found
+WARNING: 'aclocal-1.15' is missing on your system.
+         You should only need it if you modified 'acinclude.m4' or
+Makefile:335: recipe for target 'aclocal.m4' failed
+         'configure.ac' or m4 files included by 'configure.ac'.
+         The 'aclocal' program is part of the GNU Automake package:
+         <http://www.gnu.org/software/automake>
+         It also requires GNU Autoconf, GNU m4 and Perl in order to run:
+         <http://www.gnu.org/software/autoconf>
+         <http://www.gnu.org/software/m4/>
+         <http://www.perl.org/>
+make: *** [aclocal.m4] Error 127
 
-01:14:58 Build Finished (took 153ms)
+09:24:55 Build Finished (took 522ms)
 

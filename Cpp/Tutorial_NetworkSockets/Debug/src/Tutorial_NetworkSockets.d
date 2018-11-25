@@ -1,1 +1,1 @@
-src/Tutorial_NetworkSockets.o: ../src/Tutorial_NetworkSockets.cpp
+src/Tutorial_NetworkSockets.d: ../src/Tutorial_NetworkSockets.cpp

@@ -1,6 +1,13 @@
-01:14:55 **** Incremental Build of configuration Debug for project EasySqlite ****
+09:24:51 **** Incremental Build of configuration Debug for project EasySqlite ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/DatabaseSqlite3.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DatabaseSqlite3.d" -MT"src/DatabaseSqlite3.d" -o "src/DatabaseSqlite3.o" "../src/DatabaseSqlite3.cpp"
+In file included from ../src/DatabaseSqlite3.cpp:8:0:
+../src/DatabaseSqlite3.h:11:21: fatal error: sqlite3.h: No such file or directory
+compilation terminated.
+src/subdir.mk:27: recipe for target 'src/DatabaseSqlite3.o' failed
+make: *** [src/DatabaseSqlite3.o] Error 1
 
-01:14:55 Build Finished (took 109ms)
+09:24:52 Build Finished (took 571ms)
 

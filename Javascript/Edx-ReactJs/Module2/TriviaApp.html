@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+		<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="text/babel">
+
+/**
+ * True/False button
+ */
+ class Button extends React.Component{
+	 render(){
+		 return (
+			 <div>
+			 <button onClick={() =>
+			 {this.props.clickHandler(this.props.id, this.props.name)}	}>
+				 {this.props.name}
+			 </button>
+			 </div>
+		 )
+	 }
+ }
+
+class TriviaApp extends React.Component{
+	constructor(props){
+		super(props);
+		let triviaData = [
+			{
+				question: "Q1?",
+				right:1,
+				alts:[1, 2, 3, 4]
+			},
+			{
+				question: "Q2?",
+				right:1,
+				alts:["a", "1", "a", "ccc"]
+			},
+			{
+				question: "Q3?",
+				right:1,
+				alts:[5555, 4444, 333, 22]
+			},
+			{
+				question: "Q4?",
+				right:1,
+				alts:["q", "d", "g", "c"]
+			}
+		];
+		this.state = {
+			triviaData: triviaData,
+			currentQuestionPosition: 0,
+			summRight: 0,
+			summWrong: 0
+		}
+		this.clickHandler = this.clickHandler.bind(this);
+	}
+
+	clickHandler(id){
+		let newPos = this.state.currentQuestionPosition + 1;
+		if(newPos>this.state.triviaData.length)
+			return;
+		let nRight = this.state.summRight;
+		let nWrong = this.state.summWrong;
+		console.log("id="+id);
+		console.log("this.state.triviaData[this.state.currentQuestionPosition].right="+
+			this.state.triviaData[this.state.currentQuestionPosition].right);
+		if(id==this.state.triviaData[this.state.currentQuestionPosition].right){
+				nRight++;
+		}
+		else {
+			nWrong++;
+		}
+		this.setState({
+			currentQuestionPosition:newPos,
+			summRight:nRight,
+			summWrong:nWrong
+		});
+		console.log("this.state.summRight="+this.state.summRight);
+		console.log("this.state.summWrong="+this.state.summWrong);
+		console.log("this.state.currentQuestionPosition="+this.state.currentQuestionPosition);
+	}
+	
+	resetState(){
+		this.setState({
+			currentQuestionPosition:0,
+			summRight:0,
+			summWrong:0
+		});
+	}
+
+	render(){
+		let htmlOutput = [];
+		if ( this.state.currentQuestionPosition  >=
+			this.state.triviaData.length){
+			htmlOutput.push(<h1>End</h1>);
+			//htmlOutput.push(<button onClick={this.resetState()} name="Reset"></button>);
+		}
+		else {
+				let currentData = this.state.triviaData[this.state.currentQuestionPosition];
+				//let nQuestions = currentData.alts.lenght;
+				let nQuestions = 4;
+				//let nQuestions = currentData.alts.length;
+				console.log("nQuestions="+nQuestions);
+				console.log("currentData="+currentData);
+				htmlOutput = [];
+				htmlOutput.push(<div><h1>Question:</h1></div>);
+				for(let i=0; i<nQuestions; i++){
+					htmlOutput.push(
+						<Button clickHandler={this.clickHandler} id={i}
+							name={this.state.triviaData[this.state.currentQuestionPosition].alts[i]} />);
+				};
+		}
+		htmlOutput.push(
+			<div>
+				<hr/>
+				<h3>Correct: {this.state.summRight}</h3>
+				<h3>Incorrect: {this.state.summWrong}</h3>
+			</div>);
+		return(
+			<div>
+			{htmlOutput}
+			</div>
+		);
+	}
+}
+
+
+		ReactDOM.render(
+			<TriviaApp/>,
+			document.getElementById("root")
+		)
+		</script>
+	</body>
+</html>
