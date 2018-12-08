@@ -113,6 +113,124 @@
 			}
 		}
 
+		class Welcome2 extends React.Component{
+			constructor(props){
+				super(props);
+				this.state = {value:123};
+			}
+			render(){
+				return(
+					<h3>Value: {this.state.value}</h3>
+				);
+			}
+		}
+
+		class Welcome3 extends React.Component{
+		    constructor(){
+		        super()
+		        this.state = {value:0}
+						this.handleClick = this.handleClick.bind(this);
+		    }
+		    handleClick(){
+		      this.setState({value:this.state.value+1})
+		    }
+		    render(){
+		        return <button onClick = {this.handleClick}>{this.state.value}</button>
+		    }
+		}
+
+		class Counter3 extends React.Component{
+		    constructor(props){
+		        super(props)
+		        //initial state set up
+		        this.state = {message:"initial message"}
+		    }
+		    componentDidMount(){
+		        //updating state
+		        this.setState((prevState, props) => {
+								console.log("did mounnt");
+		            return {message: prevState.message + '!'}
+		        })
+		    }
+		    render(){
+		        return <div>Message:{this.state.message}</div>
+		    }
+		}
+
+		class Welcome4 extends React.Component{
+		    constructor(props){
+		        super(props)
+		        this.state = {value:0}
+		    }
+		    shouldComponentUpdate(nextProps, nextState){
+		        return false;
+		    }
+		    handleClick(){
+		      this.setState({value:this.state.value+this.props.incrementAmount})
+		    }
+		    render(){
+		        return <button onClick = {this.handleClick}>{this.state.value}</button>
+		    }
+		}
+
+///////////////
+class Details2 extends React.Component{
+		 render(){
+			 return <h1>{this.props.details}</h1>
+		 }
+}
+ class Button2 extends React.Component{
+		 render(){
+				 return (
+					 <button style = {{color: this.props.active? 'red': 'blue'}} onClick={ this.clickHandler(this.props.id,this.props.name)   }>
+						 {this.props.name}
+					 </button>
+				 )
+		 }
+ }
+	 class App2 extends React.Component{
+			 constructor(props){
+					 super(props)
+					 this.state = {activeArray:[0,0,0,0], title:""}
+					 this.clickHandler = this.clickHandler.bind(this)
+			 }
+			 clickHandler(id,details){
+					 var arr = [0,0,0,0]
+					 arr[id] = 1
+					 this.setState({activeArray:arr,details:details})
+					 console.log(id,title)
+			 }
+			 render(){
+					 return (
+							 <div>
+									 <Button2 id = {0} active = {this.state.activeArray[0]} clickHandler = {this.clickHandler} name="bob"/>
+									 <Button2 id = {1} active = {this.state.activeArray[1]} clickHandler = {this.clickHandler} name="joe"/>
+									 <Button2 id = {2} active = {this.state.activeArray[2]} clickHandler = {this.clickHandler} name="tree"/>
+									 <Button2 id = {3} active = {this.state.activeArray[3]} clickHandler = {this.clickHandler} name="four"/>
+									 <Details2 details = {this.state.details}/>
+							 </div>
+					 )
+			 }
+	 }
+
+	 class Counter5 extends React.Component{
+	     constructor(props){
+	         super(props)
+	         //initial state set up
+	         this.state = {count:32}
+	     }
+	     componentDidMount(){
+	         //updating state
+	         this.setState({count:42}, () => {
+	             console.log(this.state.count)
+	             this.setState({count:52})
+	         })
+	     }
+	     render(){
+	         return <div>Message:{this.state.message}</div>
+	     }
+	 }
+
 		ReactDOM.render(
 			<div>
 				<h3> State 1</h3>
@@ -127,7 +245,17 @@
 				<h3>Lifting State Up</h3>
 				<App/>
 				<hr/>
+				<Welcome2/>
 				<hr/>
+				<hr/>
+				<Welcome3/>
+				<hr/>
+				<Counter3 />
+				<hr/>
+				<Welcome4 />
+				<hr/>
+				<Counter5 />
+
 			</div>,
 		    document.getElementById("root")
 		)

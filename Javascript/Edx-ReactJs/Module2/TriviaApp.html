@@ -1,54 +1,86 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
-		<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script>
-	</head>
-	<body>
-		<div id="root"></div>
-		<script type="text/babel">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
 
 /**
- * True/False button
- */
- class Button extends React.Component{
-	 render(){
-		 return (
-			 <div>
-			 <button onClick={() =>
-			 {this.props.clickHandler(this.props.id, this.props.name)}	}>
-				 {this.props.name}
-			 </button>
-			 </div>
-		 )
-	 }
+* True/False button
+*/
+class Button extends React.Component{
+ render(){
+	 return (
+		 <div>
+		 <button onClick={() =>
+		 {this.props.clickHandler(this.props.id, this.props.name)}	}>
+			 {this.props.name}
+		 </button>
+		 </div>
+	 )
  }
+}
 
 class TriviaApp extends React.Component{
 	constructor(props){
 		super(props);
 		let triviaData = [
 			{
-				question: "Q1?",
-				right:1,
-				alts:[1, 2, 3, 4]
+				question: "What is 8x1?",
+				right:1, // 0 to 3
+				alts:[5, 8, 3, 9]
 			},
 			{
-				question: "Q2?",
-				right:1,
-				alts:["a", "1", "a", "ccc"]
+				question: "What is 8x2?",
+				right:2, // 0 to 3
+				alts:[23, 12, 16, 15]
 			},
 			{
-				question: "Q3?",
-				right:1,
-				alts:[5555, 4444, 333, 22]
+				question: "What is 8x3?",
+				right:0, // 0 to 3
+				alts:[24, 15, 27, 22]
 			},
 			{
-				question: "Q4?",
-				right:1,
-				alts:["q", "d", "g", "c"]
+				question: "What is 8x4?",
+				right:3, // 0 to 3
+				alts:[16, 24, 28, 32]
+			},
+			{
+				question: "What is 8x5?",
+				right:1, // 0 to 3
+				alts:[30, 40, 45, 28]
+			},
+			{
+				question: "What is 8x6?",
+				right:2, // 0 to 3
+				alts:[36, 42, 48, 46]
+			},
+			{
+				question: "What is 8x7?",
+				right:3, // 0 to 3
+				alts:[42, 48, 54, 56]
+			},
+			{
+				question: "What is 8x8?",
+				right:0, // 0 to 3
+				alts:[64, 68, 48, 58]
+			},
+			{
+				question: "What is 8x9?",
+				right:2, // 0 to 3
+				alts:[64, 69, 72, 76]
+			},
+			{
+				question: "What is 8x10?",
+				right:0, // 0 to 3
+				alts:[80, 70, 90, 60]
 			}
 		];
 		this.state = {
@@ -84,8 +116,9 @@ class TriviaApp extends React.Component{
 		console.log("this.state.summWrong="+this.state.summWrong);
 		console.log("this.state.currentQuestionPosition="+this.state.currentQuestionPosition);
 	}
-	
+
 	resetState(){
+		console.log("Reset state called");
 		this.setState({
 			currentQuestionPosition:0,
 			summRight:0,
@@ -98,7 +131,7 @@ class TriviaApp extends React.Component{
 		if ( this.state.currentQuestionPosition  >=
 			this.state.triviaData.length){
 			htmlOutput.push(<h1>End</h1>);
-			//htmlOutput.push(<button onClick={this.resetState()} name="Reset"></button>);
+			htmlOutput.push(<Button clickHandler={() => this.resetState()} name="Reset"></Button>);
 		}
 		else {
 				let currentData = this.state.triviaData[this.state.currentQuestionPosition];
@@ -108,15 +141,15 @@ class TriviaApp extends React.Component{
 				console.log("nQuestions="+nQuestions);
 				console.log("currentData="+currentData);
 				htmlOutput = [];
-				htmlOutput.push(<div><h1>Question:</h1></div>);
+				htmlOutput.push(<div><h1>Question:</h1><h3>{currentData.question}</h3></div>);
 				for(let i=0; i<nQuestions; i++){
 					htmlOutput.push(
 						<Button clickHandler={this.clickHandler} id={i}
 							name={this.state.triviaData[this.state.currentQuestionPosition].alts[i]} />);
-				};
+						};
 		}
 		htmlOutput.push(
-			<div>
+		<div>
 				<hr/>
 				<h3>Correct: {this.state.summRight}</h3>
 				<h3>Incorrect: {this.state.summWrong}</h3>
@@ -129,11 +162,11 @@ class TriviaApp extends React.Component{
 	}
 }
 
+ReactDOM.render(
+	<TriviaApp/>,
+	document.getElementById("root")
+)
+	</script>
+</body>
 
-		ReactDOM.render(
-			<TriviaApp/>,
-			document.getElementById("root")
-		)
-		</script>
-	</body>
 </html>

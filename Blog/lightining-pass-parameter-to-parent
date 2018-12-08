@@ -1,0 +1,24 @@
+up vote
+7
+down vote
+
+You can do this by defining the attributes in your top level component and then passing these down to your nested components. That way, when the nested component updates the attribute value, it will be immediately reflected in the parent component :
+
+<aura:component controller="LC01_MultiCriteriaSearch">
+   <aura:attribute name="scope" type="String" />
+   <aura:attribute name="criteria" type="String" />
+   <aura:attribute name="nestedCriteria" type="String" />
+   <c:LC01_MultiCriteriaSearch_Scope scope="{!v.scope}" />
+   <c:LC01_MultiCriteriaSearch_Criteria criteria="{!v.criteria}" />
+   <c:LC01_MultiCriteriaSearch_NestedCriteria criteria="{!v.nestedCriteria}" />
+   ...
+</aura:component>
+
+If you want to see some code that demonstrates this working for strings up and down through three levels, see :
+
+Lightning Components - SObject attribute change event only sent to descendants
+
+the code was actually demonstrating an issue around sobjects attribute propagation, but strings worked right off the bat.
+
+
+https://salesforce.stackexchange.com/questions/81068/lightning-parent-component-retreive-values-from-child-components
