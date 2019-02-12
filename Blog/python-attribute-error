@@ -1,0 +1,27 @@
+class TestAtr(object):
+    def __init__(self):
+        self.attInner = "inner att"
+    def print_atr(self):
+        print(">> "+ self.attInner)
+
+
+class TestAttibuteError(object):
+    def __init__(self):
+        self.at1 = 1
+        self.at2 = 2
+
+    def run(self, obj):
+        self.at3 = obj
+
+    def finalize(self):
+        self.at1 = 0
+        self.at2 = 0
+        try:
+            self.at3.print_atr()
+        except AttributeError as error:
+            print("Error executing finalize(), run(obj) was not executed properly.\n Error: "+str(error))
+
+tt = TestAttibuteError()
+pp = TestAtr()
+#tt.run(pp)
+tt.finalize()
