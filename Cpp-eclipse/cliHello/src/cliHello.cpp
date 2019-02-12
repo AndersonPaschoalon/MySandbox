@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : cliHello.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <Testlib.h>
+
+using namespace std;
+
+int main() {
+	Testlib* a = new Testlib();
+	a->hello();
+	return 0;
+}

@@ -1,0 +1,196 @@
+23:11:39 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp:10:21: fatal error: Testlib.h: No such file or directory
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+make: *** [src/cliHello.o] Error 1
+23:12:40 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:12:41 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/anderson/Desktop/test/cliHello/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp:10:21: fatal error: Testlib.h: No such file or directory
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+compilation terminated.
+make: *** [src/cliHello.o] Error 1
+
+**** Build of configuration Debug for project hellolib ****
+
+Nothing to build for project hellolib
+23:13:29 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:13:30 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/anderson/Desktop/test/cliHello/src" -I"/home/anderson/Desktop/test/Testlib/Debug" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp:10:21: fatal error: Testlib.h: No such file or directory
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+make: *** [src/cliHello.o] Error 1
+
+**** Build of configuration Debug for project hellolib ****
+
+Nothing to build for project hellolib
+23:14:33 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:14:34 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/anderson/Desktop/test/cliHello/src" -I"/home/anderson/Desktop/test/Testlib/Debug" -includeTestlib.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+cc1plus: fatal error: Testlib.h: No such file or directory
+compilation terminated.
+make: *** [src/cliHello.o] Error 1
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+
+**** Build of configuration Debug for project hellolib ****
+
+Nothing to build for project hellolib
+23:21:08 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:21:09 **** Incremental Build of configuration Release for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp:10:21: fatal error: Testlib.h: No such file or directory
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+make: *** [src/cliHello.o] Error 1
+23:21:10 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/anderson/Desktop/test/Testlib" -I"/home/anderson/Desktop/test/cliHello/src" -includeTestlib.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp: In function ‘int main()’:
+../src/cliHello.cpp:15:26: error: conversion from ‘Testlib*’ to non-scalar type ‘Testlib’ requested
+  Testlib a = new Testlib();
+                          ^
+make: *** [src/cliHello.o] Error 1
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+
+**** Build of configuration Debug for project hellolib ****
+
+Nothing to build for project hellolib
+23:24:32 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:32 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/anderson/Desktop/test/Testlib" -I"/home/anderson/Desktop/test/cliHello/src" -includeTestlib.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp: In function ‘int main()’:
+../src/cliHello.cpp:16:4: error: request for member ‘hello’ in ‘a’, which is of non-class type ‘Testlib()’
+  a.hello();
+    ^
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+make: *** [src/cliHello.o] Error 1
+
+**** Build of configuration Debug for project hellolib ****
+
+Nothing to build for project hellolib
+23:26:11 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:12 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/anderson/Desktop/test/Testlib" -I"/home/anderson/Desktop/test/cliHello/src" -includeTestlib.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp: In function ‘int main()’:
+../src/cliHello.cpp:15:26: error: conversion from ‘Testlib*’ to non-scalar type ‘Testlib’ requested
+  Testlib a = new Testlib();
+                          ^
+make: *** [src/cliHello.o] Error 1
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+
+**** Build of configuration Debug for project hellolib ****
+
+Nothing to build for project hellolib
+23:26:45 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:46 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/anderson/Desktop/test/Testlib" -I"/home/anderson/Desktop/test/cliHello/src" -includeTestlib.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp: In function ‘int main()’:
+../src/cliHello.cpp:16:4: error: request for member ‘hello’ in ‘a’, which is of pointer type ‘Testlib*’ (maybe you meant to use ‘->’ ?)
+  a.hello();
+    ^
+make: *** [src/cliHello.o] Error 1
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+
+**** Build of configuration Debug for project hellolib ****
+
+Nothing to build for project hellolib
+23:26:54 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:55 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/anderson/Desktop/test/Testlib" -I"/home/anderson/Desktop/test/cliHello/src" -includeTestlib.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+Finished building: ../src/cliHello.cpp
+ 
+Building target: cliHello
+Invoking: GCC C++ Linker
+g++ -L"/home/anderson/Desktop/test/Testlib/Debug" -o "cliHello"  ./src/cliHello.o   -lTestlib
+Finished building target: cliHello
+ 
+
+**** Build of configuration Debug for project hellolib ****
+
+Nothing to build for project hellolib
+23:27:14 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:27:14 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+make: Nothing to be done for 'all'.
+23:27:26 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:27:26 **** Incremental Build of configuration Release for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp:10:21: fatal error: Testlib.h: No such file or directory
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+make: *** [src/cliHello.o] Error 1
+23:27:27 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:27:27 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+make: Nothing to be done for 'all'.
+23:27:28 **** Incremental Build of configuration Release for project cliHello ****
+make all 
+Building file: ../src/cliHello.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliHello.d" -MT"src/cliHello.d" -o "src/cliHello.o" "../src/cliHello.cpp"
+../src/cliHello.cpp:10:21: fatal error: Testlib.h: No such file or directory
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/cliHello.o' failed
+make: *** [src/cliHello.o] Error 1
+23:27:29 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+23:27:29 **** Incremental Build of configuration Debug for project cliHello ****
+make all 
+make: Nothing to be done for 'all'.

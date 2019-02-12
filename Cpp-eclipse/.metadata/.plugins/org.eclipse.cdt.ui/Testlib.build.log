@@ -1,0 +1,6 @@
+23:27:29 **** Incremental Build of configuration Debug for project Testlib ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:27:29 Build Finished (took 517ms)
+
