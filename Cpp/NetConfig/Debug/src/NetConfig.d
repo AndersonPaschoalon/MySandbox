@@ -1,1 +1,1 @@
-src/NetConfig.o: ../src/NetConfig.cpp
+src/NetConfig.d: ../src/NetConfig.cpp

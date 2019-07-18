@@ -1,6 +1,31 @@
-01:14:58 **** Incremental Build of configuration Debug for project Tests_StochasticFit ****
+00:30:24 **** Build of configuration Debug for project Tests_StochasticFit ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Tests_StochasticFit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tests_StochasticFit.d" -MT"src/Tests_StochasticFit.d" -o "src/Tests_StochasticFit.o" "../src/Tests_StochasticFit.cpp"
+In file included from /usr/include/c++/5/array:35:0,
+                 from ../src/Tests_StochasticFit.cpp:13:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+../src/Tests_StochasticFit.cpp:133:2: warning: identifier ‘noexcept’ is a keyword in C++11 [-Wc++0x-compat]
+  StochasticModelFit& operator=(const StochasticModelFit& other) noexcept
+  ^
+../src/Tests_StochasticFit.cpp:133:63: error: expected ‘;’ at end of member declaration
+  StochasticModelFit& operator=(const StochasticModelFit& other) noexcept
+                                                               ^
+../src/Tests_StochasticFit.cpp:133:65: error: ‘noexcept’ does not name a type
+  StochasticModelFit& operator=(const StochasticModelFit& other) noexcept
+                                                                 ^
+../src/Tests_StochasticFit.cpp:133:65: note: C++11 ‘noexcept’ only available with -std=c++11 or -std=gnu++11
+../src/Tests_StochasticFit.cpp:158:37: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  stochastic_functions m_modelName = NO_MODEL;
+                                     ^
+../src/Tests_StochasticFit.cpp:161:37: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  information_criterion m_infoCrit = AIC;
+                                     ^
+src/subdir.mk:18: recipe for target 'src/Tests_StochasticFit.o' failed
+make: *** [src/Tests_StochasticFit.o] Error 1
 
-01:14:58 Build Finished (took 109ms)
+00:30:26 Build Finished (took 2s.473ms)
 

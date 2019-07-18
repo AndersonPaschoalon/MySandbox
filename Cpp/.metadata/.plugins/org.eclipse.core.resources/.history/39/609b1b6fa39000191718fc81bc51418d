@@ -1,0 +1,33 @@
+/*
+ * CompactTraceDescriptor.h
+ *
+ *  Created on: 15/06/2019
+ *      Author: anderson
+ */
+
+#ifndef COMPACTTRACEDESCRIPTOR_H_
+#define COMPACTTRACEDESCRIPTOR_H_
+
+typedef struct struct_flow_entry_raw
+{
+    int a;
+} FlowEntryRaw;
+
+typedef struct struct_flow_entry_soft
+{
+    int a;
+} FlowEntrySoft;
+
+
+class CompactTraceDescriptor
+{
+    public:
+        CompactTraceDescriptor();
+        virtual ~CompactTraceDescriptor();
+        static FlowEntrySoft flowEntry_Raw2Soft(FlowEntryRaw);
+        static FlowEntryRaw flowEntryRaw2Soft(FlowEntrySoft);
+    private:
+
+};
+
+#endif /* COMPACTTRACEDESCRIPTOR_H_ */

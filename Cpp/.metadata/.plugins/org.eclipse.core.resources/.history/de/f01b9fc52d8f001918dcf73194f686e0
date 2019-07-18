@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<trace>
+	<!--
+	== Tags == 
+	inf:
+		ether_interface	:
+		min_on_time		:
+		session_cut_time:
+		min_n_packets	:
+		n_flows			:
+		n_packets		:
+		throughput		:
+		av_ipt			:
+	fw	: flow
+		s	: flow start delay
+		d	: flow duration
+		st	: protocol stack
+			pl	: protocol link
+			ls	: protocol link source addr
+			ld	: protocol link destination addr
+			pn	: protocol network
+			ns	: protocol network addr source
+			nd	: protocol network addr destination
+			pt	: protocol transport 
+			ts	: protocol transport source 
+			td	: protocol transport destination
+			pa	: protocol application	
+		ps	:
+			n1	:
+			a1	:
+			k1	:	
+			n2	:
+			a2	:
+			k2	:
+		it:	
+			n	:
+			p	:
+			q	:
+			a	:
+			b	:
+		ss	:
+			on	:
+			of	:
+			ko	:
+			no	:
+	tf	: tiny flow
+		s	: flow start delay
+		d	: flow duration
+		n	:
+		k	:
+		pl	: protocol link
+		pn	: protocol network
+		pt	: protocol transport 
+		pa	: protocol application	
+	== Protocols ==
+	-- Link Layer
+	A	: ARP
+	E	: Ethernet
+	C	: SCP
+	-- Network Layer
+	I	: ICMP
+	4	: IPv4
+	6	: IPv6
+	-- Transport Layer
+	T	: TCP
+	U	: UDP
+	-- Application Layer
+	H	: HTTP
+	S	: HTTPS
+	F	: FTP
+	M	: SNMP
+	B	: BGP 
+	-- No protocol
+	0	: No protocol on this stack 
+	== STOCHASTIC MODELS ==
+	!	: Constant
+	@	: Weibull(LR)
+	#	: Cauchy(LR)
+	$	: Exponential(Me)
+	%	: Normal(De)
+	&	: Pareto(LR)
+	*	: Pareto(MLH)
+	+	: Gamma
+	
+	-->
+	<inf>
+		<ether_interface></ether_interface>
+		<min_on_time></min_on_time>
+		<session_cut_time></session_cut_time>
+		<min_n_packets></min_n_packets>	
+		<n_flows></n_flows>
+		<n_packets></n_packets>
+		<throughput></throughput>
+		<av_ipt></av_ipt>
+	</inf>
+	<fw s=""  d="" >
+		<st pl="" ls="" ld="" pn="" ns="" nd="" pt="" ts="" td="" pa=""/>
+		<ps n1="" a1="" k1="" n2="" a2="" k2="" />
+		<fi>
+			<s n="" p="" q="" a="" b="" >
+			<s n="" p="" q="" a="" b="" >
+			<s n="" p="" q="" a="" b="" >
+			<s n="" p="" q="" a="" b="" >
+			<s n="" p="" q="" a="" b="" >
+			<s n="" p="" q="" a="" b="" >
+			<s n="" p="" q="" a="" b="" >
+		</fi>
+		<ss on="" of="" ko="" no=""/>
+	</fw>
+	<tf  s=""  d="" n=""  k="" pl="" pn="" pt="" pa="" />
+</trace>

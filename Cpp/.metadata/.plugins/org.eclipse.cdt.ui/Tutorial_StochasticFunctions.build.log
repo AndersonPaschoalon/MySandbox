@@ -1,6 +1,90 @@
-09:24:58 **** Incremental Build of configuration Debug for project Tutorial_StochasticFunctions ****
+00:30:33 **** Build of configuration Debug for project Tutorial_StochasticFunctions ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Tutorial_StochasticFunctions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_StochasticFunctions.d" -MT"src/Tutorial_StochasticFunctions.d" -o "src/Tutorial_StochasticFunctions.o" "../src/Tutorial_StochasticFunctions.cpp"
+In file included from /usr/include/c++/5/random:35:0,
+                 from ../src/Tutorial_StochasticFunctions.cpp:12:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+../src/Tutorial_StochasticFunctions.cpp:26:22: error: ‘std::chrono’ has not been declared
+ unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+                      ^
+../src/Tutorial_StochasticFunctions.cpp:27:6: error: ‘default_random_engine’ in namespace ‘std’ does not name a type
+ std::default_random_engine generator(seed);
+      ^
+../src/Tutorial_StochasticFunctions.cpp: In function ‘void print_weibull()’:
+../src/Tutorial_StochasticFunctions.cpp:53:2: error: ‘weibull_distribution’ is not a member of ‘std’
+  std::weibull_distribution<double> distribution(2.0, 4.0);
+  ^
+../src/Tutorial_StochasticFunctions.cpp:53:28: error: expected primary-expression before ‘double’
+  std::weibull_distribution<double> distribution(2.0, 4.0);
+                            ^
+../src/Tutorial_StochasticFunctions.cpp:58:32: error: ‘generator’ was not declared in this scope
+   double number = distribution(generator);
+                                ^
+../src/Tutorial_StochasticFunctions.cpp:58:41: error: ‘distribution’ was not declared in this scope
+   double number = distribution(generator);
+                                         ^
+../src/Tutorial_StochasticFunctions.cpp: In function ‘void print_seed()’:
+../src/Tutorial_StochasticFunctions.cpp:74:12: error: ‘std::chrono’ has not been declared
+    << std::chrono::system_clock::now().time_since_epoch().count()
+            ^
+../src/Tutorial_StochasticFunctions.cpp: In function ‘void print_exponential()’:
+../src/Tutorial_StochasticFunctions.cpp:79:2: error: ‘exponential_distribution’ is not a member of ‘std’
+  std::exponential_distribution<double> distribution(3.5);
+  ^
+../src/Tutorial_StochasticFunctions.cpp:79:32: error: expected primary-expression before ‘double’
+  std::exponential_distribution<double> distribution(3.5);
+                                ^
+../src/Tutorial_StochasticFunctions.cpp:85:32: error: ‘generator’ was not declared in this scope
+   double number = distribution(generator);
+                                ^
+../src/Tutorial_StochasticFunctions.cpp:85:41: error: ‘distribution’ was not declared in this scope
+   double number = distribution(generator);
+                                         ^
+../src/Tutorial_StochasticFunctions.cpp: In function ‘void print_normal()’:
+../src/Tutorial_StochasticFunctions.cpp:101:2: error: ‘normal_distribution’ is not a member of ‘std’
+  std::normal_distribution<double> distribution(5.0, 2.0);
+  ^
+../src/Tutorial_StochasticFunctions.cpp:101:27: error: expected primary-expression before ‘double’
+  std::normal_distribution<double> distribution(5.0, 2.0);
+                           ^
+../src/Tutorial_StochasticFunctions.cpp:106:32: error: ‘generator’ was not declared in this scope
+   double number = distribution(generator);
+                                ^
+../src/Tutorial_StochasticFunctions.cpp:106:41: error: ‘distribution’ was not declared in this scope
+   double number = distribution(generator);
+                                         ^
+../src/Tutorial_StochasticFunctions.cpp: In function ‘void print_cauchy()’:
+../src/Tutorial_StochasticFunctions.cpp:119:2: error: ‘cauchy_distribution’ is not a member of ‘std’
+  std::cauchy_distribution<double> distribution(5.0, 1.0);
+  ^
+../src/Tutorial_StochasticFunctions.cpp:119:27: error: expected primary-expression before ‘double’
+  std::cauchy_distribution<double> distribution(5.0, 1.0);
+                           ^
+../src/Tutorial_StochasticFunctions.cpp:124:32: error: ‘generator’ was not declared in this scope
+   double number = distribution(generator);
+                                ^
+../src/Tutorial_StochasticFunctions.cpp:124:41: error: ‘distribution’ was not declared in this scope
+   double number = distribution(generator);
+                                         ^
+../src/Tutorial_StochasticFunctions.cpp: In function ‘void print_pareto()’:
+../src/Tutorial_StochasticFunctions.cpp:140:2: error: ‘exponential_distribution’ is not a member of ‘std’
+  std::exponential_distribution<double> distribution(0.6);
+  ^
+../src/Tutorial_StochasticFunctions.cpp:140:32: error: expected primary-expression before ‘double’
+  std::exponential_distribution<double> distribution(0.6);
+                                ^
+../src/Tutorial_StochasticFunctions.cpp:146:42: error: ‘generator’ was not declared in this scope
+   double number = 0.1 * exp(distribution(generator));
+                                          ^
+../src/Tutorial_StochasticFunctions.cpp:146:51: error: ‘distribution’ was not declared in this scope
+   double number = 0.1 * exp(distribution(generator));
+                                                   ^
+make: *** [src/Tutorial_StochasticFunctions.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Tutorial_StochasticFunctions.o' failed
 
-09:24:58 Build Finished (took 526ms)
+00:30:36 Build Finished (took 2s.835ms)
 

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="CleanDialogSettings">
-		<item value="569" key="DIALOG_WIDTH"/>
+		<item value="563" key="DIALOG_WIDTH"/>
 		<item value="true" key="TOGGLE_SELECTED"/>
-		<item value="379" key="DIALOG_HEIGHT"/>
+		<item value="386" key="DIALOG_HEIGHT"/>
 		<item value="705" key="DIALOG_X_ORIGIN"/>
 		<item value="314" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="/home/anderson/Projects/CppUtils" key="OUTSIDE_LOCATION"/>
 	</section>
 	<section name="NewWizardAction">
 	</section>

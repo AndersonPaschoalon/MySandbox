@@ -1,6 +1,15 @@
-01:14:55 **** Incremental Build of configuration Debug for project Log4cpp_tutorial ****
+00:30:12 **** Build of configuration Debug for project Log4cpp_tutorial ****
 make all 
-make: Nothing to be done for 'all'.
+Building target: Log4cpp_tutorial
+Invoking: GCC C++ Linker
+g++  -o "Log4cpp_tutorial"  ./src/SPDLog_tutorial.o   -lpthread -llog4cpp
+//usr/local/lib/liblog4cpp.so: undefined reference to `pthread_key_create'
+//usr/local/lib/liblog4cpp.so: undefined reference to `pthread_getspecific'
+//usr/local/lib/liblog4cpp.so: undefined reference to `pthread_key_delete'
+//usr/local/lib/liblog4cpp.so: undefined reference to `pthread_setspecific'
+collect2: error: ld returned 1 exit status
+makefile:45: recipe for target 'Log4cpp_tutorial' failed
+make: *** [Log4cpp_tutorial] Error 1
 
-01:14:55 Build Finished (took 105ms)
+00:30:13 Build Finished (took 769ms)
 

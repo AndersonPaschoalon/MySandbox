@@ -1,6 +1,6 @@
-09:24:52 **** Incremental Build of configuration Debug for project Libpcap_tutorial ****
+00:30:11 **** Build of configuration Debug for project Libpcap_tutorial ****
 make all 
 make: Nothing to be done for 'all'.
 
-09:24:52 Build Finished (took 519ms)
+00:30:12 Build Finished (took 625ms)
 

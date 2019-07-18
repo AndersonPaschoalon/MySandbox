@@ -1,6 +1,61 @@
-01:14:56 **** Incremental Build of configuration Debug for project Test_MultthreadPopen ****
+00:30:15 **** Build of configuration Debug for project Test_MultthreadPopen ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Test_MultthreadPopen.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test_MultthreadPopen.d" -MT"src/Test_MultthreadPopen.d" -o "src/Test_MultthreadPopen.o" "../src/Test_MultthreadPopen.cpp"
+In file included from /usr/include/c++/5/thread:35:0,
+                 from ../src/Test_MultthreadPopen.cpp:10:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+../src/Test_MultthreadPopen.cpp:15:6: error: ‘mutex’ in namespace ‘std’ does not name a type
+ std::mutex mtx;
+      ^
+../src/Test_MultthreadPopen.cpp: In function ‘int ls(int)’:
+../src/Test_MultthreadPopen.cpp:20:2: error: ‘mtx’ was not declared in this scope
+  mtx.lock();
+  ^
+../src/Test_MultthreadPopen.cpp: In function ‘int make1()’:
+../src/Test_MultthreadPopen.cpp:41:2: error: ‘mtx’ was not declared in this scope
+  mtx.lock();
+  ^
+../src/Test_MultthreadPopen.cpp: In function ‘int make2()’:
+../src/Test_MultthreadPopen.cpp:63:2: error: ‘mtx’ was not declared in this scope
+  mtx.lock();
+  ^
+../src/Test_MultthreadPopen.cpp: In function ‘int main()’:
+../src/Test_MultthreadPopen.cpp:85:2: error: ‘thread’ is not a member of ‘std’
+  std::thread th1(ls, 1);
+  ^
+../src/Test_MultthreadPopen.cpp:86:2: error: ‘thread’ is not a member of ‘std’
+  std::thread th2(ls, 2);
+  ^
+../src/Test_MultthreadPopen.cpp:87:2: error: ‘thread’ is not a member of ‘std’
+  std::thread th3(ls, 3);
+  ^
+../src/Test_MultthreadPopen.cpp:89:2: error: ‘th1’ was not declared in this scope
+  th1.join();
+  ^
+../src/Test_MultthreadPopen.cpp:90:2: error: ‘th2’ was not declared in this scope
+  th2.join();
+  ^
+../src/Test_MultthreadPopen.cpp:91:2: error: ‘th3’ was not declared in this scope
+  th3.join();
+  ^
+../src/Test_MultthreadPopen.cpp:93:2: error: ‘thread’ is not a member of ‘std’
+  std::thread th4(make1);
+  ^
+../src/Test_MultthreadPopen.cpp:94:2: error: ‘thread’ is not a member of ‘std’
+  std::thread th5(make2);
+  ^
+../src/Test_MultthreadPopen.cpp:96:2: error: ‘th4’ was not declared in this scope
+  th4.join();
+  ^
+../src/Test_MultthreadPopen.cpp:97:2: error: ‘th5’ was not declared in this scope
+  th5.join();
+  ^
+src/subdir.mk:18: recipe for target 'src/Test_MultthreadPopen.o' failed
+make: *** [src/Test_MultthreadPopen.o] Error 1
 
-01:14:56 Build Finished (took 115ms)
+00:30:15 Build Finished (took 720ms)
 

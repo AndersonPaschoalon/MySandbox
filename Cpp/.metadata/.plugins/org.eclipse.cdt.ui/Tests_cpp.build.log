@@ -1,6 +1,51 @@
-09:24:55 **** Incremental Build of configuration Release for project Tests_cpp ****
+00:30:27 **** Build of configuration Release for project Tests_cpp ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Tests_cpp.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tests_cpp.d" -MT"src/Tests_cpp.d" -o "src/Tests_cpp.o" "../src/Tests_cpp.cpp"
+In file included from /usr/include/c++/5/array:35:0,
+                 from ../src/Tests_cpp.cpp:6:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+../src/Tests_cpp.cpp:273:2: warning: identifier ‘noexcept’ is a keyword in C++11 [-Wc++0x-compat]
+  c1& operator=(const c1& other) noexcept
+  ^
+../src/Tests_cpp.cpp:12:12: error: ‘std::array’ has not been declared
+ using std::array;
+            ^
+../src/Tests_cpp.cpp: In member function ‘void std_tests::int_to_ascii(int, char*)’:
+../src/Tests_cpp.cpp:201:16: error: ‘to_string’ is not a member of ‘std’
+   string str = std::to_string(val);
+                ^
+../src/Tests_cpp.cpp: At global scope:
+../src/Tests_cpp.cpp:273:31: error: expected ‘;’ at end of member declaration
+  c1& operator=(const c1& other) noexcept
+                               ^
+../src/Tests_cpp.cpp:273:33: error: ‘noexcept’ does not name a type
+  c1& operator=(const c1& other) noexcept
+                                 ^
+../src/Tests_cpp.cpp:273:33: note: C++11 ‘noexcept’ only available with -std=c++11 or -std=gnu++11
+../src/Tests_cpp.cpp: In function ‘void test_if()’:
+../src/Tests_cpp.cpp:337:7: warning: unused variable ‘f’ [-Wunused-variable]
+  bool f = false;
+       ^
+../src/Tests_cpp.cpp: At global scope:
+../src/Tests_cpp.cpp:538:21: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  uint posConterv = -1;
+                     ^
+../src/Tests_cpp.cpp:539:21: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  uint posConterw = -1;
+                     ^
+../src/Tests_cpp.cpp: In function ‘void test_defaultArgs()’:
+../src/Tests_cpp.cpp:623:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  defaultArgs("a-char-vector");
+                             ^
+../src/Tests_cpp.cpp:624:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  defaultArgs2("kkk");
+                    ^
+src/subdir.mk:18: recipe for target 'src/Tests_cpp.o' failed
+make: *** [src/Tests_cpp.o] Error 1
 
-09:24:55 Build Finished (took 518ms)
+00:30:28 Build Finished (took 1s.28ms)
 

@@ -1,6 +1,6 @@
-01:14:56 **** Incremental Build of configuration Debug for project Popen2 ****
+00:30:13 **** Build of configuration Debug for project Popen2 ****
 make all 
 make: Nothing to be done for 'all'.
 
-01:14:56 Build Finished (took 137ms)
+00:30:14 Build Finished (took 568ms)
 

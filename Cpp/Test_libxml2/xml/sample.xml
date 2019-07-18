@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<story>
+  <storyinfo>
+    <author>John Fleck</author>
+    <datewritten>June 2, 2002</datewritten>
+    <keyword uri="www.google.com" >example keyword</keyword>
+  </storyinfo>
+  <body>
+    <headline>This is the headline</headline>
+    <para>This is the body text.</para>
+  </body>
+  <sub1>
+  	<sub2>
+    	<sub3>ASDFGHH</sub3>	
+  	</sub2>
+  </sub1>
+  <sub1>
+  	<sub2>
+    	<sub3>1234567890</sub3>	
+  	</sub2>
+  </sub1>  
+</story>

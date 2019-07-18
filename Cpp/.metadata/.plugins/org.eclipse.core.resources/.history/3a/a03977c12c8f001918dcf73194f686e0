@@ -1,0 +1,18 @@
+/*
+ * CompactTraceDescriptor.h
+ *
+ *  Created on: 15/06/2019
+ *      Author: anderson
+ */
+
+#ifndef COMPACTTRACEDESCRIPTOR_H_
+#define COMPACTTRACEDESCRIPTOR_H_
+
+class CompactTraceDescriptor
+{
+    public:
+        CompactTraceDescriptor();
+        virtual ~CompactTraceDescriptor();
+};
+
+#endif /* COMPACTTRACEDESCRIPTOR_H_ */

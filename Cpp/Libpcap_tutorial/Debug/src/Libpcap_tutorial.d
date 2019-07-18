@@ -1,1 +1,1 @@
-src/Libpcap_tutorial.o: ../src/Libpcap_tutorial.cpp
+src/Libpcap_tutorial.d: ../src/Libpcap_tutorial.cpp

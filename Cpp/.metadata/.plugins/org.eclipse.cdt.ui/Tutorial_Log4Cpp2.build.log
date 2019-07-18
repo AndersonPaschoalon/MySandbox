@@ -1,6 +1,20 @@
-01:14:59 **** Incremental Build of configuration Debug for project Tutorial_Log4Cpp2 ****
+00:30:31 **** Build of configuration Debug for project Tutorial_Log4Cpp2 ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Tutorial_Log4Cpp2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_Log4Cpp2.d" -MT"src/Tutorial_Log4Cpp2.d" -o "src/Tutorial_Log4Cpp2.o" "../src/Tutorial_Log4Cpp2.cpp"
+../src/Tutorial_Log4Cpp2.cpp:83:0: warning: "CODE_LOCATION" redefined
+ #define CODE_LOCATION "[end] "
+ ^
+../src/Tutorial_Log4Cpp2.cpp:15:0: note: this is the location of the previous definition
+ #define CODE_LOCATION __FILE__
+ ^
+../src/Tutorial_Log4Cpp2.cpp: In function ‘int main(int, char**)’:
+../src/Tutorial_Log4Cpp2.cpp:48:8: error: ‘exit’ was not declared in this scope
+  exit(1);
+        ^
+make: *** [src/Tutorial_Log4Cpp2.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Tutorial_Log4Cpp2.o' failed
 
-01:14:59 Build Finished (took 151ms)
+00:30:32 Build Finished (took 1s.78ms)
 

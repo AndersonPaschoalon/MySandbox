@@ -1,6 +1,17 @@
-01:15:03 **** Incremental Build of configuration Debug for project Tutorial_time ****
+00:30:42 **** Build of configuration Debug for project Tutorial_time ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Tutorial_time.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tutorial_time.d" -MT"src/Tutorial_time.d" -o "src/Tutorial_time.o" "../src/Tutorial_time.cpp"
+../src/Tutorial_time.cpp: In function ‘void exemplo3()’:
+../src/Tutorial_time.cpp:157:27: error: ‘errno’ was not declared in this scope
+  } while ((ret == -1) && (errno == EINTR)); //select is interruped too
+                           ^
+../src/Tutorial_time.cpp:157:36: error: ‘EINTR’ was not declared in this scope
+  } while ((ret == -1) && (errno == EINTR)); //select is interruped too
+                                    ^
+make: *** [src/Tutorial_time.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Tutorial_time.o' failed
 
-01:15:03 Build Finished (took 114ms)
+00:30:43 Build Finished (took 850ms)
 
