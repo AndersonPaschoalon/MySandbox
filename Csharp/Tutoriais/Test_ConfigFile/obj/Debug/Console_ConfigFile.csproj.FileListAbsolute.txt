@@ -1,0 +1,7 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_ConfigFile\bin\Debug\AdvantageSdkSettings.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_ConfigFile\bin\Debug\Console_ConfigFile.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_ConfigFile\bin\Debug\Console_ConfigFile.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_ConfigFile\bin\Debug\Console_ConfigFile.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_ConfigFile\obj\Debug\Console_ConfigFile.csprojAssemblyReference.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_ConfigFile\obj\Debug\Console_ConfigFile.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_ConfigFile\obj\Debug\Console_ConfigFile.pdb

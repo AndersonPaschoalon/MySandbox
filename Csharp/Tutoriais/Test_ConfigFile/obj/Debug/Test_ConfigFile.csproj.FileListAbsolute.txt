@@ -1,0 +1,13 @@
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_ConfigFile\Test_ConfigFile\bin\Debug\Test_ConfigFile.exe.config
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_ConfigFile\Test_ConfigFile\bin\Debug\Test_ConfigFile.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_ConfigFile\Test_ConfigFile\bin\Debug\Test_ConfigFile.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_ConfigFile\Test_ConfigFile\obj\Debug\Test_ConfigFile.csprojResolveAssemblyReference.cache
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_ConfigFile\Test_ConfigFile\obj\Debug\Test_ConfigFile.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_ConfigFile\Test_ConfigFile\obj\Debug\Test_ConfigFile.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_ConfigFile\Test_ConfigFile\bin\Debug\AdvantageSdkSettings.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Test_ConfigFile\bin\Debug\AdvantageSdkSettings.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Test_ConfigFile\bin\Debug\Test_ConfigFile.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Test_ConfigFile\bin\Debug\Test_ConfigFile.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Test_ConfigFile\bin\Debug\Test_ConfigFile.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Test_ConfigFile\obj\Debug\Test_ConfigFile.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Test_ConfigFile\obj\Debug\Test_ConfigFile.pdb

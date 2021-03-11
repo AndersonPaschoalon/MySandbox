@@ -1,0 +1,5 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_MutexCs\bin\Debug\Test_MutexCs.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_MutexCs\bin\Debug\Test_MutexCs.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_MutexCs\bin\Debug\Test_MutexCs.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_MutexCs\obj\Debug\Test_MutexCs.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Test_MutexCs\obj\Debug\Test_MutexCs.pdb

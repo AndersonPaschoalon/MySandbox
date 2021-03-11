@@ -1,0 +1,16 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\bin\Debug\Aplicando_MVVM.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\bin\Debug\Aplicando_MVVM.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\bin\Debug\Aplicando_MVVM.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\MainWindow.g.cs
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\View\ClienteView.g.cs
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\App.g.cs
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\Aplicando_MVVM_MarkupCompile.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\Aplicando_MVVM_MarkupCompile.lref
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\MainWindow.baml
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\View\ClienteView.baml
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\Aplicando_MVVM.g.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\Aplicando_MVVM.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\WPF_Aplicando_MVVM.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\Aplicando_MVVM.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Aplicando_MVVM\obj\Debug\Aplicando_MVVM.pdb

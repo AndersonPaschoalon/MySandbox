@@ -1,0 +1,5 @@
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\bin\Release\SerialPortTester.exe.config
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\bin\Release\SerialPortTester.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\bin\Release\SerialPortTester.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\obj\Release\SerialPortTester.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\obj\Release\SerialPortTester.pdb

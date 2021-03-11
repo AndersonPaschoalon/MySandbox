@@ -1,0 +1,7 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_ResourceSetStaticClass\bin\Debug\Tutorial_ResourceSetStaticClass.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_ResourceSetStaticClass\bin\Debug\Tutorial_ResourceSetStaticClass.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_ResourceSetStaticClass\bin\Debug\Tutorial_ResourceSetStaticClass.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_ResourceSetStaticClass\obj\Debug\Tutorial_ResourceSetStaticClass.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_ResourceSetStaticClass\obj\Debug\Form_ResourceSetStaticClass.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_ResourceSetStaticClass\obj\Debug\Tutorial_ResourceSetStaticClass.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_ResourceSetStaticClass\obj\Debug\Tutorial_ResourceSetStaticClass.pdb

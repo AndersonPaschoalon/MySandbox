@@ -1,0 +1,5 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ConsoleTest\bin\Debug\Console_LerArquivos.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ConsoleTest\bin\Debug\Console_LerArquivos.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ConsoleTest\bin\Debug\Console_LerArquivos.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ConsoleTest\obj\Debug\Console_LerArquivos.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ConsoleTest\obj\Debug\Console_LerArquivos.pdb

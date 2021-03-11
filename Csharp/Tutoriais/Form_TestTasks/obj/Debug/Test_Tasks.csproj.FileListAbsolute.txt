@@ -1,0 +1,9 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_Tasks\Test_Tasks\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_Tasks\Test_Tasks\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_Tasks\Test_Tasks\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_Tasks\Test_Tasks\WindowsFormsApp1\obj\Debug\Test_Tasks.csprojAssemblyReference.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_Tasks\Test_Tasks\WindowsFormsApp1\obj\Debug\Test_Tasks.Form1.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_Tasks\Test_Tasks\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_Tasks\Test_Tasks\WindowsFormsApp1\obj\Debug\Test_Tasks.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_Tasks\Test_Tasks\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_Tasks\Test_Tasks\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

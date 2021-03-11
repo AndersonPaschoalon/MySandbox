@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  dllmain.cpp
+  MathLibrary.cpp
+  Generating Code...
+     Creating library C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cpp\TutorialDllWindows\MathLibrary\MathLibrary\Debug\MATHLIBRARY.lib and object C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cpp\TutorialDllWindows\MathLibrary\MathLibrary\Debug\MATHLIBRARY.exp
+  MathLibrary.vcxproj -> C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cpp\TutorialDllWindows\MathLibrary\MathLibrary\Debug\MATHLIBRARY.dll

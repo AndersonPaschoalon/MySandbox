@@ -1,0 +1,4 @@
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\ClassLibrary1\bin\Release\ClassLibrary1.dll
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\ClassLibrary1\bin\Release\ClassLibrary1.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\ClassLibrary1\obj\Release\ClassLibrary1.dll
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\ClassLibrary1\obj\Release\ClassLibrary1.pdb

@@ -1,0 +1,8 @@
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\bin\Release\Tutorial_PictureViewer.exe.config
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\bin\Release\Tutorial_PictureViewer.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\bin\Release\Tutorial_PictureViewer.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Release\Tutorial_PictureViewer.Form1.resources
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Release\Tutorial_PictureViewer.Properties.Resources.resources
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Release\Tutorial_PictureViewer.csproj.GenerateResource.Cache
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Release\Tutorial_PictureViewer.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Release\Tutorial_PictureViewer.pdb

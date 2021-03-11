@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  dllmain.cpp
+  MathLibrary.cpp
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cpp\TutorialDllWindows - Copia\MathLibrary\MathLibrary\MathLibrary\MathLibrary.cpp(96,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cpp\TutorialDllWindows - Copia\MathLibrary\MathLibrary\MathLibrary\MathLibrary.cpp(104,26): warning C4244: '=': conversion from 'TCHAR' to 'char', possible loss of data
+     Creating library C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cpp\TutorialDllWindows - Copia\MathLibrary\MathLibrary\Release\MATHLIBRARY.lib and object C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cpp\TutorialDllWindows - Copia\MathLibrary\MathLibrary\Release\MATHLIBRARY.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MathLibrary.vcxproj -> C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cpp\TutorialDllWindows - Copia\MathLibrary\MathLibrary\Release\MATHLIBRARY.dll

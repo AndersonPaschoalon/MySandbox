@@ -1,0 +1,21 @@
+C:\Users\anderson_paschoalon\Documents\Visual Studio 2013\Projects\Tutorial_MyCalculator\Tutorial_MyCalculator\bin\Debug\Tutorial_MyCalculator.exe.config
+C:\Users\anderson_paschoalon\Documents\Visual Studio 2013\Projects\Tutorial_MyCalculator\Tutorial_MyCalculator\bin\Debug\Tutorial_MyCalculator.exe
+C:\Users\anderson_paschoalon\Documents\Visual Studio 2013\Projects\Tutorial_MyCalculator\Tutorial_MyCalculator\bin\Debug\Tutorial_MyCalculator.pdb
+C:\Users\anderson_paschoalon\Documents\Visual Studio 2013\Projects\Tutorial_MyCalculator\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.csprojResolveAssemblyReference.cache
+C:\Users\anderson_paschoalon\Documents\Visual Studio 2013\Projects\Tutorial_MyCalculator\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.Form1.resources
+C:\Users\anderson_paschoalon\Documents\Visual Studio 2013\Projects\Tutorial_MyCalculator\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Documents\Visual Studio 2013\Projects\Tutorial_MyCalculator\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.csproj.GenerateResource.Cache
+C:\Users\anderson_paschoalon\Documents\Visual Studio 2013\Projects\Tutorial_MyCalculator\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.exe
+C:\Users\anderson_paschoalon\Documents\Visual Studio 2013\Projects\Tutorial_MyCalculator\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\bin\Debug\Tutorial_MyCalculator.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\bin\Debug\Tutorial_MyCalculator.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\bin\Debug\Tutorial_MyCalculator.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.Form1.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\bin\Debug\Resources\Icon1.ico
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\bin\Debug\Resources\Aha-Soft-3d-Social-Online-writing.ico
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\bin\Debug\Resources\Image1.bmp
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_MyCalculator\bin\Debug\Resources\pexels-photo-240040.jpeg

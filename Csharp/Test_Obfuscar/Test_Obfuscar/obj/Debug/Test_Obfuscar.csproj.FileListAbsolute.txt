@@ -1,0 +1,10 @@
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\bin\Debug\Test_Obfuscar.exe.config
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\bin\Debug\Test_Obfuscar.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\bin\Debug\Test_Obfuscar.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\bin\Debug\ClassLibrary1.dll
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\bin\Debug\ClassLibrary2.dll
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\bin\Debug\ClassLibrary1.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\bin\Debug\ClassLibrary2.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\obj\Debug\Test_Obfuscar.csprojResolveAssemblyReference.cache
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\obj\Debug\Test_Obfuscar.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Test_Obfuscar\Test_Obfuscar\obj\Debug\Test_Obfuscar.pdb

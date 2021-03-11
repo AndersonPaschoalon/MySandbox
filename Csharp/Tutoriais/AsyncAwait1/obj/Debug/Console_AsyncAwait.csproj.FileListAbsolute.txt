@@ -1,0 +1,11 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\AsyncAwait1\bin\Debug\AsyncAwait1.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\AsyncAwait1\bin\Debug\AsyncAwait1.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\AsyncAwait1\bin\Debug\AsyncAwait1.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\AsyncAwait1\obj\Debug\Console_AsyncAwait.csprojAssemblyReference.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\AsyncAwait1\obj\Debug\AsyncAwait1.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\AsyncAwait1\obj\Debug\AsyncAwait1.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\AsyncAwait1\bin\Debug\Console_AsyncAwait.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\AsyncAwait1\bin\Debug\Console_AsyncAwait.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\AsyncAwait1\bin\Debug\Console_AsyncAwait.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\AsyncAwait1\obj\Debug\Console_AsyncAwait.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\AsyncAwait1\obj\Debug\Console_AsyncAwait.pdb

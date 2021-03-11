@@ -1,0 +1,5 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_WpfTask2\obj\Debug\Tutorial_WpfTask2.csprojAssemblyReference.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_WpfTask2\obj\Debug\MainWindow.g.cs
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_WpfTask2\obj\Debug\App.g.cs
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_WpfTask2\obj\Debug\Tutorial_WpfTask2_MarkupCompile.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_WpfTask2\obj\Debug\Tutorial_WpfTask2_MarkupCompile.lref

@@ -1,0 +1,11 @@
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\tutorial_log4net\tutorial_log4net\bin\Debug\tutorial_log4net.exe.config
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\tutorial_log4net\tutorial_log4net\obj\Debug\tutorial_log4net.csprojResolveAssemblyReference.cache
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_log4net\tutorial_log4net\bin\Debug\tutorial_log4net.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutorial_log4net\tutorial_log4net\bin\Debug\tutorial_log4net.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutorial_log4net\tutorial_log4net\bin\Debug\tutorial_log4net.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutorial_log4net\tutorial_log4net\bin\Debug\tutorial_log4net.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutorial_log4net\tutorial_log4net\bin\Debug\log4net.dll
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutorial_log4net\tutorial_log4net\bin\Debug\log4net.xml
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutorial_log4net\tutorial_log4net\obj\Debug\tutorial_log4net.csproj.CopyComplete
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutorial_log4net\tutorial_log4net\obj\Debug\tutorial_log4net.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutorial_log4net\tutorial_log4net\obj\Debug\tutorial_log4net.pdb

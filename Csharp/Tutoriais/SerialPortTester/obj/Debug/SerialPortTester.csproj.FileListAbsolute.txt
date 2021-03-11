@@ -1,0 +1,6 @@
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\bin\Debug\SerialPortTester.exe.config
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\bin\Debug\SerialPortTester.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\bin\Debug\SerialPortTester.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\obj\Debug\SerialPortTester.csprojResolveAssemblyReference.cache
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\obj\Debug\SerialPortTester.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\SerialPortTester\SerialPortTester\obj\Debug\SerialPortTester.pdb

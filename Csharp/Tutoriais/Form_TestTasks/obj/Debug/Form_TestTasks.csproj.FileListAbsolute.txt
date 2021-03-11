@@ -1,0 +1,8 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Form_TestTasks\obj\Debug\Test_Tasks.Form1.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Form_TestTasks\obj\Debug\Form_TestTasks.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Form_TestTasks\obj\Debug\Form_TestTasks.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Form_TestTasks\bin\Debug\Form_TestTasks.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Form_TestTasks\bin\Debug\Form_TestTasks.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Form_TestTasks\bin\Debug\Form_TestTasks.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Form_TestTasks\obj\Debug\Form_TestTasks.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Form_TestTasks\obj\Debug\Form_TestTasks.pdb

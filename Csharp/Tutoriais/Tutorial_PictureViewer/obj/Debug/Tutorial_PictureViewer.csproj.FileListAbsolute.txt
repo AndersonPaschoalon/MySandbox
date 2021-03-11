@@ -1,0 +1,26 @@
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\Tutorial_PictureViewer\Tutorial_PictureViewer\bin\Debug\Tutorial_PictureViewer.exe.config
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\Tutorial_PictureViewer\Tutorial_PictureViewer\bin\Debug\Tutorial_PictureViewer.exe
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\Tutorial_PictureViewer\Tutorial_PictureViewer\bin\Debug\Tutorial_PictureViewer.pdb
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.csprojResolveAssemblyReference.cache
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.Properties.Resources.resources
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.csproj.GenerateResource.Cache
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.exe
+c:\users\anderson_paschoalon\documents\visual studio 2013\Projects\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\bin\Debug\Tutorial_PictureViewer.exe.config
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\bin\Debug\Tutorial_PictureViewer.exe
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\bin\Debug\Tutorial_PictureViewer.pdb
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.csprojResolveAssemblyReference.cache
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.Form1.resources
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.Properties.Resources.resources
+C:\Users\anderson_paschoalon\VisualStudio\Sandbox\Tutorial_PictureViewer\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.csproj.GenerateResource.Cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_PictureViewer\bin\Debug\Tutorial_PictureViewer.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_PictureViewer\bin\Debug\Tutorial_PictureViewer.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_PictureViewer\bin\Debug\Tutorial_PictureViewer.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.csprojAssemblyReference.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.Form1.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_WPF\Tutorial_PictureViewer\obj\Debug\Tutorial_PictureViewer.pdb

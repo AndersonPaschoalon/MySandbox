@@ -1,0 +1,17 @@
+﻿Build started 04/06/2019 17:20:00.
+     1>Project "C:\Users\anderson_paschoalon\VisualStudio\Sandbox\EasyHookTutorial1\MyMathFuncs\MyMathFuncs\MyMathFuncs.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\anderson_paschoalon\VisualStudio\Sandbox\EasyHookTutorial1\MyMathFuncs\MyMathFuncs\ /I"Generated Files\\" /IDebug\ /ZI /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\MyMathFuncs.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\anderson_paschoalon\VisualStudio\Sandbox\EasyHookTutorial1\MyMathFuncs\MyMathFuncs\ /I"Generated Files\\" /IDebug\ /ZI /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\MyMathFuncs.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyMathFuncs.cpp
+         MyMathFuncs.cpp
+     1>c:\users\anderson_paschoalon\visualstudio\sandbox\easyhooktutorial1\mymathfuncs\mymathfuncs\mymathfuncs.cpp(5): warning C4627: '#include "MathFuncsLib.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\anderson_paschoalon\visualstudio\sandbox\easyhooktutorial1\mymathfuncs\mymathfuncs\mymathfuncs.cpp(7): warning C4627: '#include <stdexcept>': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\anderson_paschoalon\visualstudio\sandbox\easyhooktutorial1\mymathfuncs\mymathfuncs\mymathfuncs.cpp(33): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>Done Building Project "C:\Users\anderson_paschoalon\VisualStudio\Sandbox\EasyHookTutorial1\MyMathFuncs\MyMathFuncs\MyMathFuncs.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.88

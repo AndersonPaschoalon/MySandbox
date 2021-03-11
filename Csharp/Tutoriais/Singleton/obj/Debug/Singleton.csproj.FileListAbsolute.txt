@@ -1,0 +1,6 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Test_SingletonCS\Singleton\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Test_SingletonCS\Singleton\Singleton\bin\Debug\Singleton.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Test_SingletonCS\Singleton\Singleton\bin\Debug\Singleton.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Test_SingletonCS\Singleton\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Test_SingletonCS\Singleton\Singleton\obj\Debug\Singleton.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Test_SingletonCS\Singleton\Singleton\obj\Debug\Singleton.pdb

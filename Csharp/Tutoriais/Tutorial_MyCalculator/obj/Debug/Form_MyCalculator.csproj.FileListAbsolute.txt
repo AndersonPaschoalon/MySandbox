@@ -1,0 +1,12 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\bin\Debug\Resources\Icon1.ico
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\bin\Debug\Resources\Aha-Soft-3d-Social-Online-writing.ico
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\bin\Debug\Resources\Image1.bmp
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\bin\Debug\Resources\pexels-photo-240040.jpeg
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\bin\Debug\Tutorial_MyCalculator.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\bin\Debug\Tutorial_MyCalculator.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\bin\Debug\Tutorial_MyCalculator.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.Form1.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\obj\Debug\Form_MyCalculator.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Tutorial_MyCalculator\obj\Debug\Tutorial_MyCalculator.pdb

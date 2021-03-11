@@ -1,0 +1,7 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_SingleApp\TestSingleApp\TestSingleApp\bin\Debug\TestSingleApp.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_SingleApp\TestSingleApp\TestSingleApp\bin\Debug\TestSingleApp.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_SingleApp\TestSingleApp\TestSingleApp\bin\Debug\TestSingleApp.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_SingleApp\TestSingleApp\TestSingleApp\obj\Debug\TestSingleApp.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_SingleApp\TestSingleApp\TestSingleApp\obj\Debug\TestSingleApp.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_SingleApp\TestSingleApp\TestSingleApp\obj\Debug\TestSingleApp.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Test_SingleApp\TestSingleApp\TestSingleApp\obj\Debug\TestSingleApp.pdb

@@ -1,0 +1,10 @@
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\bin\Debug\TestsForms.exe.config
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\bin\Debug\TestsForms.exe
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\bin\Debug\TestsForms.pdb
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\obj\Debug\TestsForms.csprojAssemblyReference.cache
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\obj\Debug\TestsForms.Form1.resources
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\obj\Debug\TestsForms.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\obj\Debug\TestsForms.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\obj\Debug\TestsForms.csproj.CoreCompileInputs.cache
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\obj\Debug\TestsForms.exe
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Test_Forms\TestsForms\TestsForms\obj\Debug\TestsForms.pdb

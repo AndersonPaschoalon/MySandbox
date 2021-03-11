@@ -1,0 +1,5 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\SerialPortTester\bin\Debug\Console_SerialPortTester.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\SerialPortTester\bin\Debug\Console_SerialPortTester.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\SerialPortTester\bin\Debug\Console_SerialPortTester.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\SerialPortTester\obj\Debug\Console_SerialPortTester.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\SerialPortTester\obj\Debug\Console_SerialPortTester.pdb

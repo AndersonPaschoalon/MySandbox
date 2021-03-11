@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btn_cancel_print" xml:space="preserve">
+    <value>CANCELAR IMPRESIÓN</value>
+  </data>
+  <data name="btn_exit" xml:space="preserve">
+    <value>SALIR</value>
+  </data>
+  <data name="btn_login" xml:space="preserve">
+    <value>ENTRAR</value>
+  </data>
+  <data name="btn_print" xml:space="preserve">
+    <value>IMPRIMIR</value>
+  </data>
+  <data name="btn_reload" xml:space="preserve">
+    <value>RECARREGA</value>
+  </data>
+  <data name="btn_update" xml:space="preserve">
+    <value>CAMBIAR</value>
+  </data>
+  <data name="lbl_branch" xml:space="preserve">
+    <value>Agência</value>
+  </data>
+  <data name="lbl_card_holder_name" xml:space="preserve">
+    <value>Portador de la tarjeta</value>
+  </data>
+  <data name="lbl_multi_selection_print" xml:space="preserve">
+    <value>Selección Multipla</value>
+  </data>
+  <data name="lbl_idiom" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="lbl_card_product" xml:space="preserve">
+    <value>Producto de la tarjeta</value>
+  </data>
+  <data name="lbl_client_config" xml:space="preserve">
+    <value>Configuración del Print Centre Client</value>
+  </data>
+  <data name="lbl_connected_reader" xml:space="preserve">
+    <value>Lectoras Conectadas</value>
+  </data>
+  <data name="lbl_creation_date" xml:space="preserve">
+    <value>Fecha de creación</value>
+  </data>
+  <data name="lbl_drivers" xml:space="preserve">
+    <value>Drivers</value>
+  </data>
+  <data name="lbl_driver_name" xml:space="preserve">
+    <value>Nombre del Driver</value>
+  </data>
+  <data name="lbl_filter_by" xml:space="preserve">
+    <value>Filtrar Por</value>
+  </data>
+  <data name="lbl_IdRecord" xml:space="preserve">
+    <value>ID del Registro</value>
+  </data>
+  <data name="lbl_iiserver_config" xml:space="preserve">
+    <value>Configuración del IIServer</value>
+  </data>
+  <data name="lbl_installed_printers" xml:space="preserve">
+    <value>Impresoras Instaladas</value>
+  </data>
+  <data name="lbl_interface_type" xml:space="preserve">
+    <value>Interfaz del lector</value>
+  </data>
+  <data name="lbl_interface_types" xml:space="preserve">
+    <value>Interfaz del lector</value>
+  </data>
+  <data name="lbl_management" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="lbl_versionNumber" xml:space="preserve">
+    <value>Versión </value>
+  </data>
+  <data name="lbl_storeNumber" xml:space="preserve">
+    <value>Tienda: </value>
+  </data>
+  <data name="lbl_organization" xml:space="preserve">
+    <value>Organización</value>
+  </data>
+  <data name="lbl_pan" xml:space="preserve">
+    <value>Numero de tarjeta</value>
+  </data>
+  <data name="lbl_printer" xml:space="preserve">
+    <value>Impresora</value>
+  </data>
+  <data name="lbl_printer_config_configured" xml:space="preserve">
+    <value>Opciones de configuración del lector</value>
+  </data>
+  <data name="lbl_printer_config_options" xml:space="preserve">
+    <value>Opciones de configuración de la impresora</value>
+  </data>
+  <data name="lbl_printer_monitor" xml:space="preserve">
+    <value>Monitoreo</value>
+  </data>
+  <data name="lbl_printer_name" xml:space="preserve">
+    <value>Nombre de la Impresora</value>
+  </data>
+  <data name="lbl_printer_serial" xml:space="preserve">
+    <value>Serial de la Impresora</value>
+  </data>
+  <data name="lbl_proxy_domain" xml:space="preserve">
+    <value>Dominio del Proxy</value>
+  </data>
+  <data name="lbl_proxy_password" xml:space="preserve">
+    <value>Contraseña del proxy</value>
+  </data>
+  <data name="lbl_proxy_user" xml:space="preserve">
+    <value>Usuario del proxy</value>
+  </data>
+  <data name="lbl_reader_name" xml:space="preserve">
+    <value>Nombre del lector</value>
+  </data>
+  <data name="lbl_status" xml:space="preserve">
+    <value>Situación de la tarjeta</value>
+  </data>
+  <data name="lbl_timeout" xml:space="preserve">
+    <value>Tiempo de espera</value>
+  </data>
+  <data name="login_password" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="login_user" xml:space="preserve">
+    <value>Usuario:</value>
+  </data>
+  <data name="lbl_canceled" xml:space="preserve">
+    <value>Cancelado.</value>
+  </data>
+  <data name="lbl_error" xml:space="preserve">
+    <value>Error.</value>
+  </data>
+  <data name="lbl_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lbl_printed_successfully" xml:space="preserve">
+    <value>Tarjeta impresa con éxito?</value>
+  </data>
+  <data name="lbl_Printing" xml:space="preserve">
+    <value>Impresión.</value>
+  </data>
+  <data name="lbl_print_card_done" xml:space="preserve">
+    <value>Tarjeta impresa con éxito</value>
+  </data>
+  <data name="lbl_Waiting" xml:space="preserve">
+    <value>En espera.</value>
+  </data>
+  <data name="lbl_yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="msg_config_update_completed" xml:space="preserve">
+    <value>Cambiado con éxito.</value>
+  </data>
+  <data name="msg_config_update_error" xml:space="preserve">
+    <value>Error al cambiar la configuración.</value>
+  </data>
+  <data name="msg_error_issuance" xml:space="preserve">
+    <value>Error del emissíon.</value>
+  </data>
+  <data name="msg_error_loading_config_file" xml:space="preserve">
+    <value>Error al cargar el archivo del configuracíon.</value>
+  </data>
+  <data name="msg_error_login" xml:space="preserve">
+    <value>Error de inicio de sesión.</value>
+  </data>
+  <data name="msg_error_set_error" xml:space="preserve">
+    <value>Error del setError.</value>
+  </data>
+  <data name="msg_feeding_card" xml:space="preserve">
+    <value>Cargando tarjeta.</value>
+  </data>
+  <data name="msg_feeding_card_error" xml:space="preserve">
+    <value>Error al cargar tarjeta.</value>
+  </data>
+  <data name="msg_login_success" xml:space="preserve">
+    <value>Inicio de sesión exitoso.</value>
+  </data>
+  <data name="msg_personalizing_smart_card" xml:space="preserve">
+    <value>Personalización de la tarjeta inteligente.</value>
+  </data>
+  <data name="msg_printing_card" xml:space="preserve">
+    <value>Impresión de la tarjeta.</value>
+  </data>
+  <data name="msg_proccess_completed" xml:space="preserve">
+    <value>Proceso completo.</value>
+  </data>
+  <data name="msg_samrt_card_success" xml:space="preserve">
+    <value>éxito de la tarjeta inteligente.</value>
+  </data>
+  <data name="lbl_dispose_card" xml:space="preserve">
+    <value>¿Desea definir la tarjeta como no exitosa?</value>
+  </data>
+  <data name="btn_confirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="lbl_rejection1" xml:space="preserve">
+    <value>¡ATENCIÓN! Al confirmar la operación, la tarjeta arriba deberá ser rechazada,</value>
+  </data>
+  <data name="lbl_rejection2" xml:space="preserve">
+    <value>y una nueva tarjeta será generada al cliente.</value>
+  </data>
+  <data name="opt_unreadable_cvv" xml:space="preserve">
+    <value>CVV ilegible</value>
+  </data>
+  <data name="opt_unreadable_name" xml:space="preserve">
+    <value>Nombre ilegible</value>
+  </data>
+  <data name="opt_unreadable_number" xml:space="preserve">
+    <value>Digitos tarjeta ilegibles</value>
+  </data>
+  <data name="opt_clients_missing" xml:space="preserve">
+    <value>Cliente ausente</value>
+  </data>
+  <data name="opt_operational_error" xml:space="preserve">
+    <value>Error operacional</value>
+  </data>
+  <data name="opt_other" xml:space="preserve">
+    <value>Otro</value>
+  </data>
+  <data name="lbl_rejection_error" xml:space="preserve">
+    <value>Tolos los campos son obligatórios</value>
+  </data>
+  <data name="msg_canceling_card" xml:space="preserve">
+    <value>Cancelando tarjeta.</value>
+    <comment>Cancelando cartao.</comment>
+  </data>
+  <data name="msg_canceled_card" xml:space="preserve">
+    <value>Tarjeta cancelada.</value>
+    <comment>Cartao cancelado.</comment>
+  </data>
+  <data name="msg_cancel_card_error" xml:space="preserve">
+    <value>No se pudo cancelar la tarjeta.</value>
+    <comment>Não foi possível cancelar o cartão.</comment>
+  </data>
+  <data name="btn_card_counter" xml:space="preserve">
+    <value>Contador</value>
+  </data>
+  <data name="lbl_cl_branch" xml:space="preserve">
+    <value>Tienda: </value>
+  </data>
+  <data name="dgrid_cl_batch" xml:space="preserve">
+    <value>Lote</value>
+  </data>
+  <data name="dgrid_cl_prod" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="dgrid_cl_initnumber" xml:space="preserve">
+    <value>Número Inicial</value>
+  </data>
+  <data name="dgrid_cl_finalnumber" xml:space="preserve">
+    <value>Número Final</value>
+  </data>
+  <data name="dgrid_cl_quantity" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="dgrid_cl_date" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="btn_cl_start" xml:space="preserve">
+    <value>Comienzo</value>
+  </data>
+  <data name="lbl_cl_nobranch" xml:space="preserve">
+    <value>No hay lote de tarjetas para esta tienda.</value>
+  </data>
+  <data name="lbl_cl_failedloadbatch" xml:space="preserve">
+    <value>Error al cargar los lotes de tarjeta</value>
+  </data>
+  <data name="lbl_cl_multiselection" xml:space="preserve">
+    <value>No se puede seleccionar más de un lote a la vez.</value>
+  </data>
+  <data name="lbl_cl_nobatchselected" xml:space="preserve">
+    <value>Debe seleccionarse al menos un lote.</value>
+  </data>
+  <data name="btn_inventory" xml:space="preserve">
+    <value>Inventario</value>
+  </data>
+  <data name="wrn_ctr_finishprocess" xml:space="preserve">
+    <value> tarjetas leídas exitosamente ¿Desea enviarlo al servidor?</value>
+  </data>
+  <data name="wrn_ctr_errorupdate" xml:space="preserve">
+    <value>Error en la actualización de las tarjetas recibidas: </value>
+  </data>
+  <data name="wrn_ctr_novalidcards" xml:space="preserve">
+    <value>No hay tarjetas válidas</value>
+  </data>
+  <data name="wrn_crp_failedparset3" xml:space="preserve">
+    <value>No se pudo tratar la pista 3. Formato no válido.</value>
+  </data>
+  <data name="wrn_crp_t3empty" xml:space="preserve">
+    <value>Pista 3 vacía</value>
+  </data>
+  <data name="wrn_crp_failedreadt3" xml:space="preserve">
+    <value>No se pudo leer la pista 3</value>
+  </data>
+  <data name="wrn_crp_wrongbatch" xml:space="preserve">
+    <value>La tarjeta no pertenece a este lote</value>
+  </data>
+  <data name="wrn_crp_failedtoread" xml:space="preserve">
+    <value>Error al leer la tarjeta</value>
+  </data>
+  <data name="btn_ctr_cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="lbl_ctr_movingcard" xml:space="preserve">
+    <value>Moviendo la tarjeta</value>
+  </data>
+  <data name="lbl_ctr_readingcard" xml:space="preserve">
+    <value>Lindo tarjeta</value>
+  </data>
+  <data name="lbl_ctr_ejectingcard" xml:space="preserve">
+    <value>Eyectando tarjeta</value>
+  </data>
+  <data name="lbl_ctr_finalizingprocess" xml:space="preserve">
+    <value>Finalización del proceso</value>
+  </data>
+  <data name="wrn_ctr_emptyhopper" xml:space="preserve">
+    <value>La tolva está vacía. ¿Deseas finalizar el proceso de lectura?</value>
+  </data>
+  <data name="wrn_ctr_continuereading" xml:space="preserve">
+    <value>¿Quieres cargar más cartas y seguir leyendo?</value>
+  </data>
+  <data name="wrn_frm_startinventory" xml:space="preserve">
+    <value>¿Desea iniciar el inventario?</value>
+  </data>
+  <data name="wrn_frm_noinventory" xml:space="preserve">
+    <value>No hay inventario pendiente para esta tienda.</value>
+  </data>
+  <data name="btn_cl_reload" xml:space="preserve">
+    <value>Recargar</value>
+  </data>
+  <data name="lbl_is_inprogress" xml:space="preserve">
+    <value>Auditoría en curso</value>
+  </data>
+  <data name="lbl_cl_boxname" xml:space="preserve">
+    <value>Contador de tarjetas de PrintClient</value>
+  </data>
+  <data name="lbl_cr_boxname" xml:space="preserve">
+    <value>Lector de tarjetas de PrintClient</value>
+  </data>
+  <data name="lbl_is_boxname" xml:space="preserve">
+    <value>Auditoría de PrintClient</value>
+  </data>
+  <data name="lbl_isctr_lastcardread" xml:space="preserve">
+    <value>La última tarjeta se leyó con éxito: </value>
+    <comment>Used in both InventorySelection and CardTrackReader</comment>
+  </data>
+  <data name="wrn_is_processfinalized" xml:space="preserve">
+    <value>Procedimiento finalizado</value>
+  </data>
+  <data name="wrn_warning" xml:space="preserve">
+    <value>¡Atención!</value>
+  </data>
+  <data name="wrn_crpivp_errorsfinalizer" xml:space="preserve">
+    <value>¿Desea finalizar el proceso de lectura?</value>
+  </data>
+  <data name="combobox_other_printers" xml:space="preserve">
+    <value>Otra</value>
+    <comment>Otra</comment>
+  </data>
+  <data name="lbl_ctr_initializingprocess" xml:space="preserve">
+    <value>Inicio del proceso</value>
+  </data>
+  <data name="msg_valid_card_batch" xml:space="preserve">
+    <value>El envío de tarjeta es válido</value>
+  </data>
+  <data name="wrn_cannot_read_track3" xml:space="preserve">
+    <value>No se pudo leer Track 3</value>
+  </data>
+  <data name="wrn_empty_track3" xml:space="preserve">
+    <value>Track 3 está vacío</value>
+  </data>
+  <data name="wrn_invalid_card_batch" xml:space="preserve">
+    <value>Envío de tarjeta inválida</value>
+  </data>
+  <data name="wrn_invalid_track3" xml:space="preserve">
+    <value>Formato de la pista 3 no válida</value>
+  </data>
+  <data name="wrn_no_card_status" xml:space="preserve">
+    <value>Ningún estado válido</value>
+  </data>
+  <data name="wrn_printer_driver" xml:space="preserve">
+    <value>No se puede inicializar el controlador de impresora.</value>
+  </data>
+  <data name="msg_validCards" xml:space="preserve">
+    <value>Tarjetas válidas con éxito.</value>
+  </data>
+  <data name="msg_wrongCards" xml:space="preserve">
+    <value>Las tarjetas ubicadas en el cajón de descarte deben ser separadas para ser enviadas para destrucción.</value>
+  </data>
+  <data name="wrn_cardAbortedByUser" xml:space="preserve">
+    <value>Tarjeta abortada por el usuario.</value>
+  </data>
+  <data name="card_aborted_by_user" xml:space="preserve">
+    <value>Tarjeta abortada por el usuario.</value>
+  </data>
+  <data name="wrn_cannot_read" xml:space="preserve">
+    <value>No se pudo leer la tarjeta.</value>
+  </data>
+  <data name="wrn_card_aborted_by_user" xml:space="preserve">
+    <value>Tarjeta abortada por el usuario.</value>
+  </data>
+  <data name="wrn_invalid_batch" xml:space="preserve">
+    <value>Tarjeta de lote no válida.</value>
+  </data>
+  <data name="wrn_invalid_track3_format" xml:space="preserve">
+    <value>Formato de Track 3 no válido.</value>
+  </data>
+  <data name="ztest" xml:space="preserve">
+    <value>ztest</value>
+  </data>
+  <data name="lbl_cardNumber" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lbl_cardTrack3" xml:space="preserve">
+    <value>Track 3 </value>
+  </data>
+  <data name="lbl_failRead" xml:space="preserve">
+    <value>Causa del error</value>
+  </data>
+  <data name="lbl_ctr_chekingPrinterStatus" xml:space="preserve">
+    <value>Verificacíon del estado de la impresora</value>
+  </data>
+  <data name="lbl_countProcessCanceled" xml:space="preserve">
+    <value>Proceso de conteo cancelado.</value>
+  </data>
+  <data name="lbl_ctr_cancelProcess" xml:space="preserve">
+    <value>Proceso de cancelación</value>
+  </data>
+  <data name="msg_checkPrinterFree" xml:space="preserve">
+    <value>Comprobando si la impresora está lista</value>
+  </data>
+  <data name="lbl_cancellingProcess" xml:space="preserve">
+    <value>Cancelando...</value>
+  </data>
+  <data name="wrn_cpr_notReadyContinue" xml:space="preserve">
+    <value>La impresora no está lista. ¿Quieres intentarlo de nuevo?</value>
+  </data>
+  <data name="hello_resxset" xml:space="preserve">
+    <value>hello_resxset_es</value>
+  </data>
+</root>

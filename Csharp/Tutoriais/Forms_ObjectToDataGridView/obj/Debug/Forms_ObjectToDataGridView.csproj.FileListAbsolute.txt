@@ -1,0 +1,9 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Forms_ObjectToDataGridView\bin\Debug\Forms_ObjectToDataGridView.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Forms_ObjectToDataGridView\bin\Debug\Forms_ObjectToDataGridView.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Forms_ObjectToDataGridView\bin\Debug\Forms_ObjectToDataGridView.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Forms_ObjectToDataGridView\obj\Debug\Forms_ObjectToDataGridView.Form1.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Forms_ObjectToDataGridView\obj\Debug\Forms_ObjectToDataGridView.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Forms_ObjectToDataGridView\obj\Debug\Forms_ObjectToDataGridView.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Forms_ObjectToDataGridView\obj\Debug\Forms_ObjectToDataGridView.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Forms_ObjectToDataGridView\obj\Debug\Forms_ObjectToDataGridView.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\Forms_ObjectToDataGridView\obj\Debug\Forms_ObjectToDataGridView.csprojAssemblyReference.cache

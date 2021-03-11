@@ -1,0 +1,13 @@
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\bin\Debug\ObservableCollection.exe.config
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\bin\Debug\ObservableCollection.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\bin\Debug\ObservableCollection.pdb
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\MainWindow.g.cs
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\App.g.cs
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\ObservableCollection_MarkupCompile.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\ObservableCollection_MarkupCompile.lref
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\MainWindow.baml
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\ObservableCollection.g.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\ObservableCollection.Properties.Resources.resources
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\WPF_ObservableCollection.csproj.GenerateResource.cache
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\ObservableCollection.exe
+C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\ObservableCollection\obj\Debug\ObservableCollection.pdb
