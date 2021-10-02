@@ -59,3 +59,27 @@ void TestClass01::test_overwriteFile()
     overwriteFile("content02");
     overwriteFile("content03");
 }
+
+void TestClass01::test_ScriptCmd()
+{
+    std::string outVal;
+    int retVal = 0;
+   
+    ScriptCmd scriptps1("runPs1.ps1", "", ScriptCmd::ShellType::POWER_SHELL);
+    retVal = scriptps1.exec(outVal);
+    printf("==>> %d\n", retVal);
+    printf("==>> %s\n", outVal.c_str());
+    std::cout << "scriptps1:" << scriptps1.toString() << std::endl;
+
+    std::vector<std::string> listFiles;
+    listFiles.clear();
+    listFiles.push_back("file1");
+    listFiles.push_back("file2");
+    listFiles.push_back("file3");
+    ScriptCmd scriptbat("runBat.bat");
+    scriptbat.setGeneratedFiles(listFiles);
+    retVal = scriptbat.execAndSave();
+    printf("==>> %d\n", retVal);
+    std::cout << "scriptbat.getStdoutFilename():" << scriptbat.getStdoutFilename() << std::endl;
+    std::cout << "scriptbat:" << scriptbat.toString() << std::endl;
+}

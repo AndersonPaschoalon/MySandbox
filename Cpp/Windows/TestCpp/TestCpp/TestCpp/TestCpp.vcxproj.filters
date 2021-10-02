@@ -21,10 +21,30 @@
     <ClCompile Include="TestClass01.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ScriptCmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestClass01.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ScriptCmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="runBat.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="runPs1.ps1">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="runPython.py">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="runSh.sh">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

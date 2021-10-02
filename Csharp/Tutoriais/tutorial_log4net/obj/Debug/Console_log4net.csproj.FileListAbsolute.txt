@@ -7,3 +7,13 @@ C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\
 C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\tutorial_log4net\obj\Debug\Console_log4net.exe
 C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\tutorial_log4net\obj\Debug\Console_log4net.pdb
 C:\Users\anderson_paschoalon\Workspace\Sandbox\OpenSource\Cs\Tutoriais_Projetos\tutorial_log4net\obj\Debug\Console_log4net.csprojAssemblyReference.cache
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\bin\Debug\Console_log4net.exe.config
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\bin\Debug\Console_log4net.exe
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\bin\Debug\Console_log4net.pdb
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\bin\Debug\log4net.dll
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\bin\Debug\log4net.xml
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\obj\Debug\Console_log4net.csproj.AssemblyReference.cache
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\obj\Debug\Console_log4net.csproj.CoreCompileInputs.cache
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\obj\Debug\Console_log4net.csproj.CopyComplete
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\obj\Debug\Console_log4net.exe
+C:\Users\anderson_paschoalon\Workspace\_Personal\MySandbox\Csharp\Tutoriais\tutorial_log4net\obj\Debug\Console_log4net.pdb

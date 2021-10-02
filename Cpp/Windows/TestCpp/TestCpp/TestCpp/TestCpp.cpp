@@ -7,7 +7,7 @@
 int main()
 {
     bool test01 = false;
-    bool test02 = true;
+    bool test02 = false;
     bool test03 = true;
     bool test04 = true;
     bool test05 = true;
@@ -17,6 +17,7 @@ int main()
 
     if (test01) TestClass01::test_overwriteFile();
     if (test02) TestClass01::incrementFile();
+    if (test03) TestClass01::test_ScriptCmd();
 
 }
 

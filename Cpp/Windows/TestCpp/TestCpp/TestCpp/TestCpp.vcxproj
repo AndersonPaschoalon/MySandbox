@@ -139,11 +139,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ScriptCmd.cpp" />
     <ClCompile Include="TestClass01.cpp" />
     <ClCompile Include="TestCpp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ScriptCmd.h" />
     <ClInclude Include="TestClass01.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="runBat.bat">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="runPs1.ps1" />
+    <None Include="runPython.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="runSh.sh">
+      <DeploymentContent>true</DeploymentContent>
+      <FileType>Script</FileType>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
