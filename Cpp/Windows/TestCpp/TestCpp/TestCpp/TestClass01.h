@@ -1,6 +1,10 @@
 #pragma once
 #include "ScriptCmd.h"
 
+// json scapes
+//extern std::string escapes[1024];
+//extern bool initEscapes;
+
 class TestClass01
 {
 public: 
@@ -15,6 +19,17 @@ public:
 
 	static void test_ScriptCmd();
 
+	static void test_read_blocked_file();
+
+	static void test_exception();
+
+	static void test_scape_string();
+	static std::string json_escape(const std::string& s);
+	static void initJsonEscape();
+
 private:
 };
+
+
+
 
