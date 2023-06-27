@@ -1,9 +1,22 @@
 #pragma once
 #include "ScriptCmd.h"
 
-// json scapes
-//extern std::string escapes[1024];
-//extern bool initEscapes;
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Exception handling test
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+struct test_str
+{
+	int a;
+	int b;
+};
+
+int ex01();
+int ex02();
+int ex03();
+int noEx();
+
 
 class TestClass01
 {
@@ -24,8 +37,17 @@ public:
 	static void test_exception();
 
 	static void test_scape_string();
+
 	static std::string json_escape(const std::string& s);
+
 	static void initJsonEscape();
+
+	static void exception_handling_test();
+
+	static void testFindCertificatePath();
+
+	static std::string findCACertPath(const char* uriStr);
+
 
 private:
 };

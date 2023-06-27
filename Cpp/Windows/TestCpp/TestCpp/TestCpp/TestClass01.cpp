@@ -5,6 +5,15 @@
 #include <thread>
 #include <sstream>
 #include <iomanip>
+#include <windows.h>
+#include <wincrypt.h>
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <regex>
+
+#pragma comment(lib, "crypt32.lib")
+
 
 using namespace std::chrono_literals;
 
@@ -233,4 +242,175 @@ void TestClass01::initJsonEscape()
     initEscapes = true;
 }
 
+void TestClass01::exception_handling_test()
+{
+
+    std::cout << "**************************************************************************** \n";
+    std::cout << "**EXCEPTION HANDLING TEST \n";
+    std::cout << "**************************************************************************** \n";
+
+    try
+    {
+        std::cout << "** noEx\n";
+        noEx();
+    }
+    catch (std::exception& ex)
+    {
+        std::cout << "std exception: " << ex.what() << '\n';
+    }
+    catch (int exCode)
+    {
+        std::cout << "exception code: " << exCode << '\n';
+    }
+    catch (...)
+    {
+        std::cout << "Default exception\n";
+    }
+
+    ////////////////////////////////////////////////////////////
+
+    //ex01();
+    try
+    {
+        std::cout << "** ex01\n";
+        ex01();
+    }
+    catch (std::exception& ex)
+    {
+        std::cout << "std exception: " << ex.what() << '\n';
+    }
+    catch (int exCode)
+    {
+        std::cout << "exception code: " << exCode << '\n';
+    }
+    catch (...)
+    {
+        std::cout << "Default exception\n";
+    }
+
+
+    ///////////////////////////////////////////////////////////
+
+    try
+    {
+        std::cout << "** ex02\n";
+        ex02();
+    }
+    catch (std::exception& ex)
+    {
+        std::cout << "std exception: " << ex.what() << '\n';
+    }
+    catch (int exCode)
+    {
+        std::cout << "exception code: " << exCode << '\n';
+    }
+    catch (...)
+    {
+        std::cout << "Default exception\n";
+    }
+
+    ////////////////////////////////////////////////////////////
+
+    try
+    {
+        std::cout << "** ex03\n";
+        ex03();
+    }
+    catch (std::exception& ex)
+    {
+        std::cout << "std exception: " << ex.what() << '\n';
+    }
+    catch (int exCode)
+    {
+        std::cout << "exception code: " << exCode << '\n';
+    }
+    catch (...)
+    {
+        std::cout << "Default exception\n";
+    }
+
+}
+
+void TestClass01::testFindCertificatePath()
+{
+}
+
+std::string TestClass01::findCACertPath(const char* uriStr)
+{
+    HCERTSTORE hStore = NULL;
+    PCCERT_CONTEXT pCertContext = NULL;
+
+    // Open the root store
+    hStore = CertOpenSystemStore(NULL, "ROOT");
+    if (hStore == NULL) {
+        return "";
+    }
+
+    // Find the certificate by subject name
+    pCertContext = CertFindCertificateInStore(hStore,
+        X509_ASN_ENCODING | PKCS_7_ASN_ENCODING,
+        0,
+        CERT_FIND_SUBJECT_STR_A,
+        uriStr,
+        NULL);
+    if (pCertContext == NULL) {
+        CertCloseStore(hStore, 0);
+        return "";
+    }
+
+    // Get the path of the certificate
+    DWORD pathLen = 0;
+    if (!CertGetCertificateContextProperty(pCertContext,
+        CERT_CERTIFICATE_CONTEXT_PROPERTY_ID,
+        NULL,
+        &pathLen)) {
+        CertFreeCertificateContext(pCertContext);
+        CertCloseStore(hStore, 0);
+        return "";
+    }
+
+    std::string certPath(pathLen, '\0');
+    if (!CertGetCertificateContextProperty(pCertContext,
+        CERT_CERTIFICATE_CONTEXT_PROPERTY_ID,
+        (void*)certPath.data(),
+        &pathLen)) {
+        CertFreeCertificateContext(pCertContext);
+        CertCloseStore(hStore, 0);
+        return "";
+    }
+
+    CertFreeCertificateContext(pCertContext);
+    CertCloseStore(hStore, 0);
+    return certPath;
+}
+
+
+
+
+int ex01()
+{
+    struct test_str* ptr = NULL;
+    int c = ptr->b;
+    // printf("c:%d\n", c);
+    return c;
+}
+
+int ex02()
+{
+    int zero = 0;
+    int a = 3 / zero;
+    return a;
+}
+
+int ex03()
+{
+    throw std::invalid_argument("ex03");
+    return 0;
+}
+
+int noEx()
+{
+    std::cout << "No exception\n";
+    return 0;
+}
 

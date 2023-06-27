@@ -11,9 +11,10 @@ int main()
     bool test03 = false;
     bool test04 = false;
     bool test05 = false;
-    bool test06 = true;
-    bool test07 = true;
-    bool test08 = true;
+    bool test06 = false;
+    bool test07 = false;
+    bool test08 = false;
+    bool test09 = true;
 
     if (test01) TestClass01::test_overwriteFile();
     if (test02) TestClass01::incrementFile();
@@ -21,6 +22,7 @@ int main()
     if (test04) TestClass01::test_read_blocked_file();
     if (test05) TestClass01::test_exception();
     if (test06) TestClass01::test_scape_string();
+    if (test09) TestClass01::exception_handling_test();
 
 }
 
