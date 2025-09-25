@@ -1,0 +1,9 @@
+/* File: src/styles/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small visual polish and skeleton animation */
+.skeleton {
+  @apply bg-gray-200 rounded-md animate-pulse;
+}
